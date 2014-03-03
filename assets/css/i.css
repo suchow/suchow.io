@@ -124,8 +124,8 @@ body {
 /* Meat
    ========================================================================== */
 p {
-  font-size: 22px;
-  line-height: 33px;
+  font-size: 28px;
+  line-height: 40px;
 }
 
 .intro {
@@ -622,9 +622,9 @@ header.site-header nav ul li a:hover {
   list-style: none;
   display: inline;
   float: left;
-  width: 67%;
+  width: 80%;
   margin: 0 1.5%;
-  margin-left: 21.5%;
+  margin-left: 10%;
   display: block;
   float: none;
 }
