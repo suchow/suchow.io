@@ -1,6 +1,6 @@
 // Underline
 @mixin underline($width: 2px, $style: solid, $border-color: $link) {
-  border-bottom: 2px solid $border-color; 
+  border-bottom: 2px solid $border-color;
 }
 
 
@@ -20,7 +20,7 @@
 }
 
 
-// BACKGROUND GRADIENT 
+// BACKGROUND GRADIENT
 @mixin background-gradient($startColor: #3C3C3C, $endColor: #999999) {
     background-color: $startColor;
     background-image: -webkit-gradient(linear, left top, left bottom, from($startColor), to($endColor));
@@ -147,7 +147,7 @@
 }
 
 /* OPACITY */
-@mixin opacity($opacity: 0.5) {
+@mixin opacity($opacity: 0.25) {
     filter:         alpha(opacity=($opacity * 100));
     -ms-filter:     "progid:DXImageTransform.Microsoft.Alpha(Opacity=" + ($opacity * 100) + ")";
     -moz-opacity:   $opacity;
