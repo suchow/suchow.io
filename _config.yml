@@ -1,33 +1,32 @@
-title:            Balzac
-tagline:          A beautiful theme.
-description:      Describe your website.
+title:            Jordan Suchow
+tagline:          Cognitive scientist.
+description:      Portfolio of research and other work.
 #Comment out url when working locally to resolve base urls correctly
-url: http://jekyll.gtat.me
+# url: http://jwsu.ch/ow
 
 # Owner/author information
 owner:
-  name:           Cole Townsend
+  name:           Jordan Suchow
   avatar:         avatar.png
-  bio:            "Aesthete & Athlete"
-  email:          cole@coletownsend.com
-  twitter:        twnsndco        
-  github:         coletownsend       
-  instagram:      ctrunsthis     
-  dribbble:       coletownsend
-  disqus:         balzac
+  bio:            "Cognitive scientist"
+  email:          suchow@post.harvard.edu
+  twitter:        suchow
+  github:         suchow
+  # instagram:      ctrunsthis
+  # dribbble:       coletownsend
+  # disqus:         balzac
   # Plug in your disqus shortname!
-  
+
 
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
-    url: /about
-  - title: Github
-    url: https://github.com/ColeTownsend/Balzac-for-Jekyll
-    external: true
-  - title: Cole Who?
-    url: http://coletownsend.com
+  - title: CV
+    url: /assets/docs/suchow2014cv.pdf
+  - title: Writings
+    url: /writings
+  - title: Code
+    url: http://github.com/suchow/
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -44,7 +43,7 @@ kramdown:
   use_coderay: false
 
   coderay:
-    coderay_line_numbers: 
+    coderay_line_numbers:
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
