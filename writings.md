@@ -7,7 +7,7 @@ image:
   feature: fish.jpg
 ---
 
-Suchow, J. W. (2014). [Measuring, monitoring, and maintaining memories in a partially observable mind]({{ site.url }}/assets/docs/suchow2014dissertation.pdf). *PhD Dissertation*, May 2014.
+Suchow, J. W. (2014). [Measuring, monitoring, and maintaining memories in a partially observable mind]({{ site.url }}/assets/docs/suchow2014dissertation.pdf). *PhD Dissertation*, Harvard University, May 2014.
 
 Fan, J. E. and Suchow, J. W. (2014). [The crowd is self-aware]({{ site.url }}/assets/docs/fan2014crowd.pdf). Commentary on “Mapping collective behavior in the big-data era”. *Behavioral and Brain Sciences*, 37(1), 81–82.
 
