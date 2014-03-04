@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: index
 permalink: /index.html
 title:
 description: Hi. I'm Jordan Suchow, a cognitive scientist studying minds, brains, and machines.

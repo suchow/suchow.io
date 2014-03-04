@@ -581,7 +581,7 @@ header.site-header nav ul li a:hover {
   max-height: 800px;
 }
 .article header {
-  margin: 66px 0 33px 0;
+  margin: 66px 0 60px 0;
 }
 .article header hgroup {
   color: #3b3b3b;
@@ -756,6 +756,13 @@ header.site-header nav ul li a:hover {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
+}
+.post .headshot {
+  width: 100px;
+  float: left;
+  margin-top: 0px;
+  margin-right: 20px;
+  margin-bottom: 0px;
 }
 .post ul {
   display: block;
