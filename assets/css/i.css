@@ -946,10 +946,17 @@ footer .social a:hover {
   color: #f9f9f9;
 }
 footer .social ul li {
-  margin-bottom: 16.5px;
+  margin-bottom: 8px;
 }
 footer .social ul li:last-child {
   margin-bottom: 0;
+}
+
+footer .social .foot-link {
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  padding-bottom: 5px;
 }
 
 .disqus {
