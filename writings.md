@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /writings/index.html
-title: "Writings"
+title:
 tags: [Jordan Suchow, writings, research papers, articles]
 image:
   feature: fish.jpg
