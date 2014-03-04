@@ -272,7 +272,8 @@ a:hover {
 em {
   padding: 1px 2px;
   border-radius: 2px;
-  background: #ffe8c0;
+  font-style: italic;
+/*  background: #ffe8c0;*/
 }
 
 strong {
@@ -621,7 +622,7 @@ header.site-header nav ul li a:hover {
   display: block;
   margin: 0 auto;
   float: none;
-  padding-top: 140px;
+  padding-top: 60px;
 }
 .archive-wrap .post-list {
   list-style-type: none;
@@ -641,7 +642,7 @@ header.site-header nav ul li a:hover {
   display: block;
   float: none;
   font-size: 32px;
-  margin-bottom: 66px;
+  margin-bottom: 10px;
   position: relative;
 }
 .archive-wrap .post-list li a {
@@ -807,6 +808,7 @@ header.site-header nav ul li a:hover {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
+  margin-top: 45px;
 }
 .post .share:hover {
   color: #8ab9d1;
