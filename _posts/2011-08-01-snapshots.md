@@ -1,8 +1,8 @@
 ---
 layout: post-no-feature
-title: "Snapshots"
+title: "Snapshots of Israel"
 description:
-category: articles
+category: writings
 tags: [sample post, readability, test]
 ---
 
