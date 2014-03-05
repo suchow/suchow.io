@@ -317,7 +317,7 @@ header.site-header nav {
 
     // Header Stuff
     header {
-        margin: ($lh) 0 ($lh) 0;
+        margin: ($lh) 0 (1.25*$lh) 0;
         hgroup {
             color: $black;
             position: relative;
