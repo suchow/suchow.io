@@ -330,7 +330,7 @@ code {
 }
 .highlight code .lineno {
   margin-right: 20px;
-  color: #d9d9d9;
+  color: #cccccc;
   line-height: 2em;
 }
 .highlight code .nt {
@@ -348,7 +348,7 @@ hr {
   margin: 0 auto;
   width: 100%;
   height: 4px;
-  background: #d9d9d9;
+  background: #cccccc;
   border: none;
   margin-bottom: 40px;
   border-radius: 2px;
@@ -595,7 +595,7 @@ header.site-header nav ul li a:hover {
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   font-size: 16px;
   font-weight: bold;
-  color: #d9d9d9;
+  color: #cccccc;
   text-transform: uppercase;
   margin-top: 26.66667px;
 }
@@ -658,7 +658,7 @@ header.site-header nav ul li a:hover {
 }
 .archive-wrap .post-list li a:hover:before {
   content: '...';
-  color: #d9d9d9;
+  color: #cccccc;
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   position: absolute;
   margin-left: -70px;
@@ -674,7 +674,7 @@ header.site-header nav ul li a:hover {
 }
 .archive-wrap .post-list li a:before {
   content: '“';
-  color: #d9d9d9;
+  color: #cccccc;
   position: absolute;
   margin-left: -70px;
   font-size: 60px;
@@ -706,7 +706,7 @@ header.site-header nav ul li a:hover {
   font-weight: bold;
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   font-style: normal;
-  color: #d9d9d9;
+  color: #cccccc;
   text-transform: uppercase;
   vertical-align: middle;
 }
@@ -772,7 +772,7 @@ header.site-header nav ul li a:hover {
   list-style-type: disc;
 }
 .post ul lh h1, .post ul lh h2, .post ul lh h3, .post ul lh h4, .post ul lh h5 {
-  border-bottom: 2px solid #d9d9d9;
+  border-bottom: 2px solid #cccccc;
 }
 .post ul li {
   list-style: disc;
@@ -788,7 +788,7 @@ header.site-header nav ul li a:hover {
   margin-bottom: 40px;
 }
 .post ol lh h1, .post ol lh h2, .post ol lh h3, .post ol lh h4, .post ol lh h5 {
-  border-bottom: 2px solid #d9d9d9;
+  border-bottom: 2px solid #cccccc;
 }
 .post ol li {
   margin-left: 80px;
@@ -812,8 +812,8 @@ header.site-header nav ul li a:hover {
   font-weight: bold;
   letter-spacing: 1px;
   padding: 4px 6px 4px 6px;
-  color: #d9d9d9;
-  border: 2px solid rgba(217, 217, 217, 0.7);
+  color: #cccccc;
+  border: 2px solid rgba(204, 204, 204, 0.7);
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -922,7 +922,7 @@ footer .prev-posts li .recent-title a:hover {
 }
 footer .prev-posts li span.date {
   float: none;
-  color: rgba(217, 217, 217, 0.6);
+  color: rgba(204, 204, 204, 0.6);
   display: inline;
   float: left;
   width: 30.83333%;
