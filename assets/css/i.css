@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ==========================================================================
    Imports
    ========================================================================== */
@@ -134,9 +135,9 @@ p {
 }
 
 .post ul li {
-  font-size: 22px;
-  line-height: 33px;
-  margin-bottom: 11px;
+  font-size: 28px;
+  line-height: 40px;
+  margin-bottom: 13.33333px;
 }
 
 /* Headings
@@ -235,8 +236,8 @@ body {
   font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
   color: #3b3b3b;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   /* Fix for webkit rendering */
+  -moz-osx-font-smoothing: grayscale;
   text-size-adjust: 100%;
   background: #f9f9f9;
   min-height: 100%;
@@ -249,7 +250,7 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
-  margin-bottom: 33px;
+  margin-bottom: 40px;
 }
 
 a, a:visited, a:active {
@@ -274,7 +275,6 @@ em {
   padding: 1px 2px;
   border-radius: 2px;
   font-style: italic;
-/*  background: #ffe8c0;*/
 }
 
 strong {
@@ -299,7 +299,7 @@ blockquote, blockquote p {
   line-height: 1.3em;
   text-align: center;
   color: #3c3c3c;
-  margin-bottom: 33px;
+  margin-bottom: 40px;
 }
 
 .separator {
@@ -320,7 +320,7 @@ code {
   background: #3b3b3b;
   padding: 12px;
   border-radius: 4px;
-  margin-bottom: 33px;
+  margin-bottom: 40px;
   overflow-x: scroll;
 }
 .highlight code {
@@ -329,7 +329,7 @@ code {
   font-size: .9em;
 }
 .highlight code .lineno {
-  margin-right: 16.5px;
+  margin-right: 20px;
   color: #d9d9d9;
   line-height: 2em;
 }
@@ -350,7 +350,7 @@ hr {
   height: 4px;
   background: #d9d9d9;
   border: none;
-  margin-bottom: 33px;
+  margin-bottom: 40px;
   border-radius: 2px;
 }
 
@@ -383,7 +383,7 @@ input {
 }
 
 .pad-top {
-  padding-top: 66px;
+  padding-top: 80px;
 }
 
 /************ Layout *************/
@@ -547,7 +547,7 @@ header.site-header nav ul li a:hover {
 /* Article Stuff */
 .article {
   position: relative;
-  margin-bottom: 33px;
+  margin-bottom: 40px;
 }
 .article .overlay {
   vertical-align: middle;
@@ -582,7 +582,7 @@ header.site-header nav ul li a:hover {
   max-height: 800px;
 }
 .article header {
-  margin: 66px 0 60px 0;
+  margin: 80px 0 80px 0;
 }
 .article header hgroup {
   color: #3b3b3b;
@@ -597,7 +597,7 @@ header.site-header nav ul li a:hover {
   font-weight: bold;
   color: #d9d9d9;
   text-transform: uppercase;
-  margin-top: 22px;
+  margin-top: 26.66667px;
 }
 .article header .intro {
   text-align: left;
@@ -637,7 +637,7 @@ header.site-header nav ul li a:hover {
   float: none;
 }
 .archive-wrap .post-list lh h2 {
-  margin-bottom: 49.5px;
+  margin-bottom: 60px;
 }
 .archive-wrap .post-list li {
   display: block;
@@ -725,21 +725,21 @@ header.site-header nav ul li a:hover {
   top: 10px;
   left: 6px;
   color: #999999;
-  margin-bottom: 16.5px;
+  margin-bottom: 20px;
 }
 .post h1 {
   font-style: italic;
 }
 .post h1, .post h2, .post h3, .post h4, .post h5 {
-  padding-top: 16.5px;
-  margin-bottom: 16.5px;
+  padding-top: 20px;
+  margin-bottom: 20px;
   line-height: 1.25em;
 }
 .post figure {
-  margin: 33px 0;
+  margin: 40px 0;
 }
 .post figure img {
-  margin-bottom: 16.5px;
+  margin-bottom: 20px;
 }
 .post figure figcaption {
   font-size: 16px;
@@ -753,7 +753,7 @@ header.site-header nav ul li a:hover {
   width: 100%;
   height: auto;
   display: block;
-  margin: 33px auto;
+  margin: 40px auto;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -767,7 +767,7 @@ header.site-header nav ul li a:hover {
 }
 .post ul {
   display: block;
-  margin-bottom: 33px;
+  margin-bottom: 40px;
   list-style: disc;
   list-style-type: disc;
 }
@@ -777,25 +777,25 @@ header.site-header nav ul li a:hover {
 .post ul li {
   list-style: disc;
   list-style-type: disc;
-  margin-left: 66px;
-  padding-left: 11px;
+  margin-left: 80px;
+  padding-left: 13.33333px;
 }
 .post ul li:last-child {
   margin-bottom: 0;
 }
 .post ol {
   display: block;
-  margin-bottom: 33px;
+  margin-bottom: 40px;
 }
 .post ol lh h1, .post ol lh h2, .post ol lh h3, .post ol lh h4, .post ol lh h5 {
   border-bottom: 2px solid #d9d9d9;
 }
 .post ol li {
-  margin-left: 66px;
-  padding-left: 11px;
-  margin-bottom: 11px;
-  line-height: 33px;
-  font-size: 22px;
+  margin-left: 80px;
+  padding-left: 13.33333px;
+  margin-bottom: 13.33333px;
+  line-height: 40px;
+  font-size: 28px;
 }
 .post ol li:last-child {
   margin-bottom: 0;
@@ -804,6 +804,7 @@ header.site-header nav ul li a:hover {
   text-align: center;
   display: block;
   margin: 0 auto;
+  margin-top: 45px;
   width: 76px;
   font-size: 16px;
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
@@ -816,7 +817,6 @@ header.site-header nav ul li a:hover {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
-  margin-top: 45px;
 }
 .post .share:hover {
   color: #8ab9d1;
@@ -837,7 +837,7 @@ footer {
   width: 100%;
   background: #3b3b3b;
   height: 320px;
-  font-size: 22px;
+  font-size: 28px;
   color: #f9f9f9;
   position: relative;
 }
@@ -877,7 +877,7 @@ footer small a {
   color: rgba(249, 249, 249, 0.3);
 }
 footer .list-title {
-  margin-bottom: 16.5px;
+  margin-bottom: 20px;
   border-bottom: 2px solid #8ab9d1;
   font-style: italic;
   font-size: 24px;
@@ -892,13 +892,13 @@ footer .prev-posts {
   padding-left: 5vw;
 }
 footer .prev-posts p {
-  padding-top: 66px;
+  padding-top: 80px;
 }
 footer .prev-posts li {
   display: block;
   width: 102.5%;
   margin: 0 -1.25%;
-  margin-top: 16.5px;
+  margin-top: 20px;
 }
 footer .prev-posts li:before, footer .prev-posts li:after {
   content: "";
@@ -947,12 +947,11 @@ footer .social a:hover {
   color: #f9f9f9;
 }
 footer .social ul li {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 footer .social ul li:last-child {
   margin-bottom: 0;
 }
-
 footer .social .foot-link {
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   font-size: 18px;
@@ -961,7 +960,7 @@ footer .social .foot-link {
 }
 
 .disqus {
-  margin-top: 99px;
+  margin-top: 120px;
 }
 
 /* Tablet
@@ -1006,7 +1005,7 @@ footer .social .foot-link {
     display: block;
   }
   footer .prev-posts li {
-    margin-top: 16.5px;
+    margin-top: 20px;
   }
 }
 @media only screen and (max-width: 680px) {
@@ -1025,7 +1024,7 @@ footer .social .foot-link {
 
   header.site-header hgroup h1 {
     margin-bottom: 0;
-    font-size: 22px;
+    font-size: 28px;
   }
 
   header.site-header hgroup {
