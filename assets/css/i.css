@@ -125,7 +125,7 @@ body {
 /* Meat
    ========================================================================== */
 p {
-  font-size: 28px;
+  font-size: 26px;
   line-height: 40px;
 }
 
@@ -135,7 +135,7 @@ p {
 }
 
 .post ul li {
-  font-size: 28px;
+  font-size: 26px;
   line-height: 40px;
   margin-bottom: 13.33333px;
 }
@@ -795,7 +795,7 @@ header.site-header nav ul li a:hover {
   padding-left: 13.33333px;
   margin-bottom: 13.33333px;
   line-height: 40px;
-  font-size: 28px;
+  font-size: 26px;
 }
 .post ol li:last-child {
   margin-bottom: 0;
@@ -837,7 +837,7 @@ footer {
   width: 100%;
   background: #3b3b3b;
   height: 320px;
-  font-size: 28px;
+  font-size: 26px;
   color: #f9f9f9;
   position: relative;
 }
@@ -1024,7 +1024,7 @@ footer .social .foot-link {
 
   header.site-header hgroup h1 {
     margin-bottom: 0;
-    font-size: 28px;
+    font-size: 26px;
   }
 
   header.site-header hgroup {
