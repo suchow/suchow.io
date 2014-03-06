@@ -250,7 +250,7 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 a, a:visited, a:active {
@@ -582,7 +582,7 @@ header.site-header nav ul li a:hover {
   max-height: 800px;
 }
 .article header {
-  margin: 40px 0 50px 0;
+  margin: 50px 0 50px 0;
 }
 .article header hgroup {
   color: #3b3b3b;
@@ -623,7 +623,7 @@ header.site-header nav ul li a:hover {
   display: block;
   margin: 0 auto;
   float: none;
-  padding-top: 60px;
+  padding-top: 40px;
 }
 .archive-wrap .post-list {
   list-style-type: none;

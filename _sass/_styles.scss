@@ -17,7 +17,7 @@ h1,h2,h3,h4,h5 {
 }
 
 p {
-    margin-bottom: $lh;
+    margin-bottom: 0.5*$lh;
 }
 
 a, a:visited, a:active {
@@ -317,7 +317,7 @@ header.site-header nav {
 
     // Header Stuff
     header {
-        margin: ($lh) 0 (1.25*$lh) 0;
+        margin: (1.25*$lh) 0 (1.25*$lh) 0;
         hgroup {
             color: $black;
             position: relative;
@@ -356,7 +356,7 @@ header.site-header nav {
     display: block;
     margin: 0 auto;
     float: none;
-    padding-top: 60px;
+    padding-top: 40px;
 
     // Post Listing
     .post-list {
