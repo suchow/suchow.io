@@ -19,7 +19,7 @@
             {% endif %}
             <p class="date">{{page.date | date: "%b %d, %Y" }}</p>
             <img class="headshot" src="/images/headshot.jpg">
-            <p class="intro">{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</p>
+            <p class="intro"><em>{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</em></p>
           </hgroup>
         </header>
 

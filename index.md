@@ -2,7 +2,7 @@
 layout: index
 permalink: /index.html
 title:
-description: Hi. I'm Jordan Suchow, a cognitive scientist studying minds, brains, and machines.
+description: Hi. I&rsquo;m Jordan Suchow, a cognitive scientist studying minds, brains, and machines.
 tags: [suchow, portfolio, reseach, cognitive science]
 image:
   feature: rusty-sign.jpg
