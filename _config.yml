@@ -12,6 +12,7 @@ owner:
   email:          suchow@post.harvard.edu
   twitter:        suchow
   github:         suchow
+  location:       "Cambridge, MA"
 
 # Links to include in top navigation
 # For external links add external: true
@@ -23,6 +24,10 @@ links:
   - title: Code
     url: http://github.com/suchow/
     external: true
+
+tools:
+  standards:      "HTML, Jekyll, SCSS"
+  software:       "Sublime Text, git"
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
