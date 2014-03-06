@@ -1,0 +1,14 @@
+/* TEAM */
+Me: Jordan Suchow
+Contact: suchow@post.harvard.edu
+Twitter: suchow
+Location: Cambridge, MA
+                           
+/* THANKS */                           
+Creator of Theme: Cole Townsend
+Twitter: @twnsndco
+
+/* SITE */                         
+Last update: 2014-03-06 
+Standards: HTML, Jekyll, SCSS                        
+Software: Sublime Text, Github, Chrome, git
