@@ -610,7 +610,7 @@ footer {
 
     .list-title {
         margin-bottom: $lh/2;
-        border-bottom: 2px solid $link;
+        border-bottom: 2px solid $footer-link-color;
         font-style: italic;
         font-size: $fs4;
     }
@@ -621,6 +621,9 @@ footer {
         padding-left: 5vw;
         p {
             padding-top: $lh*2;
+        }
+        a {
+            color: $footer-link-color;
         }
         li {
             @include row(12);
@@ -675,6 +678,9 @@ footer {
         img {
             margin-bottom: -6px;
             margin-right: 11px;
+        }
+        a {
+            color: $footer-link-color;
         }
     }
 }

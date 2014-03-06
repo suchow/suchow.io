@@ -881,7 +881,7 @@ footer small a {
 }
 footer .list-title {
   margin-bottom: 20px;
-  border-bottom: 2px solid #569bbb;
+  border-bottom: 2px solid #8ab9d1;
   font-style: italic;
   font-size: 24px;
 }
@@ -896,6 +896,9 @@ footer .prev-posts {
 }
 footer .prev-posts p {
   padding-top: 80px;
+}
+footer .prev-posts a {
+  color: #8ab9d1;
 }
 footer .prev-posts li {
   display: block;
@@ -964,6 +967,9 @@ footer .social .foot-link {
 footer .social img {
   margin-bottom: -6px;
   margin-right: 11px;
+}
+footer .social a {
+  color: #8ab9d1;
 }
 
 .disqus {
