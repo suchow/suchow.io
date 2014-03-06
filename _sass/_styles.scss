@@ -646,7 +646,7 @@ footer {
     .social {
         position: absolute;
         top: 109px;
-        @include column(2,12);
+        @include column(3,12);
         right: 5vw;
         font-style: italic;
         a {
@@ -667,6 +667,10 @@ footer {
             font-size: 18px;
             font-style: normal;
             padding-bottom: 5px;
+        }
+        img {
+            margin-bottom: -6px;
+            margin-right: 11px;
         }
     }
 }

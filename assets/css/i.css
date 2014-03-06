@@ -938,7 +938,7 @@ footer .social {
   top: 109px;
   display: inline;
   float: left;
-  width: 14.16667%;
+  width: 22.5%;
   margin: 0 1.25%;
   right: 5vw;
   font-style: italic;
@@ -957,6 +957,10 @@ footer .social .foot-link {
   font-size: 18px;
   font-style: normal;
   padding-bottom: 5px;
+}
+footer .social img {
+  margin-bottom: -6px;
+  margin-right: 11px;
 }
 
 .disqus {

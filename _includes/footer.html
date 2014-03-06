@@ -15,15 +15,15 @@
         <ul>
             <li>Jordan Suchow</li>
 
-            <li><a id="mail" href="mailto:{{ site.owner.email }}"><span class="foot-link">{{ site.owner.email }}</span></a></li>
+            <li><a id="mail" href="mailto:{{ site.owner.email }}"><img src="images/plane.png"/><span class="foot-link">{{ site.owner.email }}</span></a></li>
 
             {% if site.owner.twitter %}
-            <li><a id="twit" href="http://twitter.com/{{ site.owner.twitter }}" target="_blank"><span class="foot-link">@{{ site.owner.twitter }}</span></a></li>
+            <li><a id="twit" href="http://twitter.com/{{ site.owner.twitter }}" target="_blank"><img src="images/twit.png"/><span class="foot-link">@{{ site.owner.twitter }}</span></a></li>
             {% endif %}
 
 
-            {% if site.owner.dribbble %}
-            <li><a id="drib" href="http://dribbble.com/{{ site.owner.dribbble }}" target="_blank"><span class="foot-link">Dribbble</span></a></li>
+            {% if site.owner.github %}
+            <li><a id="drib" href="http://github.com/{{ site.owner.github }}" target="_blank"><img src="images/github.png"/><span class="foot-link">Github</span></a></li>
             {% endif %}
         </ul>
     </div>
