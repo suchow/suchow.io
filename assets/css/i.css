@@ -296,10 +296,11 @@ small {
 
 blockquote, blockquote p {
   font-style: italic;
+  font-size: 26px;
   line-height: 1.3em;
-  text-align: center;
-  color: #3c3c3c;
+  color: gray;
   margin-bottom: 40px;
+  margin-left: 15px;
 }
 
 .separator {
@@ -984,7 +985,7 @@ footer .social a {
   }
 
   blockquote, blockquote p {
-    font-size: 32px;
+    font-size: 26px;
   }
 
   footer {
