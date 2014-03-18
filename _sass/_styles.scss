@@ -1,7 +1,7 @@
 /************ Basic *************/
 
 body {
-  font-family: $serif;
+  font-family: $sans;
   color: $black;
   -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
   -moz-osx-font-smoothing: grayscale;
@@ -127,7 +127,7 @@ input {
     background: none;
     outline: none;
     width: 100%;
-    font-family: $serif;
+    font-family: $sans;
     &:focus {
         background: white;
         color: $black;

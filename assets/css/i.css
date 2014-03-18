@@ -125,7 +125,7 @@ body {
 /* Meat
    ========================================================================== */
 p {
-  font-size: 26px;
+  font-size: 22px;
   line-height: 40px;
 }
 
@@ -135,7 +135,7 @@ p {
 }
 
 .post ul li {
-  font-size: 26px;
+  font-size: 22px;
   line-height: 40px;
   margin-bottom: 13.33333px;
 }
@@ -233,7 +233,7 @@ blockquote, blockquote p {
 }
 /************ Basic *************/
 body {
-  font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
+  font-family: "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   color: #3b3b3b;
   -webkit-font-smoothing: antialiased;
   /* Fix for webkit rendering */
@@ -246,7 +246,7 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
+  font-family: "Crimson Text", "Hoefler Text", "Georgia", serif;
 }
 
 p {
@@ -296,7 +296,7 @@ small {
 
 blockquote, blockquote p {
   font-style: italic;
-  font-size: 26px;
+  font-size: 22px;
   line-height: 1.3em;
   color: gray;
   margin-bottom: 40px;
@@ -365,7 +365,7 @@ input {
   background: none;
   outline: none;
   width: 100%;
-  font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
+  font-family: "Open Sans", "Helvetica Neue", "Arial", sans-serif;
 }
 .archive input:focus {
   background: white;
@@ -472,7 +472,7 @@ header.site-header a.menu {
 }
 
 header.site-header hgroup h1, header.site-header nav ul {
-  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Arial", sans-serif;
 }
 
 header.site-header hgroup {
@@ -484,7 +484,7 @@ header.site-header hgroup h1 {
   font-size: 18px;
   line-height: 100%;
   color: #24536b;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: uppercase;
 }
 header.site-header hgroup a {
@@ -520,7 +520,8 @@ header.site-header nav {
   zoom: 1;
 }
 header.site-header nav ul li {
-  font-size: 20px;
+  letter-spacing: 1px;
+  font-size: 18px;
   text-transform: uppercase;
   display: inline;
   font-weight: bold;
@@ -583,7 +584,7 @@ header.site-header nav ul li a:hover {
   max-height: 800px;
 }
 .article header {
-  margin: 50px 0 50px 0;
+  margin: 60px 0 60px 0;
 }
 .article header hgroup {
   color: #3b3b3b;
@@ -593,7 +594,7 @@ header.site-header nav ul li a:hover {
   margin-top: 0;
 }
 .article header hgroup .date {
-  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   font-size: 16px;
   font-weight: bold;
   color: #cccccc;
@@ -602,6 +603,7 @@ header.site-header nav ul li a:hover {
 }
 .article header .intro {
   text-align: left;
+  font-size: 24px;
 }
 
 .archive {
@@ -663,7 +665,7 @@ header.site-header nav ul li a:hover {
 .archive-wrap .post-list li a:hover:before {
   content: '...';
   color: #cccccc;
-  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   position: absolute;
   margin-left: -70px;
   font-size: 40px;
@@ -708,7 +710,7 @@ header.site-header nav ul li a:hover {
   top: -3px;
   font-size: 16px;
   font-weight: bold;
-  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   font-style: normal;
   color: #cccccc;
   text-transform: uppercase;
@@ -747,7 +749,7 @@ header.site-header nav ul li a:hover {
 }
 .post figure figcaption {
   font-size: 16px;
-  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   color: #bbbbbb;
@@ -763,7 +765,7 @@ header.site-header nav ul li a:hover {
   border-radius: 4px;
 }
 .post .headshot {
-  width: 100px;
+  width: 75px;
   float: left;
   margin-top: 0px;
   margin-right: 20px;
@@ -799,7 +801,7 @@ header.site-header nav ul li a:hover {
   padding-left: 13.33333px;
   margin-bottom: 13.33333px;
   line-height: 40px;
-  font-size: 26px;
+  font-size: 22px;
 }
 .post ol li:last-child {
   margin-bottom: 0;
@@ -811,7 +813,7 @@ header.site-header nav ul li a:hover {
   margin-top: 45px;
   width: 76px;
   font-size: 16px;
-  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;
@@ -841,7 +843,7 @@ footer {
   width: 100%;
   background: #3b3b3b;
   height: 320px;
-  font-size: 26px;
+  font-size: 22px;
   color: #f9f9f9;
   position: relative;
 }
@@ -873,7 +875,7 @@ footer small {
   width: 100%;
   position: absolute;
   bottom: 8px;
-  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   text-transform: uppercase;
   color: rgba(249, 249, 249, 0.1);
 }
@@ -936,7 +938,7 @@ footer .prev-posts li span.date {
   margin: 0 1.25%;
   position: relative;
   font-size: 16px;
-  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   text-transform: uppercase;
   text-align: right;
 }
@@ -985,7 +987,7 @@ footer .social a {
   }
 
   blockquote, blockquote p {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   footer {
@@ -1038,7 +1040,7 @@ footer .social a {
 
   header.site-header hgroup h1 {
     margin-bottom: 0;
-    font-size: 26px;
+    font-size: 22px;
   }
 
   header.site-header hgroup {
