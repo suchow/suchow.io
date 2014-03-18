@@ -19,8 +19,8 @@ owner:
 links:
   - title: CV
     url: /assets/docs/suchow2014cv.pdf
-  - title: Writings
-    url: /writings
+  - title: Works
+    url: /works/
   - title: Code
     url: http://github.com/suchow/
     external: true

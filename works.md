@@ -1,8 +1,8 @@
 ---
-layout: writings
-permalink: /writings/index.html
+layout: works
+permalink: /works/index.html
 title:
-tags: [Jordan Suchow, writings, research papers, articles, essays]
+tags: [Jordan Suchow, works, research papers, articles, essays]
 image:
   feature: fish.jpg
 ---
