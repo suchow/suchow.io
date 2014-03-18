@@ -235,7 +235,7 @@ header.site-header hgroup {
       font-size: 18px;
       line-height: 100%;
       color: $accent;
-      letter-spacing: 2px;
+      letter-spacing: 1px;
       text-transform: uppercase;
   }
   a {
@@ -256,7 +256,8 @@ header.site-header nav {
   @include clearfix;
 
   ul li {
-    font-size: 20px;
+    letter-spacing: 1px;
+    font-size: 18px;
     text-transform: uppercase;
     display: inline;
     font-weight: bold;
@@ -318,7 +319,7 @@ header.site-header nav {
 
     // Header Stuff
     header {
-        margin: (1.25*$lh) 0 (1.25*$lh) 0;
+        margin: (1.5*$lh) 0 (1.5*$lh) 0;
         hgroup {
             color: $black;
             position: relative;
@@ -337,6 +338,7 @@ header.site-header nav {
 
         .intro {
             text-align: left;
+            font-size: 24px;
         }
     }
 }
@@ -506,7 +508,7 @@ header.site-header nav {
     }
 
     .headshot {
-        width: 100px;
+        width: 75px;
         float: left;
         margin-top: 0px;
         margin-right: 20px;
