@@ -2,8 +2,8 @@
 layout: post
 title: "Typography for science"
 description:
-category: writings
-tags: [sample post, images, test]
+category: works
+tags: [typography, science]
 image:
     feature: science-lab.jpg
 ---
