@@ -694,7 +694,7 @@ header.site-header nav ul li a:hover {
   -ms-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
-.archive-wrap .post-list li h1 {
+.archive-wrap .post-list li h2 {
   font-size: 32px;
   font-style: italic;
 }
