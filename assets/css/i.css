@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* ==========================================================================
    Imports
    ========================================================================== */
@@ -125,8 +124,8 @@ body {
 /* Meat
    ========================================================================== */
 p {
-  font-size: 22px;
-  line-height: 40px;
+  font-size: 25px;
+  line-height: 36px;
 }
 
 .intro {
@@ -135,9 +134,9 @@ p {
 }
 
 .post ul li {
-  font-size: 22px;
-  line-height: 40px;
-  margin-bottom: 13.33333px;
+  font-size: 25px;
+  line-height: 36px;
+  margin-bottom: 12px;
 }
 
 /* Headings
@@ -233,7 +232,7 @@ blockquote, blockquote p {
 }
 /************ Basic *************/
 body {
-  font-family: "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-family: "Crimson Text", "Hoefler Text", "Georgia", serif;
   color: #3b3b3b;
   -webkit-font-smoothing: antialiased;
   /* Fix for webkit rendering */
@@ -250,7 +249,7 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
 a, a:visited, a:active {
@@ -296,10 +295,10 @@ small {
 
 blockquote, blockquote p {
   font-style: italic;
-  font-size: 22px;
+  font-size: 25px;
   line-height: 1.3em;
   color: gray;
-  margin-bottom: 40px;
+  margin-bottom: 36px;
   margin-left: 15px;
 }
 
@@ -321,7 +320,7 @@ code {
   background: #3b3b3b;
   padding: 12px;
   border-radius: 4px;
-  margin-bottom: 40px;
+  margin-bottom: 36px;
   overflow-x: scroll;
 }
 .highlight code {
@@ -330,7 +329,7 @@ code {
   font-size: .9em;
 }
 .highlight code .lineno {
-  margin-right: 20px;
+  margin-right: 18px;
   color: #cccccc;
   line-height: 2em;
 }
@@ -351,7 +350,7 @@ hr {
   height: 4px;
   background: #cccccc;
   border: none;
-  margin-bottom: 40px;
+  margin-bottom: 36px;
   border-radius: 2px;
 }
 
@@ -384,7 +383,7 @@ input {
 }
 
 .pad-top {
-  padding-top: 80px;
+  padding-top: 72px;
 }
 
 /************ Layout *************/
@@ -549,7 +548,7 @@ header.site-header nav ul li a:hover {
 /* Article Stuff */
 .article {
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 36px;
 }
 .article .overlay {
   vertical-align: middle;
@@ -584,7 +583,7 @@ header.site-header nav ul li a:hover {
   max-height: 800px;
 }
 .article header {
-  margin: 60px 0 60px 0;
+  margin: 54px 0 54px 0;
 }
 .article header hgroup {
   color: #3b3b3b;
@@ -599,7 +598,7 @@ header.site-header nav ul li a:hover {
   font-weight: bold;
   color: #cccccc;
   text-transform: uppercase;
-  margin-top: 26.66667px;
+  margin-top: 24px;
 }
 .article header .intro {
   text-align: left;
@@ -640,7 +639,7 @@ header.site-header nav ul li a:hover {
   float: none;
 }
 .archive-wrap .post-list lh h2 {
-  margin-bottom: 60px;
+  margin-bottom: 54px;
 }
 .archive-wrap .post-list p {
   margin-bottom: 22px;
@@ -648,7 +647,7 @@ header.site-header nav ul li a:hover {
 .archive-wrap .post-list li {
   display: block;
   float: none;
-  font-size: 32px;
+  font-size: 25px;
   margin-bottom: 15px;
   position: relative;
 }
@@ -656,38 +655,6 @@ header.site-header nav ul li a:hover {
   position: relative;
 }
 .archive-wrap .post-list li a:hover {
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  -webkit-transition: all 1s ease-in-out;
-  -ms-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-}
-.archive-wrap .post-list li a:hover:before {
-  content: '...';
-  color: #cccccc;
-  font-family: "Open Sans", "Helvetica Neue", "Arial", sans-serif;
-  position: absolute;
-  margin-left: -70px;
-  font-size: 40px;
-  left: 0;
-  top: -20px;
-  text-align: center;
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  -webkit-transition: all 1s ease-in-out;
-  -ms-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-}
-.archive-wrap .post-list li a:before {
-  content: '“';
-  color: #cccccc;
-  position: absolute;
-  margin-left: -70px;
-  font-size: 60px;
-  z-index: 10;
-  top: -6px;
-  left: 0;
-  text-align: center;
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
   -webkit-transition: all 1s ease-in-out;
@@ -708,7 +675,7 @@ header.site-header nav ul li a:hover {
 .archive-wrap .post-list .date time {
   position: relative;
   top: -3px;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
   font-family: "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   font-style: normal;
@@ -731,21 +698,21 @@ header.site-header nav ul li a:hover {
   top: 10px;
   left: 6px;
   color: #999999;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 .post h1 {
   font-style: italic;
 }
 .post h1, .post h2, .post h3, .post h4, .post h5 {
-  padding-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 18px;
+  margin-bottom: 18px;
   line-height: 1.25em;
 }
 .post figure {
-  margin: 40px 0;
+  margin: 36px 0;
 }
 .post figure img {
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 .post figure figcaption {
   font-size: 16px;
@@ -759,7 +726,7 @@ header.site-header nav ul li a:hover {
   width: 100%;
   height: auto;
   display: block;
-  margin: 40px auto;
+  margin: 36px auto;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -773,7 +740,7 @@ header.site-header nav ul li a:hover {
 }
 .post ul {
   display: block;
-  margin-bottom: 40px;
+  margin-bottom: 36px;
   list-style: disc;
   list-style-type: disc;
 }
@@ -783,25 +750,25 @@ header.site-header nav ul li a:hover {
 .post ul li {
   list-style: disc;
   list-style-type: disc;
-  margin-left: 80px;
-  padding-left: 13.33333px;
+  margin-left: 72px;
+  padding-left: 12px;
 }
 .post ul li:last-child {
   margin-bottom: 0;
 }
 .post ol {
   display: block;
-  margin-bottom: 40px;
+  margin-bottom: 36px;
 }
 .post ol lh h1, .post ol lh h2, .post ol lh h3, .post ol lh h4, .post ol lh h5 {
   border-bottom: 2px solid #cccccc;
 }
 .post ol li {
-  margin-left: 80px;
-  padding-left: 13.33333px;
-  margin-bottom: 13.33333px;
-  line-height: 40px;
-  font-size: 22px;
+  margin-left: 72px;
+  padding-left: 12px;
+  margin-bottom: 12px;
+  line-height: 36px;
+  font-size: 25px;
 }
 .post ol li:last-child {
   margin-bottom: 0;
@@ -843,7 +810,7 @@ footer {
   width: 100%;
   background: #3b3b3b;
   height: 320px;
-  font-size: 22px;
+  font-size: 25px;
   color: #f9f9f9;
   position: relative;
 }
@@ -883,7 +850,7 @@ footer small a {
   color: rgba(249, 249, 249, 0.3);
 }
 footer .list-title {
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   border-bottom: 2px solid #8ab9d1;
   font-style: italic;
   font-size: 24px;
@@ -898,7 +865,7 @@ footer .prev-posts {
   padding-left: 5vw;
 }
 footer .prev-posts p {
-  padding-top: 80px;
+  padding-top: 72px;
 }
 footer .prev-posts a {
   color: #8ab9d1;
@@ -907,7 +874,7 @@ footer .prev-posts li {
   display: block;
   width: 102.5%;
   margin: 0 -1.25%;
-  margin-top: 20px;
+  margin-top: 18px;
 }
 footer .prev-posts li:before, footer .prev-posts li:after {
   content: "";
@@ -956,7 +923,7 @@ footer .social a:hover {
   color: #f9f9f9;
 }
 footer .social ul li {
-  margin-bottom: 10px;
+  margin-bottom: 9px;
 }
 footer .social ul li:last-child {
   margin-bottom: 0;
@@ -976,7 +943,7 @@ footer .social a {
 }
 
 .disqus {
-  margin-top: 120px;
+  margin-top: 108px;
 }
 
 /* Tablet
@@ -987,7 +954,7 @@ footer .social a {
   }
 
   blockquote, blockquote p {
-    font-size: 22px;
+    font-size: 25px;
   }
 
   footer {
@@ -1021,7 +988,7 @@ footer .social a {
     display: block;
   }
   footer .prev-posts li {
-    margin-top: 20px;
+    margin-top: 18px;
   }
 }
 @media only screen and (max-width: 680px) {
@@ -1040,7 +1007,7 @@ footer .social a {
 
   header.site-header hgroup h1 {
     margin-bottom: 0;
-    font-size: 22px;
+    font-size: 25px;
   }
 
   header.site-header hgroup {

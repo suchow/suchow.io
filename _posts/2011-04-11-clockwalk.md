@@ -3,6 +3,7 @@ layout: post-no-feature
 title: "Clockwalk: a stochastic clock"
 description:
 category: projects
+type: Project
 tags: [clockwalk, time, stochastic clock]
 ---
 

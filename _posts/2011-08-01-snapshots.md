@@ -2,7 +2,8 @@
 layout: post-no-feature
 title: "Snapshots of Israel"
 description:
-category: writings
+category: essays
+type: Essay
 tags: [israel, birthright]
 ---
 

@@ -1,7 +1,7 @@
 /************ Basic *************/
 
 body {
-  font-family: $sans;
+  font-family: $serif;
   color: $black;
   -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
   -moz-osx-font-smoothing: grayscale;
@@ -384,7 +384,7 @@ header.site-header nav {
         li {
             display: block;
             float: none;
-            font-size: $fs3;
+            font-size: $fsp;
             margin-bottom: 15px;
             position: relative;
 
@@ -393,33 +393,6 @@ header.site-header nav {
                 &:hover {
                     @include transit;
                 }
-            }
-
-            a:hover:before {
-                content:'...';
-                color: $grey-light;
-                font-family: $sans;
-                position: absolute;
-                margin-left: -70px;
-                font-size: 40px;
-                left: 0;
-                top: -20px;
-                text-align: center;
-                @include transit;
-            }
-
-            a:before {
-                content:'“';
-                color: $grey-light;
-                position: absolute;
-                margin-left: -70px;
-                font-size: 60px;
-                z-index: 10;
-                top: -6px;
-                left: 0;
-                text-align: center;
-                @include transit;
-
             }
 
             h2 {
@@ -440,7 +413,7 @@ header.site-header nav {
         .date time {
             position: relative;
             top: -3px;
-            font-size: $fs5;
+            font-size: $fs6;
             font-weight: bold;
             font-family: $sans;
             font-style: normal;
