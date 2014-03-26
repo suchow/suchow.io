@@ -61,6 +61,10 @@
                 <li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
             {% endfor %}
 
+            <li style="top:6px;"><a id="mail" href="mailto:{{ site.owner.email }}"><img src="{{ site.url }}/images/plane-dark.png"/></a></li>
+
+            <li style="top:6px;"><a id="twit" href="http://twitter.com/{{ site.owner.twitter }}" target="_blank"><img src="{{ site.url }}/images/twit-dark.png"/><span class="foot-link"></span></a></li>
+
           </ul>
         </nav>
       </div>
