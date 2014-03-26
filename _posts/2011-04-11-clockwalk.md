@@ -15,6 +15,6 @@ tags: [clockwalk, time, stochastic clock]
 
 {% include separator.html %}
 
-Clocks normally tick once per second, with time moving relentlessly forward at a constant rate. The stochastic clock, in constrast, has ticks that are uniformly distributed from 0&ndash;2 seconds, so that time takes a biased random walk forward. If you're lucky you may grab a few extra seconds. 
+Normally, clocks tick once per second, with time moving forward at a constant rate, one second per second. The stochastic clock, in constrast, has ticks that are uniformly distributed between 0&ndash;2 seconds, such that time takes a biased random walk forward. Take a look. If you're lucky you may grab a few extra seconds.
 
-What if time really worked this way? Would you be willing to increase the variance of the walk? *How much?*
+What if time really worked this way? Would you be willing to increase the variance of the walk? *By how much?*
