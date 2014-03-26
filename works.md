@@ -9,7 +9,7 @@ image:
 
 [Measuring, monitoring, and maintaining memories in a partially observable mind]({{ site.url }}/assets/docs/suchow2014dissertation.pdf). *PhD Dissertation*.
 
-[The crowd is self-aware]({{ site.url }}/assets/docs/fan2014crowd.pdf). *Behavioral and Brain Sciences*.
+[The crowd is self-aware]({{ site.url }}/assets/docs/fan2014crowd.pdf#page=19). *Behavioral and Brain Sciences*.
 
 [Modeling visual working memory with the MemToolbox]({{ site.url }}/assets/docs/suchow2013memtoolbox.pdf). *Journal of Vision*.
 
