@@ -303,9 +303,9 @@ blockquote, blockquote p {
 }
 
 .separator {
-  padding-top: 18px;
-  padding-bottom: 18px;
   font-size: 32px;
+  padding-bottom: 10px;
+  color: #999999;
 }
 
 /*   Code Formatting    */
