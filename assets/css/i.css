@@ -684,6 +684,15 @@ header.site-header nav ul li a:hover {
   vertical-align: middle;
 }
 
+.journal {
+  color: #999;
+}
+
+.separator-horizontal {
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
 .post {
   min-height: 500px;
 }
