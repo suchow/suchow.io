@@ -390,7 +390,7 @@ input {
 #bump {
   min-height: 100%;
   height: auto;
-  margin: 0 auto-320px;
+  margin: 0 auto-70px;
 }
 
 .wrap {
@@ -812,13 +812,13 @@ header.site-header nav ul li a:hover {
 
 /* Footer Stuff */
 .push {
-  height: 20px !important;
+  height: 4.375px !important;
 }
 
 footer {
   width: 100%;
   background: #3b3b3b;
-  height: 320px;
+  height: 70px;
   font-size: 25px;
   color: #f9f9f9;
   position: relative;
@@ -853,7 +853,7 @@ footer small {
   bottom: 8px;
   font-family: "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   text-transform: uppercase;
-  color: rgba(249, 249, 249, 0.1);
+  color: rgba(249, 249, 249, 0.3);
 }
 footer small a {
   color: rgba(249, 249, 249, 0.3);
@@ -919,13 +919,11 @@ footer .prev-posts li span.date {
   text-align: right;
 }
 footer .social {
+  text-align: center;
+  display: block;
+  width: 100%;
+  top: 20px;
   position: absolute;
-  top: 109px;
-  display: inline;
-  float: left;
-  width: 22.5%;
-  margin: 0 1.25%;
-  right: 5vw;
   font-style: italic;
 }
 footer .social a:hover {
@@ -972,16 +970,10 @@ footer .social a {
   footer .prev-posts li span.date {
     font-size: 12px;
   }
-  footer .social {
-    right: 10vw;
-  }
 }
 /* Mobile
    ========================================================================== */
 @media only screen and (max-width: 500px) {
-  footer .social {
-    display: none;
-  }
   footer aside {
     width: 90%;
     margin: 0 auto;
@@ -1115,6 +1107,15 @@ footer .social a {
     display: block;
     margin: 0 auto;
     float: none;
+  }
+
+  p {
+    font-size: 25px;
+    line-height: 36px;
+  }
+
+  .article header {
+    margin: clear;
   }
 
   footer {

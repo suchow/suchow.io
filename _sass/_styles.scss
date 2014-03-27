@@ -587,7 +587,7 @@ footer {
         bottom: 8px;
         font-family: $sans;
         text-transform: uppercase;
-        color: transparentize($white, .9);
+        color: transparentize($white, .7);
         a {
             color: transparentize($white, .7);
         }
@@ -636,10 +636,11 @@ footer {
     }
 
     .social {
+        text-align: center;
+        display: block;
+        width: 100%;
+        top: 20px;
         position: absolute;
-        top: 109px;
-        @include column(3,12);
-        right: 5vw;
         font-style: italic;
         a {
             &:hover {
@@ -705,10 +706,6 @@ footer {
           }
         }
     }
-
-    .social {
-        right: 10vw;
-    }
 }
 
 
@@ -720,9 +717,6 @@ footer {
 @media only screen and (max-width: 500px) {
     footer {
 
-    .social {
-        display: none;
-    }
 
     aside {
         width: 90%;
@@ -862,6 +856,15 @@ footer {
     display: block;
     margin: 0 auto;
     float: none;
+}
+
+p {
+    font-size: $fsp;
+    line-height: $lh;
+}
+
+.article header {
+    margin: clear;
 }
 
 footer {

@@ -1,34 +1,29 @@
 <div class="push"></div>
   <footer>
     <aside class="wrap">
-      <ol class="prev-posts">
+<!--       <ol class="prev-posts">
         <p class="list-title">Recent Posts</p>
-        {% for post in site.posts | limit:3 %} <!-- for1 -->
+        {% for post in site.posts | limit:3 %}
             <li>
               <span class="recent-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title | strip_html | strip_newlines | truncate: 30 }} </a></span>
               <span class="date">{{post.date | date: "%b %d, %Y" }}</span>
             </li>
         {% endfor %}
       </ol>
-
+ -->
       <div class="social">
-        <ul>
-            <li>Jordan Suchow</li>
-
-            <li><a id="mail" href="mailto:{{ site.owner.email }}"><img src="{{ site.url }}/images/plane.png"/><span class="foot-link">email</span></a></li>
+            <a id="mail" href="mailto:{{ site.owner.email }}"><img src="{{ site.url }}/images/plane.png"/></a>
 
             {% if site.owner.twitter %}
-            <li><a id="twit" href="http://twitter.com/{{ site.owner.twitter }}" target="_blank"><img src="{{ site.url }}/images/twit.png"/><span class="foot-link">@{{ site.owner.twitter }}</span></a></li>
+            <a id="twit" href="http://twitter.com/{{ site.owner.twitter }}" target="_blank"><img src="{{ site.url }}/images/twit.png"/><span class="foot-link"></span></a>
             {% endif %}
 
 
             {% if site.owner.github %}
-            <li><a id="drib" href="http://github.com/{{ site.owner.github }}" target="_blank"><img src="{{ site.url }}/images/github.png"/><span class="foot-link">Github</span></a></li>
+            <a id="drib" href="http://github.com/{{ site.owner.github }}" target="_blank"><img src="{{ site.url }}/images/github.png"/></a>
             {% endif %}
-        </ul>
     </div>
     </aside>
-    <small>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}.</small>
   </footer>
 
   <!-- If they're out, get some from the cellar -->
