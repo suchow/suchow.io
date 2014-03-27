@@ -7,7 +7,7 @@ type: Essay
 tags: [israel, birthright]
 ---
 
-By the end of the first day, it still hasn't hit me that I am in Israel, a fact betrayed only by the Ben Gurion border control stamp on my passport and the occasional road sign spotted with Hebrew text and Arabic squiggles. I begin to feel differently when I look out the window of our coach (a 50-seater with little air conditioning vents above each seat) and see farms littered with grazing cows and fields of fruit trees arranged neatly in rows that trail off to a soft texture of foliage. The sight reminds me of my Hebrew school days, filled with agricultural talk &mdash; of dates, figs, palms, pomegranates, olives, and the famed Land o' Milk and Honey. 
+By the end of the first day, it still hasn't hit me that I am in Israel, a fact betrayed only by the Ben Gurion border control stamp on my passport and the occasional road sign spotted with Hebrew text and Arabic squiggles. I begin to feel differently when I look out the window of our coach (a 50-seater with little air conditioning vents above each seat) and see farms littered with grazing cows and fields of fruit trees arranged neatly in rows that trail off to a soft texture of foliage. The sight reminds me of my Hebrew school days, filled with agricultural talk of dates, figs, palms, pomegranates, olives, and the famed Land o' Milk and Honey. 
 
 Here it is.
 
