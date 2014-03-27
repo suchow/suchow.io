@@ -507,6 +507,7 @@ header.site-header nav {
   float: right;
   display: block;
   padding-right: 5vw;
+  margin-top: -10px;
 }
 header.site-header nav:before, header.site-header nav:after {
   content: "";
@@ -625,7 +626,7 @@ header.site-header nav ul li a:hover {
   display: block;
   margin: 0 auto;
   float: none;
-  padding-top: 40px;
+  padding-top: 30px;
 }
 .archive-wrap .post-list {
   list-style-type: none;
@@ -1008,7 +1009,6 @@ footer .social a {
 
   header.site-header hgroup h1 {
     margin-bottom: 0;
-    font-size: 25px;
   }
 
   header.site-header hgroup {
@@ -1102,6 +1102,10 @@ footer .social a {
     padding-top: 12px;
     padding-bottom: 10px;
   }
+
+  .archive-wrap {
+    padding-top: 20px;
+  }
 }
 @media only screen and (max-width: 480px) {
   .post {
@@ -1136,5 +1140,9 @@ footer .social a {
     line-height: 15px;
     padding-top: 12px;
     padding-bottom: 10px;
+  }
+
+  .archive-wrap {
+    padding-top: 0px;
   }
 }

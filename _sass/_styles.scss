@@ -253,6 +253,7 @@ header.site-header nav {
   float: right;
   display: block;
   padding-right: 5vw;
+  margin-top: -10px;
   @include clearfix;
 
   ul li {
@@ -359,7 +360,7 @@ header.site-header nav {
     display: block;
     margin: 0 auto;
     float: none;
-    padding-top: 40px;
+    padding-top: 30px;
 
     // Post Listing
     .post-list {
@@ -756,7 +757,6 @@ footer {
 
   header.site-header hgroup h1 {
     margin-bottom: 0;
-    font-size: $fsp;
   }
 
   header.site-header hgroup {
@@ -851,6 +851,10 @@ footer {
         padding-bottom: 10px;
     }
 
+    .archive-wrap {
+        padding-top: 20px;
+    }
+
 }
 
 
@@ -885,6 +889,10 @@ small {
     line-height: 15px;
     padding-top: 12px;
     padding-bottom: 10px;
+}
+
+.archive-wrap {
+    padding-top: 0px;
 }
 
 }
