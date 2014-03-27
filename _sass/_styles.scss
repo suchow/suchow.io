@@ -845,6 +845,12 @@ footer {
         }
     }
 
+    .date {
+        line-height: 15px;
+        padding-top: 12px;
+        padding-bottom: 10px;
+    }
+
 }
 
 
@@ -873,6 +879,12 @@ footer {
 
 small {
     font-size: $fs6;
+}
+
+.date {
+    line-height: 15px;
+    padding-top: 12px;
+    padding-bottom: 10px;
 }
 
 }

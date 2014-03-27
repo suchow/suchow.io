@@ -1096,6 +1096,12 @@ footer .social a {
     color: #f9f9f9;
     background-color: #569bbb;
   }
+
+  .date {
+    line-height: 15px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+  }
 }
 @media only screen and (max-width: 480px) {
   .post {
@@ -1124,5 +1130,11 @@ footer .social a {
 
   small {
     font-size: 12px;
+  }
+
+  .date {
+    line-height: 15px;
+    padding-top: 12px;
+    padding-bottom: 10px;
   }
 }
