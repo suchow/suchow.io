@@ -61,9 +61,9 @@ blockquote, blockquote p {
 }
 
 .separator {
-        padding-top: 18px;
-        padding-bottom: 18px;
-        font-size: 32px;
+    font-size: 32px;
+    padding-bottom: 10px;
+    color: $grey-medium;
 }
 
 
@@ -253,6 +253,7 @@ header.site-header nav {
   float: right;
   display: block;
   padding-right: 5vw;
+  margin-top: -10px;
   @include clearfix;
 
   ul li {
@@ -359,7 +360,7 @@ header.site-header nav {
     display: block;
     margin: 0 auto;
     float: none;
-    padding-top: 40px;
+    padding-top: 30px;
 
     // Post Listing
     .post-list {
@@ -422,6 +423,15 @@ header.site-header nav {
             vertical-align: middle;
         }
     }
+}
+
+.journal {
+    color: #999;
+}
+
+.separator-horizontal {
+    padding-right: 3px;
+    padding-left: 3px;
 }
 
 // Post Formatting
@@ -578,7 +588,7 @@ footer {
         bottom: 8px;
         font-family: $sans;
         text-transform: uppercase;
-        color: transparentize($white, .9);
+        color: transparentize($white, .7);
         a {
             color: transparentize($white, .7);
         }
@@ -627,10 +637,11 @@ footer {
     }
 
     .social {
+        text-align: center;
+        display: block;
+        width: 100%;
+        top: 20px;
         position: absolute;
-        top: 109px;
-        @include column(3,12);
-        right: 5vw;
         font-style: italic;
         a {
             &:hover {
@@ -696,10 +707,6 @@ footer {
           }
         }
     }
-
-    .social {
-        right: 10vw;
-    }
 }
 
 
@@ -711,9 +718,6 @@ footer {
 @media only screen and (max-width: 500px) {
     footer {
 
-    .social {
-        display: none;
-    }
 
     aside {
         width: 90%;
@@ -753,7 +757,6 @@ footer {
 
   header.site-header hgroup h1 {
     margin-bottom: 0;
-    font-size: $fsp;
   }
 
   header.site-header hgroup {
@@ -842,6 +845,16 @@ footer {
         }
     }
 
+    .date {
+        line-height: 15px;
+        padding-top: 12px;
+        padding-bottom: 10px;
+    }
+
+    .archive-wrap {
+        padding-top: 20px;
+    }
+
 }
 
 
@@ -855,12 +868,31 @@ footer {
     float: none;
 }
 
+p {
+    font-size: $fsp;
+    line-height: $lh;
+}
+
+.article header {
+    margin: clear;
+}
+
 footer {
     font-size: $fs5;
 }
 
 small {
     font-size: $fs6;
+}
+
+.date {
+    line-height: 15px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+
+.archive-wrap {
+    padding-top: 0px;
 }
 
 }

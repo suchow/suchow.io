@@ -303,9 +303,9 @@ blockquote, blockquote p {
 }
 
 .separator {
-  padding-top: 18px;
-  padding-bottom: 18px;
   font-size: 32px;
+  padding-bottom: 10px;
+  color: #999999;
 }
 
 /*   Code Formatting    */
@@ -390,7 +390,7 @@ input {
 #bump {
   min-height: 100%;
   height: auto;
-  margin: 0 auto-320px;
+  margin: 0 auto-70px;
 }
 
 .wrap {
@@ -507,6 +507,7 @@ header.site-header nav {
   float: right;
   display: block;
   padding-right: 5vw;
+  margin-top: -10px;
 }
 header.site-header nav:before, header.site-header nav:after {
   content: "";
@@ -625,7 +626,7 @@ header.site-header nav ul li a:hover {
   display: block;
   margin: 0 auto;
   float: none;
-  padding-top: 40px;
+  padding-top: 30px;
 }
 .archive-wrap .post-list {
   list-style-type: none;
@@ -682,6 +683,15 @@ header.site-header nav ul li a:hover {
   color: #cccccc;
   text-transform: uppercase;
   vertical-align: middle;
+}
+
+.journal {
+  color: #999;
+}
+
+.separator-horizontal {
+  padding-right: 3px;
+  padding-left: 3px;
 }
 
 .post {
@@ -803,13 +813,13 @@ header.site-header nav ul li a:hover {
 
 /* Footer Stuff */
 .push {
-  height: 20px !important;
+  height: 4.375px !important;
 }
 
 footer {
   width: 100%;
   background: #3b3b3b;
-  height: 320px;
+  height: 70px;
   font-size: 25px;
   color: #f9f9f9;
   position: relative;
@@ -844,7 +854,7 @@ footer small {
   bottom: 8px;
   font-family: "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   text-transform: uppercase;
-  color: rgba(249, 249, 249, 0.1);
+  color: rgba(249, 249, 249, 0.3);
 }
 footer small a {
   color: rgba(249, 249, 249, 0.3);
@@ -910,13 +920,11 @@ footer .prev-posts li span.date {
   text-align: right;
 }
 footer .social {
+  text-align: center;
+  display: block;
+  width: 100%;
+  top: 20px;
   position: absolute;
-  top: 109px;
-  display: inline;
-  float: left;
-  width: 22.5%;
-  margin: 0 1.25%;
-  right: 5vw;
   font-style: italic;
 }
 footer .social a:hover {
@@ -963,16 +971,10 @@ footer .social a {
   footer .prev-posts li span.date {
     font-size: 12px;
   }
-  footer .social {
-    right: 10vw;
-  }
 }
 /* Mobile
    ========================================================================== */
 @media only screen and (max-width: 500px) {
-  footer .social {
-    display: none;
-  }
   footer aside {
     width: 90%;
     margin: 0 auto;
@@ -1007,7 +1009,6 @@ footer .social a {
 
   header.site-header hgroup h1 {
     margin-bottom: 0;
-    font-size: 25px;
   }
 
   header.site-header hgroup {
@@ -1095,6 +1096,16 @@ footer .social a {
     color: #f9f9f9;
     background-color: #569bbb;
   }
+
+  .date {
+    line-height: 15px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+  }
+
+  .archive-wrap {
+    padding-top: 20px;
+  }
 }
 @media only screen and (max-width: 480px) {
   .post {
@@ -1108,11 +1119,30 @@ footer .social a {
     float: none;
   }
 
+  p {
+    font-size: 25px;
+    line-height: 36px;
+  }
+
+  .article header {
+    margin: clear;
+  }
+
   footer {
     font-size: 16px;
   }
 
   small {
     font-size: 12px;
+  }
+
+  .date {
+    line-height: 15px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+  }
+
+  .archive-wrap {
+    padding-top: 0px;
   }
 }
