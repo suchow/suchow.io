@@ -17,13 +17,10 @@ owner:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: CV
-    url: /assets/docs/suchow2014cv.pdf
   - title: Works
     url: /works/
-  - title: Code
-    url: http://github.com/suchow/
-    external: true
+  - title: CV
+    url: /assets/docs/suchow2014cv.pdf
 
 tools:
   standards:      "HTML, Jekyll, SCSS"
