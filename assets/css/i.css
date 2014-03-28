@@ -924,6 +924,7 @@ footer .social {
   display: block;
   width: 100%;
   top: 20px;
+  padding-left: 50px;
   position: absolute;
   font-style: italic;
 }
@@ -944,7 +945,7 @@ footer .social .foot-link {
 }
 footer .social img {
   margin-bottom: -6px;
-  margin-right: 11px;
+  margin-right: 40px;
 }
 footer .social a {
   color: #8ab9d1;

@@ -641,6 +641,7 @@ footer {
         display: block;
         width: 100%;
         top: 20px;
+        padding-left: 50px;
         position: absolute;
         font-style: italic;
         a {
@@ -664,7 +665,7 @@ footer {
         }
         img {
             margin-bottom: -6px;
-            margin-right: 11px;
+            margin-right: 40px;
         }
         a {
             color: $footer-link-color;
