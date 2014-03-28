@@ -1106,6 +1106,10 @@ footer .social a {
   .archive-wrap {
     padding-top: 20px;
   }
+
+  .article header {
+    margin: 35px 0 0 0;
+  }
 }
 @media only screen and (max-width: 480px) {
   .post {
