@@ -1,0 +1,11 @@
+deploy:
+  provider: s3
+  access_key_id: AKIAI6DXQYKG4LOZCCSA
+  secret_access_key:
+    secure: TqELJfflJueaZek9RH+6Pko4FLfrMvENd/GodfXQu1xize2BJGav4XsZpdFO59IoEauR58cmgvxhl5yn/SN4ocNpdkrsOtyjzzwwp8vDMlqXyv7Il2Eiucx8xv81JuGKdOLlxvogsIaATQno8I3J1vWNzQ2Ux39yvuc8hWPjomQ=
+  bucket: suchow.io
+  local-dir: _site
+  skip_cleanup: true
+  on:
+    repo: suchow/personal-website
+    branch: master
