@@ -1,4 +1,4 @@
-# suchow.github.io
+# suchow.io
 
 This is Jordan Suchow's website, a portfolio of research and other work.
 
