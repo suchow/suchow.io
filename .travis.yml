@@ -6,11 +6,13 @@ install:
 - gem install s3_website
 - gem install compass
 - gem install kramdown
-script: jekyll build
+script:
+- jekyll build
+- compass compile _sass
 after_success: s3_website push --headless
 env:
   global:
   - secure: hJEo4r35f3O03diehL/Q9nw77i0VYqu7BGJ4WX6pPC0WYShY75OdXPa3QROwkgtyFtSOurJiRZEAB+xCmlMUEeCaSQZ7aQVX1sd8idRwlIBYtIBOnwG6bzO6a9yWVlIb3dbySjp6J/VKixDwcgSFATpfiHVJXQomyluU8DeN778=
   - secure: L+Shzyov0yWyAqCLOsiJSWyrhh8zHGdjZNSURQNN9ql67awwG1EsTkuzh28xCgi677FNdoFVu5rgR/BQvoa6gpKPWMXQ4yUCJlnSQsPGU2BAOwMC1As9L2yAopd18L75zaJt+urKncJmgrMVh5AvoUmE79uShUghdmG9VizTyzI=
-  on:
-    branch: master
+  # on:
+  #   branch: master
