@@ -15,7 +15,7 @@
         <header class="post-header">
           <hgroup>
             {% if page.title %}
-              <h1>{{page.title}}</h1>
+              <h1 class="donthyphenate">{{page.title}}</h1>
             {% endif %}
             <p class="date">{{page.date | date: "%B %d, %Y" }}</p>
             <p class="intro">{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</p>
