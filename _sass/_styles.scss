@@ -1,7 +1,7 @@
 /************ Basic *************/
 
 body {
-    font-family: $serif;
+    font-family: $sans;
     color: $black;
     -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
     -moz-osx-font-smoothing: grayscale;
@@ -654,7 +654,7 @@ footer {
             }
         }
         .foot-link {
-            font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+            font-family: $sans;
             font-size: 18px;
             font-style: normal;
             padding-bottom: 5px;
