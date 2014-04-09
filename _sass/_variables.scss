@@ -6,32 +6,27 @@
    ========================================================================== */
 
 /* Don't use black */
-
 $black:  #3b3b3b;
 $white: #f9f9f9;
 
-/* Gray scale */
-
+/* Greyscale */
 $grey-dark:   #222;
 $grey-medium: #999;
 $grey-light:  #cccccc;
 
-/* Hilight */
-$hilite: #fffbd7;
+/* Highlight */
+$highlight: #eebb66;
 
 /* Accent Colors */
 $link: #569BBB;
 $footer-link-color: #8AB9D1;
 $accent: #24536B;
 
-
 /* Typography
    ========================================================================== */
 
 $sans: "Open Sans", "Helvetica Neue", "Arial", sans-serif;
 $serif: "Crimson Text", "Hoefler Text", "Georgia", serif;
-
-
 
 /* Type Scale
    ========================================================================== */
@@ -49,7 +44,6 @@ $fs5:16px;
 $fs6:12px;
 
 // Line Height
-
 $lh: 36px;
 $lhsmall: 24px;
 
@@ -57,8 +51,6 @@ $lhsmall: 24px;
 $footerHeight: 70px;
 
 // Griddit
-
-
 
 /* Break Points
    ========================================================================== */
@@ -74,4 +66,3 @@ $breakpoint-3-max-width:1200px;
    ========================================================================== */
 
 $borderR: 4px;
-

@@ -48,7 +48,7 @@ small {
     display: inline-block;
     padding: 0 0.3em;
     @include br(4px);
-    background: $hilite;
+    background: $highlight;
 }
 
 blockquote, blockquote p {
@@ -312,6 +312,7 @@ header.site-header nav {
         img {
             max-height: 800px;
         }
+        border-bottom: 2px solid $highlight;
     }
 
     // Header Stuff
@@ -566,6 +567,7 @@ footer {
     font-size: $fsp;
     color: $white;
     position: relative;
+    border-top: 2px solid $highlight;
 
     // Contain that ish
     section {
