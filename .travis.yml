@@ -9,7 +9,9 @@ install:
 script:
 - jekyll build
 - compass compile _sass
-after_success: s3_website push --headless
+after_success:
+- s3_website push --headless
+- linkchecker http://suchow.io
 env:
   global:
   - secure: hJEo4r35f3O03diehL/Q9nw77i0VYqu7BGJ4WX6pPC0WYShY75OdXPa3QROwkgtyFtSOurJiRZEAB+xCmlMUEeCaSQZ7aQVX1sd8idRwlIBYtIBOnwG6bzO6a9yWVlIb3dbySjp6J/VKixDwcgSFATpfiHVJXQomyluU8DeN778=
