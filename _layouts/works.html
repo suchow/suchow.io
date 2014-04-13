@@ -29,12 +29,14 @@
 
                   {% for post in site.posts %}
                     {% unless post.category contains 'papers' %}
-                      <li>
-                        <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-                          <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>.
-                          <p class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished"><span class="journal">{{ post.type }}</span> <span class="separator-horizontal">/</span> {{ post.date | date: "%B %d, %Y" }}</time></p>
-                        </div>
-                      </li>
+                      {% unless post.category contains 'hidden' %}
+                        <li>
+                          <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+                            <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>.
+                            <p class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished"><span class="journal">{{ post.type }}</span> <span class="separator-horizontal">/</span> {{ post.date | date: "%B %d, %Y" }}</time></p>
+                          </div>
+                        </li>
+                      {% endunless %}
                     {% endunless %}
                   {% endfor %}
               </ol>
