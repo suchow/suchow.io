@@ -6,12 +6,13 @@ install:
 - gem install s3_website
 - gem install compass
 - gem install kramdown
+- gem install link-checker
 script:
 - jekyll build
 - compass compile _sass
 after_success:
 - s3_website push --headless
-- linkchecker http://suchow.io
+- check-links 'http://suchow.io'
 env:
   global:
   - secure: sDqZuY2zbcDz3EhGJqK+dvn2X6lZe2qhklnKakWWd+e8QsjvpAfhjkax7Qbtp1Kebyc2KiIJIGJS1lKafsHOakH541kKlaRxPaJ26G/tJH6Lw6AwcHDYOWoHFpINsN/ATRll9JlkBgm5SJhCS2qj+8o8fDPcyIDaK54eFtPvWIQ=
