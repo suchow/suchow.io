@@ -14,7 +14,7 @@ after_success:
 - linkchecker http://suchow.io
 env:
   global:
-  - secure: hJEo4r35f3O03diehL/Q9nw77i0VYqu7BGJ4WX6pPC0WYShY75OdXPa3QROwkgtyFtSOurJiRZEAB+xCmlMUEeCaSQZ7aQVX1sd8idRwlIBYtIBOnwG6bzO6a9yWVlIb3dbySjp6J/VKixDwcgSFATpfiHVJXQomyluU8DeN778=
-  - secure: L+Shzyov0yWyAqCLOsiJSWyrhh8zHGdjZNSURQNN9ql67awwG1EsTkuzh28xCgi677FNdoFVu5rgR/BQvoa6gpKPWMXQ4yUCJlnSQsPGU2BAOwMC1As9L2yAopd18L75zaJt+urKncJmgrMVh5AvoUmE79uShUghdmG9VizTyzI=
+  - secure: m8oe6cKZaE0UFq1TinlaDzjY46k1NriyELbVtyJR3aoxAzw6lg0HyCcSyUf6kv1F2nNX+6R2MtVE/MpRCsYvbkif26ld+x1LUTStzpjKA+tlAnZax8okY4iMrE93jrwRlUNngFIyiLSifuPa1ZStpKkJMe/1qhp1AI/GiGeXyOg=
+  - secure: sU5V97dBhnrxOLJjcZkRrc5upjk3SNG8dI57D78JAWJoepv9BXw3KBknyRs/MbGQjipvbEvP0ZeATLutfdkZnG/werJSQFpNaVRBmR9hfon2DSbQfEhteuOt9h4eo4iuyZT5lNu6LxUMGtySYz4ZpbkWu+c5x1VYlR0N4C/pFug=
   on:
     branch: master
