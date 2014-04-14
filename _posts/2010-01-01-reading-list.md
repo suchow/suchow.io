@@ -27,7 +27,7 @@ An in-progress list of some books I've recently read:
 + Psychological science (Gazzaniga et al.), 7/2009
 + Beyond freedom & dignity (Skinner), 6/2009
 + The survivors club (Sherwood), 6/2009
-+ The diving bell and the butterfly (Bauby) 6/2009
-+ Norton psychology reader (ed. Marcus) 5/2009
-+ Memento mori (Nolan) 5/2009
-+ The man who loved only numbers (Hoffman) 4/2009
++ The diving bell and the butterfly (Bauby), 6/2009
++ Norton psychology reader (ed. Marcus), 5/2009
++ Memento mori (Nolan), 5/2009
++ The man who loved only numbers (Hoffman), 4/2009
