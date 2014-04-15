@@ -25,6 +25,7 @@ tags: [Brandeis VoiceMale]
 + [TestFest 2010](https://s3.amazonaws.com/VoiceMale/Shows/TestFest2010.zip)
 + [WERS 2011](https://s3.amazonaws.com/VoiceMale/Shows/WERS2011.zip)
 + [TestFest 2011](https://s3.amazonaws.com/VoiceMale/Shows/TestFest2011.zip)
++ (Tens of VM videos are on [YouTube](http://www.youtube.com/results?search_query=brandeis+voicemale))
 
 ## Photos
 + [Chums 2000](https://s3.amazonaws.com/VoiceMale/Shows/chums2000.zip)
@@ -57,11 +58,11 @@ tags: [Brandeis VoiceMale]
 + Jared Greenberg 
 + Aidan Horowitz 
 + Dotan Horowitz 
-+ Adam Barish 
++ Adam Barish ([website](http://adammbarish.com/), [facebook](https://www.facebook.com/adam.barish.5), [twitter](https://twitter.com/i_AM_Barish))
 + Noah Schnoll 
 + Simon Schreier 
 + Dan Ding 
-+ Jordan Suchow ([website](http://suchow.io/), [facebook](http://facebook.com/jordan.suchow/), [twitter](http://twitter.com/suchow/))
++ Jordan Suchow ([website](http://suchow.io/), [facebook](http://facebook.com/jordan.suchow), [twitter](http://twitter.com/suchow/))
 + Ben Gellman-Chomsky 
 + Jonathan Shuster 
 + Owen Shearer
