@@ -40,6 +40,67 @@ tags: [Brandeis VoiceMale]
 + [Tour 2010](https://s3.amazonaws.com/VoiceMale/Shows/tour2010.zip)
 + [Tour 2011](https://s3.amazonaws.com/VoiceMale/Shows/tour2011.zip)
 
+## VoiceMen
++ Schuyler Brass
++ Eli Siegel
++ Greg Bray
++ Adam Jones
++ Ben Udo
++ Dan Schreiber
++ Jason Sugarman
++ Chase Hiller
++ Adam Levine 
++ Eric Freeman 
++ Doug Friedman 
++ Nick Maletta 
++ Jared Greenberg 
++ Aidan Horowitz 
++ Dotan Horowitz 
++ Adam Barish 
++ Noah Schnoll 
++ Simon Schreier 
++ Dan Ding 
++ Jordan Suchow ([website](http://suchow.io/), [facebook](http://facebook.com/jordan.suchow/), [twitter](http://twitter.com/suchow/))
++ Ben Gellman-Chomsky 
++ Jonathan Shuster 
++ Owen Shearer
++ Jon Weinstein
++ Eli Schneider
++ Drew Cohen 
++ Sean Cotton 
++ Ben Kampler
++ Evan Greene 
++ Jon Searles
++ Scott Barrett 
++ Max Ferguson 
++ Seth Herring
++ Aithan Shapira
++ Josh Benson 
++ Adam Weinstein
++ Mat Mason 
++ Nate Merril 
++ Sam Meyrowitz 
++ Gershom Smith
++ Myq Kaplan 
++ Mike Schwartz
++ Keith Berman 
++ Bill Folman 
++ Jason Taylor
++ Jonathan Berkowitz 
++ Michael Carlin 
++ Samrat Chakrabarti 
++ Josh Namias 
++ Dave Greenberg
++ Maccabee Avishur 
++ Philip Berne 
++ Dave Evan 
++ Andy Margolis 
++ Paul Shipper
++ Booth Daniels 
++ Ian Marinoff 
++ Josh McKenna 
++ Mark Najarian 
++ Dan Wagner
 
 ### 2000-2001
 + [ACDA show & talk](https://s3.amazonaws.com/VoiceMale/News/ACDA2001.pdf)
