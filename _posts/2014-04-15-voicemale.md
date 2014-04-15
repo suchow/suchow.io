@@ -17,3 +17,12 @@ Here's some VoiceMale nostalgia:
 + [VoiceMale (Spring 2001)](https://s3.amazonaws.com/VoiceMale/VoiceMale.zip)
 + [Malestrom (Spring 1999)](https://s3.amazonaws.com/VoiceMale/Malestrom.zip)
 + [Malestrom (Spring 1997)](https://s3.amazonaws.com/VoiceMale/Flipside.zip)
+## Shows
++ [TestFest 2011](https://s3.amazonaws.com/VoiceMale/Shows/TestFest2011.zip)
++ [WERS 2011](https://s3.amazonaws.com/VoiceMale/Shows/WERS2011.zip)
++ [TestFest 2010](https://s3.amazonaws.com/VoiceMale/Shows/TestFest2010.zip)
++ [TestFest 2009](https://s3.amazonaws.com/VoiceMale/Shows/TestFest2009.zip)
++ [TestFest 2008](https://s3.amazonaws.com/VoiceMale/Shows/TestFest2008.zip)
++ [WERS 2008](https://s3.amazonaws.com/VoiceMale/Shows/WERS2008.zip)
++ [FallFest 2007](https://s3.amazonaws.com/VoiceMale/Shows/FallFest2007.zip)
++ [TestFest 2007](https://s3.amazonaws.com/VoiceMale/Shows/TestFest2007.zip)
