@@ -14,7 +14,7 @@ tags: [Brandeis VoiceMale]
 + [Propeller (Fall 2003)](https://s3.amazonaws.com/VoiceMale/Propeller.zip)
 + [Ain't Done Overnight (Fall 2006)](https://s3.amazonaws.com/VoiceMale/AintDoneOvernight.zip)
 + [Suit Up. (Spring 2009)](https://s3.amazonaws.com/VoiceMale/SuitUp.zip)
-+ [Phoenix (Fall 2011)](https://s3.amazonaws.com/VoiceMale/Phoenix.zip)
++ [Phoenix (Fall 2011)](https://s3.amazonaws.com/VoiceMale/Phoenix.zip) ([mixes](https://s3.amazonaws.com/VoiceMale/Misc/album2010.zip))
 
 ## Shows
 + [TestFest 2007](https://s3.amazonaws.com/VoiceMale/Shows/TestFest2007.zip)
@@ -41,6 +41,13 @@ tags: [Brandeis VoiceMale]
 + [Tour 2009](https://s3.amazonaws.com/VoiceMale/Shows/tour2009.zip)
 + [Tour 2010](https://s3.amazonaws.com/VoiceMale/Shows/tour2010.zip)
 + [Tour 2011](https://s3.amazonaws.com/VoiceMale/Shows/tour2011.zip)
+
+## Arrangements & Part tapes
++ [The letter](https://s3.amazonaws.com/VoiceMale/Misc/TheLetter.zip)
++ [Alma mater](https://s3.amazonaws.com/VoiceMale/Misc/BrandeisAlmaMater.zip)
++ [2008-2009 misc.](https://s3.amazonaws.com/VoiceMale/Misc/2008-2009.zip)
++ [2009-2010 misc.](https://s3.amazonaws.com/VoiceMale/Misc/2009-2010.zip)
++ [2010-2011 misc.](https://s3.amazonaws.com/VoiceMale/Misc/2010-2011.zip)
 
 ## VoiceMen
 *Where the hell are you now?* [Let me know](mailto:suchow@post.harvard.edu) and I'll add it here.
