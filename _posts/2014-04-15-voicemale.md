@@ -43,6 +43,7 @@ tags: [Brandeis VoiceMale]
 + [Tour 2011](https://s3.amazonaws.com/VoiceMale/Shows/tour2011.zip)
 
 ## VoiceMen
+*Where the hell are you now?* [Let me know](mailto:suchow@post.harvard.edu) and I'll add it here.
 + Schuyler Brass
 + Eli Siegel
 + Greg Bray
