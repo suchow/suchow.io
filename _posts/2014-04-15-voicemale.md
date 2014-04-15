@@ -1,5 +1,5 @@
 ---
-layout: post-no-feature
+layout: post-no-header
 title: "VoiceMale nostalgia"
 description:
 category: hidden
