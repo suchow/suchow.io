@@ -20,11 +20,11 @@ tags: [Brandeis VoiceMale]
 ## Shows
 + [TestFest 2007](https://s3.amazonaws.com/VoiceMale/Shows/TestFest2007.zip)
 + [FallFest 2007](https://s3.amazonaws.com/VoiceMale/Shows/FallFest2007.zip)
-+ [WERS 2008](https://s3.amazonaws.com/VoiceMale/Shows/WERS2008.zip)
++ [WERS 2008](https://s3.amazonaws.com/VoiceMale/Shows/WERS2008.mp3)
 + [TestFest 2008](https://s3.amazonaws.com/VoiceMale/Shows/TestFest2008.zip)
 + [TestFest 2009](https://s3.amazonaws.com/VoiceMale/Shows/TestFest2009.zip)
 + [TestFest 2010](https://s3.amazonaws.com/VoiceMale/Shows/TestFest2010.zip)
-+ [WERS 2011](https://s3.amazonaws.com/VoiceMale/Shows/WERS2011.zip)
++ [WERS 2011](https://s3.amazonaws.com/VoiceMale/Shows/WERS2011.mp3)
 + [TestFest 2011](https://s3.amazonaws.com/VoiceMale/Shows/TestFest2011.zip)
 + (Tens of VM videos are on [YouTube](http://www.youtube.com/results?search_query=brandeis+voicemale))
 
