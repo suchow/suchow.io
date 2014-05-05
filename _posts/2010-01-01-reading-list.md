@@ -7,8 +7,10 @@ type: Misc
 tags: [reading list, books]
 ---
 
-An in-progress list of some books I've recently read:
+A list, always in-progress, of books I've recently read:
 
++ The moral landscape (Harris), 5/2014
++ How to win friends and influence people (Carnegie), 4/2014
 + The checklist manifesto (Gawande), 4/2014
 + Thinking, fast and slow (Kahneman), 3/2014
 + Lying (Harris), 3/2014
