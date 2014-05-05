@@ -15,7 +15,7 @@ after_success:
 - check-links 'http://suchow.io'
 env:
   global:
-  - secure: sDqZuY2zbcDz3EhGJqK+dvn2X6lZe2qhklnKakWWd+e8QsjvpAfhjkax7Qbtp1Kebyc2KiIJIGJS1lKafsHOakH541kKlaRxPaJ26G/tJH6Lw6AwcHDYOWoHFpINsN/ATRll9JlkBgm5SJhCS2qj+8o8fDPcyIDaK54eFtPvWIQ=
-  - secure: Ii5nfc4A3VH590wkTHAImKMQM1N8kDvh2DPEqjcZZUsFmqar+cLUs8AW3fJ4l9xywSGiR+sbgZwaHm2x1iEyb2Io+sdGtRcNH/L8XsNjDd8L726QjQ2Be02JnYJPk+IRXvBY2pQmtp9zwNaFiDFXNisqViKpODAfN0mrYeU4vJA=
+  - secure: Bv/AsTZw03qfZC+mYaxF7Ny9KOzMbe0k3z4cphD6lDqMpeZ172Kn95XQbehs0RMMZ/2CebtOBRndK0LtOFkyAd/fn2YoWmCJj9+M7OODqxQkgd6p1JOGM3lwGbFCtBxilJzjQCgVJrxaWPyuUa6ekArceqVtj9zrKHh3uE/eYYw=
+  - secure: PxFQMiS3b4T+tqN4khB3BUtESTnwc7Qru0EdsoweDCyN8l9+wK5BkMpq4zTj+MECWR3eZULf7esp52K6RpWpvH6kJyCaMsfdNLKC5ihpDjmS/XnPb8c17zzUcBV3gPVU+x7jzE9H+iBc6pyRh1gHj2w60p8Mx56Z7Pnw3d/z+lE=
   on:
     branch: master
