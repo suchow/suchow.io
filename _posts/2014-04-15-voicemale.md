@@ -17,7 +17,7 @@ tags: [Brandeis VoiceMale]
 + [Suit Up. (Spring 2009)](https://s3.amazonaws.com/VoiceMale/SuitUp.zip)
 + [Phoenix (Fall 2011)](https://s3.amazonaws.com/VoiceMale/Phoenix.zip) ([mixes](https://s3.amazonaws.com/VoiceMale/Misc/album2010.zip))
 
-## Shows
+## Full shows
 + [TestFest 2007](https://s3.amazonaws.com/VoiceMale/Shows/TestFest2007.zip)
 + [FallFest 2007](https://s3.amazonaws.com/VoiceMale/Shows/FallFest2007.zip)
 + [WERS 2008](https://s3.amazonaws.com/VoiceMale/Shows/WERS2008.mp3)
@@ -26,6 +26,11 @@ tags: [Brandeis VoiceMale]
 + [TestFest 2010](https://s3.amazonaws.com/VoiceMale/Shows/TestFest2010.zip)
 + [WERS 2011](https://s3.amazonaws.com/VoiceMale/Shows/WERS2011.mp3)
 + [TestFest 2011](https://s3.amazonaws.com/VoiceMale/Shows/TestFest2011.zip)
+
+## Videos of songs
++ [Fallin](http://www.youtube.com/watch?v=UkttdrByPKc), 2004 reunion.
++ [Have a Little Faith in Me](http://www.youtube.com/watch?v=TDYXAZOp5bs), 2004.
++ [Walking in Memphis](http://www.youtube.com/watch?v=1N1HxsppPf0), 2005.
 + (Tens of VM videos are on [YouTube](http://www.youtube.com/results?search_query=brandeis+voicemale))
 
 ## Photos
