@@ -2,6 +2,7 @@ language: ruby
 rvm:
 - 2.1.1
 install:
+- gem install sass -v 3.2.19
 - gem install jekyll
 - gem install s3_website
 - gem install compass
