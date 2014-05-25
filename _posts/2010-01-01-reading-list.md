@@ -9,6 +9,7 @@ tags: [reading list, books]
 
 A list, always in-progress, of books I've recently read:
 
++ Oblivion (DFW), 5/2014
 + The moral landscape (Harris), 5/2014
 + How to win friends and influence people (Carnegie), 4/2014
 + The checklist manifesto (Gawande), 4/2014
@@ -16,8 +17,8 @@ A list, always in-progress, of books I've recently read:
 + Lying (Harris), 3/2014
 + The information (Gleick), 7/2013
 + Linked (Barabási), 8/2012
-+ A supposedly fun thing I'll never do again (Wallace), 10/2011
-+ Consider the lobster (Wallace), 7/2011
++ A supposedly fun thing I'll never do again (DFW), 10/2011
++ Consider the lobster (DFW), 7/2011
 + The mind's eye (Sacks), 3/2011
 + The universe in a nutshell (Hawking), 11/2010
 + Hiroshima (Hersey), 6/2010
