@@ -10,7 +10,7 @@ install:
 - gem install link-checker
 script:
 - jekyll build
-- compass compile _sass
+- compass compile
 after_success:
 - s3_website push --headless
 - check-links 'http://suchow.io'
