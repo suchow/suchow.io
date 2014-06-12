@@ -2,10 +2,11 @@ language: ruby
 rvm:
 - 2.1.1
 install:
-- gem install sass -v 3.2.19
+- gem install sass --version 3.2.19
 - gem install jekyll
+- gem install jekyll-compass
 - gem install s3_website
-- gem install compass
+- gem install compass --version 0.12.5
 - gem install kramdown
 - gem install link-checker
 script:
