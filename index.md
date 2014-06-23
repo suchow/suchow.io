@@ -5,7 +5,7 @@ title:
 description: I&rsquo;m Jordan Suchow, a cognitive scientist studying minds, brains, and machines.
 tags: [suchow, portfolio, reseach, cognitive science]
 image:
-  feature: japan/tower.jpg
+  feature: head.png
 ---
 
 My research uses a diverse set of tools from cognitive science, machine learning, network science, and evolutionary biology to better understand the dynamics of human cognition &mdash; how we learn to detect and recognize objects, how we maintain memories of sights and sounds, and how our thoughts and ideas evolve as they are transmitted from one person to the next.
