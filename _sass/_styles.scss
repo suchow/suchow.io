@@ -336,9 +336,16 @@ header.site-header nav {
 
         .intro {
             text-align: left;
-            font-size: 24px;
+            font-size: $fsp;
         }
     }
+}
+
+#named-introduction {
+    text-align: left;
+    font-size: $fsp;
+    border-right: 1px dashed $highlight;
+    border-bottom: 1px dashed $highlight;
 }
 
 // Archive Page
@@ -730,6 +737,10 @@ footer {
             }
         }
     }
+
+    #named-introduction {
+        border: none;
+    }
 }
 
 @media only screen and (max-width : 680px) {
@@ -851,7 +862,6 @@ footer {
     .article header {
         margin: 35px 0 0 0;
     }
-
 }
 
 
