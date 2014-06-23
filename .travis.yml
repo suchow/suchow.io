@@ -13,7 +13,7 @@ script:
 - jekyll build
 - compass compile
 after_success:
-- s3_website push --headless
+- s3_website push
 - check-links 'http://suchow.io'
 env:
   global:
