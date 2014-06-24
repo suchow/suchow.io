@@ -9,6 +9,7 @@ tags: [reading list, books]
 
 A list, always in-progress, of books I've recently read:
 
++ A short history of nearly everything (Bryson), 6/2014
 + Oblivion (DFW), 5/2014
 + The moral landscape (Harris), 5/2014
 + How to win friends and influence people (Carnegie), 4/2014
