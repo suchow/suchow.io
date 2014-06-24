@@ -67,6 +67,12 @@ blockquote, blockquote p {
     color: $grey-medium;
 }
 
+.fleuron {
+    width: 20px;
+    margin: 0 0 0 0;
+}
+
+
 /*   Code Formatting    */
 
 code {
@@ -497,6 +503,15 @@ header.site-header nav {
 
     .separator {
         width: 75px;
+    }
+
+    .fleuron {
+        margin: 0 0 0 0;
+        width: 20px;
+        display: inline;
+        position: relative;
+        top: 8px;
+        left: 6px;
     }
 
     .headshot {

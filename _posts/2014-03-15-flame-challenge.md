@@ -21,4 +21,4 @@ When light hits an object, only some of it bounces back to our eyes. Color is ho
 
 Humans aren't the only ones who see in color. Animals and insects do too. It's amazing --- some animals (like the mantis shrimp) have such fancy eyes that they see colors that no human can even imagine! The mantis shrimp must think that we are all colorblind.
 
-Does everyone see colors the same way? Is my red your blue? Nobody in the whole world knows the answer to that question. Maybe you can figure it out!
+Does everyone see colors the same way? Is my red your blue? Nobody in the whole world knows the answer to that question. Maybe you can figure it out! {% include fleuron.html %}
