@@ -61,6 +61,7 @@ blockquote, blockquote p {
 }
 
 .separator {
+    width: 75px;
     font-size: 32px;
     padding-bottom: 10px;
     color: $grey-medium;
@@ -492,6 +493,10 @@ header.site-header nav {
         display: block;
         margin: $lh auto;
         @include br(4px);
+    }
+
+    .separator {
+        width: 75px;
     }
 
     .headshot {
