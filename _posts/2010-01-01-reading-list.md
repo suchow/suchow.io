@@ -9,6 +9,8 @@ tags: [reading list, books]
 
 A list, always in-progress, of books I've recently read:
 
++ The art of war (Tzu), 7/2014
++ On the origin of species (Darwin), 7/2014
 + A short history of nearly everything (Bryson), 6/2014
 + Oblivion (DFW), 5/2014
 + The moral landscape (Harris), 5/2014
