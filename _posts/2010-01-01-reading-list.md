@@ -9,6 +9,7 @@ tags: [reading list, books]
 
 A list, always in-progress, of books I've recently read:
 
++ Hard-boiled wonderland and The end of the world (Murakami), 8/2014
 + The art of war (Tzu), 7/2014
 + On the origin of species (Darwin), 7/2014
 + A short history of nearly everything (Bryson), 6/2014
