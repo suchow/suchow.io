@@ -9,10 +9,10 @@ owner:
   name:           Jordan Suchow
   avatar:         avatar.png
   bio:            "Cognitive scientist"
-  email:          suchow@post.harvard.edu
+  email:          suchow@berkeley.edu
   twitter:        suchow
   github:         suchow
-  location:       "Cambridge, MA"
+  location:       "Berkeley, CA"
 
 # Links to include in top navigation
 # For external links add external: true
