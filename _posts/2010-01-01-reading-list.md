@@ -9,6 +9,8 @@ tags: [reading list, books]
 
 A list, always in-progress, of books I've recently read:
 
++ War of the worlds 1938 (Wells/Welles), 12/2014
++ Go the f--k to sleep (Mansbach/Jackson), 12/2014
 + Steve Jobs (Isaacson), 12/2014
 + Mastery (Greene), 10/2014
 + Hard-boiled wonderland and The end of the world (Murakami), 8/2014
