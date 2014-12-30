@@ -1,6 +1,6 @@
 ---
-layout: post-no-header
-title: "A test of motivation"
+layout: post-no-feature
+title: "Two tests of motivation"
 description:
 category: notes
 type: Note
