@@ -25,6 +25,14 @@ a, a:visited, a:active {
     @include transit(all,0.25s,ease-in-out);
 }
 
+sup {
+  font-size: $fs6;
+  font-weight: bold;
+  padding-left: 2px;
+  position: relative;
+  bottom: 5px;
+}
+
 a:hover {
     color: $accent;
     @include transit(all,.25s, ease-in-out)
@@ -42,6 +50,11 @@ strong {
 
 small {
     font-size: $fs5;
+}
+
+.footnotes p {
+    font-size: $fs5;
+    line-height: $lhsmall;
 }
 
 .hilite {
