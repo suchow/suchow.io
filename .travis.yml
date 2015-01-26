@@ -13,10 +13,10 @@ install:
 script:
 - jekyll build
 - compass compile
-- htmlproof ./_site
+# - htmlproof ./_site
 after_success:
 - s3_website push
-- check-links 'http://suchow.io'
+# - check-links 'http://suchow.io'
 env:
   global:
   - secure: Bv/AsTZw03qfZC+mYaxF7Ny9KOzMbe0k3z4cphD6lDqMpeZ172Kn95XQbehs0RMMZ/2CebtOBRndK0LtOFkyAd/fn2YoWmCJj9+M7OODqxQkgd6p1JOGM3lwGbFCtBxilJzjQCgVJrxaWPyuUa6ekArceqVtj9zrKHh3uE/eYYw=
