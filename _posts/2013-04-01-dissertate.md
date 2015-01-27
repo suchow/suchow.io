@@ -13,8 +13,8 @@ Dissertate is a LaTeX template for your dissertation. The package provides all t
 
 If you're just looking for your school's template, grab it here:
 
-[Harvard](https://s3.amazonaws.com/Dissertate/Dissertate-Harvard-LaTeX.zip)
+[Harvard](https://s3.amazonaws.com/dissertate.io/Dissertate-Harvard-LaTeX.zip)
 
-[NYU](https://s3.amazonaws.com/Dissertate/Dissertate-NYU-LaTeX.zip)
+[NYU](https://s3.amazonaws.com/dissertate.io/Dissertate-NYU-LaTeX.zip)
 
-[Princeton](https://s3.amazonaws.com/Dissertate/Dissertate-Princeton-LaTeX.zip)
+[Princeton](https://s3.amazonaws.com/dissertate.io/Dissertate-Princeton-LaTeX.zip)
