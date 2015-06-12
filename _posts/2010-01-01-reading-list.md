@@ -9,6 +9,8 @@ tags: [reading list, books]
 
 A list, always in-progress, of books I've recently read:
 
++ The war of art (Pressfield), 3/2015
++ God is not great (Hitchens), 1/2015
 + War of the worlds 1938 (Wells/Welles), 12/2014
 + Go the f--k to sleep (Mansbach/Jackson), 12/2014
 + Steve Jobs (Isaacson), 12/2014
