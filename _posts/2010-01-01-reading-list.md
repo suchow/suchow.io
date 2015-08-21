@@ -9,6 +9,7 @@ tags: [reading list, books]
 
 A list, always in-progress, of books I've recently read:
 
++ Getting to yes (Fisher & Ury), 8/2015
 + The war of art (Pressfield), 3/2015
 + God is not great (Hitchens), 1/2015
 + War of the worlds 1938 (Wells/Welles), 12/2014
