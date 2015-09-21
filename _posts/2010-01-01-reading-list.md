@@ -9,6 +9,7 @@ tags: [reading list, books]
 
 A list, always in-progress, of books I've recently read:
 
++ Norwegian wood (Murakami), 9/2015
 + Sum: tales from the afterlives (Eagleman), 8/2015
 + Getting to yes (Fisher & Ury), 8/2015
 + Dianetics (Hubbard), 8/2015
