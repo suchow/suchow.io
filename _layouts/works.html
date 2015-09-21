@@ -14,7 +14,7 @@
                   <p class="intro">{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</p>
                   {{ content }}
 
-                  {% for post in site.posts %}
+                  {% for post in site.posts reversed %}
                     {% if post.category contains 'papers' %}
                       <li>
                         <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
