@@ -2,7 +2,7 @@
 layout: post-no-feature
 title: "Seeing things: Visual perception research at NYU"
 description:
-category: papers
+category: articles
 type: Article
 journal: Imagine Magazine
 pdf: suchow2005imagine.pdf
