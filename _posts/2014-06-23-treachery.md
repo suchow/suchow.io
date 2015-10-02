@@ -2,8 +2,8 @@
 layout: post-no-feature
 title: "The treachery of sculptures"
 description:
-category: photos
-type: Photographs
+category: notes
+type: Notes
 tags: [representation, spoon, pipe, art]
 ---
 
