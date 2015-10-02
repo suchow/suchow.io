@@ -33,7 +33,7 @@ Our bus passes a Hassidic man holding a sign that says "GO TO HELL FAGS" in prot
 
 {% include separator.html %}
 
-All of Jerusalem's buildings are dressed in the same sand-colored stone, making the whole scene look like one giant sandcastle. Or maybe just a big awkward party where half the women want to go home to change.
+All of Jerusalem's buildings are dressed in the same sand-colored stone, making the whole scene look like one giant sandcastle. Or maybe just a big awkward party where half the guests want to go home to change.
 
 {% include separator.html %}
 
@@ -51,11 +51,11 @@ There was no mention of the Kosher meals served on the plane or what even kashru
 
 On Friday night we start Shabbat in Jerusalem. (In hindsight, with all the flowers and people lining up and arranging themselves into various cute patterns, it must have looked an awful lot like a wedding ceremony. Intentional? In any case, it was very sweet.) Later, David, Adam and I perform a skit where we pretend to sing Adon Olam to the most inappropriate melodies we could think of, before finally settling on Boston's 'More Than a Feeling'. It goes over well.
 
-On Saturday night we have a little BYO*x* party out by the pool, where *x* is whatever beverage is on hand. David and I each bring a bottle of desert wine from Monday's vineyard tour, which presents a challenge because nobody has a bottle opener and the push-the-cork-down-through-the-neck method wasn't meant for these non-standard bottles with 6&#8243; of neck. Two pens and a handful of bleeding concierge fingers later, the open bottles are passed around in a way that would surely give my mother a heart attack, if not for the dangers of broken glass then for the added risk of contracting meningitis when drinking from a shared cup. (Everyone survives.)
+On Saturday night we have a little BYO*x* party out by the pool, where *x* is whatever beverage is on hand. David and I each bring a bottle of dessert wine from Monday's vineyard tour, which presents a challenge because nobody has a bottle opener and the push-the-cork-down-through-the-neck method wasn't meant for these non-standard bottles with 6&#8243; flamingoed necks. Two pens and a handful of bleeding concierge fingers later, the open bottles are passed around in a way that would surely give my mother a heart attack, if not for the dangers of broken glass, then for the added risk of contracting meningitis when drinking from a shared cup. (Everyone survives.)
 
 {% include separator.html %}
 
-At Yad Vashem we pass what must be 200 armed soldiers, and I'm comforted knowing that we could probably survive a skirmish on this hill should we get caught in the middle of one. Guns aren't all that frightening when everyone has one strapped to his shoulder. In the US, the only guns I see are the semiautomatics carried by those guards at Grand Central with the dogs meant to sniff out narcotics, but I understand this says more about me than it does about the US and its attitude towards guns.
+At Yad Vashem we pass what must be 200 armed soldiers, and I'm comforted to know that we could probably survive a skirmish on this hill, were we to get caught in the middle of one. Guns aren't all that frightening when everyone has one strapped to his shoulder. In the US, the only guns I see are the semiautomatics carried by those guards at Grand Central with the dogs that sniff out narcotics, but I understand this says more about me than it does about the US and its attitude towards guns.
 
 {% include separator.html %}
 
@@ -63,11 +63,11 @@ On Monday night, after riding their camels and eating their food, we sleep in th
 
 {% include separator.html %}
 
-At breakfast I discover Matbucha, a Morrocan dish made with cooked tomatoes and peppers, and it is delicious.
+At breakfast I discover matbucha, a Morrocan dish made with cooked tomatoes and peppers, and it is delicious.
 
 {% include separator.html %}
 
-On Tuesday night we go to a club in Tel Aviv, arriving early in the night when the place is still quiet. It's a beautiful space with a terrace and high ceilings that aren't yet filled with smoke. It's hard to foresee that the next hour will take the club from sparse to packed. Really packed. When 6&#8243; of space between neighboring faces tightens to 4&#8243;, each movement seems to draw a new apology, less out of regret than from an involuntary reaction to constantly being in someone else's way. I visit the bathroom for a moment of relief from what is apparently my militant politeness. I guess Israelis are used to this constant proximity to strangers. A new friend buys me a beer that tastes like tomato sauce. (Why was the club packed on a Tuesday night? I'm told of two reasons: the club has a guest DJ on certain weeknights, Tuesday being one of them, and also there are other Birthright groups visiting. How many? Everyone?)
+On Tuesday night we go to a club in Tel Aviv, arriving early in the night when the place is still quiet. It's a beautiful space with a terrace and high ceilings that aren't yet filled with smoke. It's hard to foresee that the next hour will take the club from sparse to packed. Really packed. When 6&#8243; of space between neighboring faces tightens to 4&#8243;, each movement seems to draw a new apology, less out of regret than from my involuntary reaction to constantly being in someone else's way. I visit the bathroom for a moment of relief from what is apparently my militant politeness. I guess Israelis are used to constant proximity to strangers. A new friend buys me a beer that tastes like tomato sauce. (Why was the club packed on a Tuesday night? I'm told of two reasons: the club has a guest DJ on certain weeknights, Tuesday being one of them, and also there are other Birthright groups visiting. How many? Everyone?)
 
 {% include separator.html %}
 
