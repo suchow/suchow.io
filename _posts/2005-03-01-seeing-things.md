@@ -10,4 +10,4 @@ journal: Imagine Magazine
 tags: [nyu, pelli lab, object recognition, letter learning]
 ---
 
-Abstract goes here.
+I have been enthralled by the human mind ever since my first exporsure to robotics and machine learning in *Scientific American Frontiers*, a 1997 television series that presented hundreds of projects in which researchers had equipped robots with human sensory abilities. As the years went by, ...
