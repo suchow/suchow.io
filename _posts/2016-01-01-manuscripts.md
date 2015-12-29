@@ -19,8 +19,8 @@ Suchow, J. W., Fougnie, D., & Alvarez, G. A. [Looking inwards and back: realtime
 
 Herman, L. & Suchow, J. W. [Frequency-based synesthetic associations between letters and color]({{ site.url }}/assets/docs/herman2014synesthesia8.pdf). To be submitted to *Psychological Science*.
 
-<small>(\* Equal contributions.)</small>
-
 Jamieson, K. & Suchow, J. W. [Efficient measurement of temporal discounting, forgetting, and aftereffect decay through active monotonic regression]({{ site.url }}/assets/docs/jamieson2015activeregression.pdf). To be submitted to *NIPS*.
 
 Fougnie, D., Suchow, J. W., & Alvarez, G. A. [Decay and death by natural causes in visual working memory]({{ site.url }}/assets/docs/fougnie2015decay.pdf). To be submitted to *Journal of Experimental Psychology: General*.
+
+<small>(\* Equal contributions.)</small>
