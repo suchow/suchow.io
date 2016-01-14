@@ -14,7 +14,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font: 13.34px AvenirLTStd-Book, Avenir, Avenir Book, Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
 }
@@ -159,4 +159,21 @@ a:visited { color: #a0a; }
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+/*
+/ Fonts
+*/
+
+@font-face {
+  font-family:'AvenirLTStd-Book';
+  src: url('../fonts/AvenirLTStd-Book_gdi.eot');
+  src: url('../fonts/AvenirLTStd-Book_gdi.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTStd-Book_gdi.woff') format('woff'),
+    url('../fonts/AvenirLTStd-Book_gdi.ttf') format('truetype'),
+    url('../fonts/AvenirLTStd-Book_gdi.svg#AvenirLTStd-Book') format('svg');
+  font-weight: 350;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-25CA;
 }
