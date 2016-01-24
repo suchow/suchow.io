@@ -17,7 +17,7 @@ Suchow, J. W. & Griffiths, T. L. [Deciding to remember: memory maintenance as a 
 
 Suchow, J. W., Pacer, M. D, & Griffiths, T. L. Designing from zeroth principles. To be submitted to *CogSci 2016*.
 
-Fougnie, D., Suchow, J. W., & Alvarez, G. A. [Decay and death by natural causes in visual working memory]({{ site.url }}/assets/docs/fougnie2015decay.pdf). To be submitted to *Journal of Experimental Psychology: General*.
+Fougnie, D., Suchow, J. W., & Alvarez, G. A. [Decay and death by natural causes in visual working memory]({{ site.url }}/assets/docs/fougnie2016decay.pdf). To be submitted to *Journal of Experimental Psychology: General*.
 
 Herman, L. & Suchow, J. W. [Frequency-based synesthetic associations between letters and color]({{ site.url }}/assets/docs/herman2016synesthesia19.pdf). To be submitted to *Psychological Science*.
 
