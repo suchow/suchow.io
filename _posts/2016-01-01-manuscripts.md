@@ -15,7 +15,7 @@ Suchow, J. W., Allen, B., Nowak, M. A. & Alvarez, G. A. [Evolutionary dynamics o
 
 Suchow, J. W. & Griffiths, T. L. [Deciding to remember: memory maintenance as a Markov Decision Process]({{ site.url }}/assets/docs/suchow2015mdp.pdf). To be submitted to *Psychological Review*.
 
-Suchow, J. W., Pacer, M. D, & Griffiths, T. L. Designing from zeroth principles. To be submitted to *CogSci 2016*.
+Suchow, J. W., Pacer, M. D, & Griffiths, T. L. [Designing from zeroth principles]({{ site.url }}/assets/docs/suchow2016dzp.pdf). To be submitted to *CogSci 2016*.
 
 Fougnie, D., Suchow, J. W., & Alvarez, G. A. [Decay and death by natural causes in visual working memory]({{ site.url }}/assets/docs/fougnie2016decay.pdf). To be submitted to *Journal of Experimental Psychology: General*.
 
@@ -23,6 +23,6 @@ Herman, L. & Suchow, J. W. [Frequency-based synesthetic associations between let
 
 Jamieson, K. & Suchow, J. W. [Efficient measurement of temporal discounting, forgetting, and aftereffect decay through active monotonic regression]({{ site.url }}/assets/docs/jamieson2015activeregression.pdf). To be submitted to *NIPS 2016*.
 
-Morgan, T. J. H.\*, Suchow, J. W.\*, & Griffiths, T. L. Experimental evolution of human cognition through bionic simulation. To be submitted to *Science*.
+Morgan, T. J. H.\*, Suchow, J. W.\*, & Griffiths, T. L. [Experimental evolution of human cognition through bionic simulation]({{ site.url }}/assets/docs/morgan2016seb.pdf). To be submitted to *Science*.
 
 <small>(\* Equal contributions.)</small>
