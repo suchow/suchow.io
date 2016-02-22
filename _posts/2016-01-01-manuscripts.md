@@ -25,4 +25,6 @@ Jamieson, K. & Suchow, J. W. [Efficient measurement of temporal discounting, for
 
 Morgan, T. J. H.\*, Suchow, J. W.\*, & Griffiths, T. L. [Experimental evolution of human cognition through bionic simulation]({{ site.url }}/assets/docs/morgan2016seb.pdf). To be submitted to *Science*.
 
+Suchow, J. W., Morgan, T. J. H., Hamrick, J., Pacer, M., Meylan, S. C., and Griffiths, T. L. [Wallace: automating cultural transmission through crowdsourcing.]({{ site.url }}/assets/docs/suchow2016wallace-tutorial.pdf) Submitted as a tutorial proposal for CogSci 2016.
+
 <small>(\* Equal contributions.)</small>
