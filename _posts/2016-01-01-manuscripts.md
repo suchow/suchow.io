@@ -13,6 +13,8 @@ Suchow, J. W. & Griffiths, T. L. [Deciding to remember: memory maintenance as a 
 
 Suchow, J. W., Morgan, T. J. H., Hamrick, J., Pacer, M., Meylan, S. C., and Griffiths, T. L. [Wallace: automating cultural transmission through crowdsourcing.]({{ site.url }}/assets/docs/suchow2016wallace-tutorial.pdf) Accepted as a tutorial for *CogSci 2016*.
 
+Pacer, M. D, & Suchow, J. W. [Proselint: the linting science prose and the science of prose linting]({{ site.url }}/assets/docs/pacer2016proselint.pdf). Submitted to *SciPy 2016*.
+
 Morgan, T. J. H.\*, Suchow, J. W.\*, & Griffiths, T. L. [Experimental evolution of human cognition through bionic simulation]({{ site.url }}/assets/docs/morgan2016seb.pdf). Submitted to *Science*.
 
 Suchow, J. W.\*, Morgan, T. J. H.\*, Hamrick, J., Pacer, M., Meylan, S. C., and Griffiths, T. L. [Fully automated experiments on cultural transmission through crowdsourcing.]({{ site.url }}/assets/docs/suchow2016wallace0.4.pdf) To be submitted to *Nature Methods*. ([Source code](http://github.com/suchow/Wallace)).
