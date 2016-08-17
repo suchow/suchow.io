@@ -28,7 +28,21 @@
                   {% include separator.html %}
 
                   {% for post in site.posts %}
+                    {% if post.category contains 'posters' %}
+                      <li>
+                        <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+                          <a href="{{ site.baseurl }}/assets/docs/{{ post.pdf }}"><img style="width:100%; max-width:350px;" src="{{ site.baseurl }}/images/{{ post.preview_img }}" class="poster"></a>
+                          <p class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished"><span class="journal">{{ post.journal }}</span> <span class="separator-horizontal">/</span> {{ post.date | date: "%Y" }} <span class="separator-horizontal">/</span> {{ post.type }}</time></p>
+                        </div>
+                      </li>
+                    {% endif %}
+                  {% endfor %}
+
+                  {% include separator.html %}
+
+                  {% for post in site.posts %}
                     {% unless post.category contains 'papers' %}
+                      {% unless post.category contains 'posters' %}
                       {% unless post.category contains 'hidden' %}
                         <li>
                           <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
@@ -41,6 +55,7 @@
                           </div>
                         </li>
                       {% endunless %}
+                    {% endunless %}
                     {% endunless %}
                   {% endfor %}
               </ol>
