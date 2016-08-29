@@ -10,6 +10,7 @@ install:
 - gem install kramdown
 - gem install link-checker
 - gem install html-proofer
+- gem install jekyll-redirect-from
 script:
 - jekyll build
 - compass compile

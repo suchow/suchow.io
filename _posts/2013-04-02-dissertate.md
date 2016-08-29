@@ -6,4 +6,6 @@ external_site: dissertate.io
 category: software
 type: software
 tags: [dissertation, template, latex, word]
+redirect_to:
+  - https://dissertate.io
 ---
