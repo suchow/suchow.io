@@ -17,6 +17,8 @@ owner:
 # Links to include in top navigation
 # For external links add external: true
 links:
+  - title: Works
+    url: /works/
   - title: CV
     url: /cv/
 
