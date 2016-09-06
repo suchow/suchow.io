@@ -5,7 +5,7 @@ description:
 category: posters
 type: Poster
 journal: CogSci
-pdf: suchow2015dzp-poster.pdf
+pdf: suchow2016dzp-poster.pdf
 preview_img: suchow2016dzp-poster.jpg
 tags: [design, computation, transmission chains]
 ---
