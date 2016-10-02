@@ -9,7 +9,7 @@ install:
 - gem install compass --version 0.12.5
 - gem install kramdown
 - gem install link-checker
-- gem install html-proofer
+# - gem install html-proofer
 - gem install jekyll-redirect-from
 script:
 - jekyll build
