@@ -10,6 +10,10 @@ tags: [reading list, books]
 Here are some books I've recently read:<br/>
 <small><em>(</em><span style="color:#FBB829"><small>&#9733;</small></span><em>s are like Michelin stars, where even one is great. Skip anything with a <span style="color:#800F25"><b>&mdash;</b></span>)</em></small>
 
+Kitchen Confidential (Bourdain), 3/2017
+
+The Wisdom of Crowds (Surowiecki), 9/2016
+
 Between the world and me (Coates), 2/2016
 
 The Giver (Lowry), 2/2016
