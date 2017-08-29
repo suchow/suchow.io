@@ -3,7 +3,7 @@ layout: index
 permalink: /index.html
 title:
 description: I&rsquo;m Jordan Suchow, a cognitive scientist studying vision, learning, memory, and technology.
-tags: [suchow, portfolio, reseach, cognitive science]
+tags: [suchow, portfolio, research, cognitive science]
 image:
   feature: head.png
 ---
