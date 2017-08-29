@@ -10,6 +10,10 @@ tags: [reading list, books]
 Here are some books I've recently read:<br/>
 <small><em>(</em><span style="color:#FBB829"><small>&#9733;</small></span><em>s are like Michelin stars, where even one is great. Skip anything with a <span style="color:#800F25"><b>&mdash;</b></span>)</em></small>
 
+Brief interviews with hideous men (Foster Wallace), 8/2017
+
+The nine (Toobin), 4/2017
+
 Kitchen confidential (Bourdain), 3/2017
 
 The wisdom of crowds (Surowiecki), 9/2016
@@ -40,7 +44,7 @@ Go the f--k to sleep (Mansbach/Jackson), 12/2014
 
 Steve Jobs (Isaacson), 12/2014
 
-Mastery (Greene), 10/2014 <span style="color:#FBB829"><small>&#9733;</small></span> 
+Mastery (Greene), 10/2014 <span style="color:#FBB829"><small>&#9733;</small></span>
 
 Hard-boiled wonderland and The end of the world (Murakami), 8/2014
 
