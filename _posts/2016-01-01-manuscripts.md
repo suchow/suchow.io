@@ -7,19 +7,9 @@ type: Misc
 tags: [manuscripts]
 ---
 
-Suchow, J. W., Pacer, M. D, & Griffiths, T. L. [Design from zeroth principles]({{ site.url }}/assets/docs/suchow2016dzp.pdf). In press at *CogSci 2016*.
-
-Suchow, J. W. & Griffiths, T. L. [Deciding to remember: memory maintenance as a Markov Decision Process]({{ site.url }}/assets/docs/suchow2015mdp.pdf). In press at *CogSci 2016*.
-
-Suchow, J. W., Morgan, T. J. H., Hamrick, J., Pacer, M., Meylan, S. C., and Griffiths, T. L. [Wallace: automating cultural transmission through crowdsourcing.]({{ site.url }}/assets/docs/suchow2016wallace-tutorial.pdf) Accepted as a tutorial for *CogSci 2016*.
-
-Pacer, M. D, & Suchow, J. W. [Proselint: the linting science prose and the science of prose linting]({{ site.url }}/assets/docs/pacer2016proselint.pdf). Submitted to *SciPy 2016*.
-
 Morgan, T. J. H.\*, Suchow, J. W.\*, & Griffiths, T. L. [Experimental evolution of human cognition through bionic simulation]({{ site.url }}/assets/docs/morgan2016seb.pdf). Submitted to *Science*.
 
 Suchow, J. W.\*, Morgan, T. J. H.\*, Hamrick, J., Pacer, M., Meylan, S. C., and Griffiths, T. L. [Fully automated experiments on cultural transmission through crowdsourcing.]({{ site.url }}/assets/docs/suchow2016wallace0.4.pdf) To be submitted to *Nature Methods*. ([Source code](http://github.com/suchow/Wallace)).
-
-Suchow, J. W., Fougnie, D., & Alvarez, G. A. [Looking inwards and back: realtime monitoring of visual working memory]({{ site.url }}/assets/docs/suchow2015metamemory.pdf). Accepted in principle at *Journal of Experimental Psychology: Learning, Memory, & Cognition*.
 
 Suchow, J. W., Allen, B., Nowak, M. A. & Alvarez, G. A. [Evolutionary dynamics of visual memory]({{ site.url }}/assets/docs/suchow2015memorydynamics28.pdf). Under review at *Nature Communications*.
 
