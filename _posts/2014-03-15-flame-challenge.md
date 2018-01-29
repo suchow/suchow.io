@@ -17,7 +17,7 @@ Stare at your eyes in a mirror and you'll find that the dark circle in the middl
 
 Light comes in many shades, called "frequencies". They can be spread out to create a rainbow: red, orange, yellow, green, blue, indigo, violet. One of the first science experiments on light was by Isaac Newton, who used a piece of glass to put the rainbow back together again, creating a bright white light.
 
-When light hits an object, only some of it bounces back to our eyes. Color is how we perceive the light that bounces back. Colors look different depending on what is around them, which causes many amazing visual illusions that you can find online.
+When light hits an object, only some of it bounces back to our eyes. Color is how we perceive the mixture of frequencies of light that bounces back. Colors look different depending on what is around them, which causes many amazing visual illusions that you can find online.
 
 Humans aren't the only ones who see in color. Animals and insects do too. It's amazing --- some animals (like the mantis shrimp) have such fancy eyes that they see colors that no human can even imagine! The mantis shrimp must think that we are all colorblind.
 
