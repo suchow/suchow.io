@@ -10,13 +10,15 @@ tags: [reading list, books]
 Here are some books I've recently read:<br/>
 <small><em>(</em><span style="color:#FBB829"><small>&#9733;</small></span><em>s are like Michelin stars, where even one is great. Skip anything with a <span style="color:#800F25"><b>&mdash;</b></span>)</em></small>
 
+The pale king (Wallace), 4/2018
+
 We were eight years in power: an American tragedy (Coates), 3/2018
 
 O. Henry: Complete short stories (O. Henry), 1/2018
 
-Sideways Stories from Wayside School (Sachar), 10/2017
+Sideways stories from Wayside School (Sachar), 10/2017
 
-Brief interviews with hideous men (Foster Wallace), 8/2017
+Brief interviews with hideous men (Wallace), 8/2017
 
 The nine (Toobin), 4/2017
 
