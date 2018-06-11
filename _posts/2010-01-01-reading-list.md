@@ -10,6 +10,8 @@ tags: [reading list, books]
 Here are some books I've recently read:<br/>
 <small><em>(</em><span style="color:#FBB829"><small>&#9733;</small></span><em>s are like Michelin stars, where even one is great. Skip anything with a <span style="color:#800F25"><b>&mdash;</b></span>)</em></small>
 
+History of the Jews (Johnson), 6/2018
+
 The pale king (Wallace), 4/2018
 
 We were eight years in power: an American tragedy (Coates), 3/2018
