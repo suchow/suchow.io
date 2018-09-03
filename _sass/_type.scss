@@ -62,9 +62,9 @@ p {
 }
 
 .post ul li {
-    font-size: $fs5;
+    font-size: $fs6*1.25;
     line-height: $lhsmall;
-    margin-bottom: $lhsmall/2;
+    margin-bottom: $lhsmall/4;
 }
 
 h1,.h1 {      font-size: $fs2; }
@@ -81,5 +81,3 @@ blockquote, blockquote p {  font-size: $fs4; }
 .archive input { font-size: $fs3}
 
 }
-
-
