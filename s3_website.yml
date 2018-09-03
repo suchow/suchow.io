@@ -3,3 +3,4 @@ s3_secret: <%= ENV['AWS_S3_SECRET'] %>
 s3_bucket: suchow.io
 
 gzip: true
+ignore_on_server: assets/cognition/*
