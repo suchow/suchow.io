@@ -1,13 +1,28 @@
 ---
-layout: post-no-header
+layout: course
 title: "Cognition"
 description:
 category: hidden
 type: course
 tags: [psyc217]
+semester: Fall 2018
+college: Wellesley College
 ---
+<!--
+Mail <a id="mail" href="mailto:{{ site.owner.email }}"><img width="20px" src="{{ site.url }}/images/plane-dark.png"/></a>.
+Syllabus -->
+
+<!-- ### Administrivia
+
+_Instructor_: Jordan Suchow, Ph.D.
+
+_Office hours_: 10–11 a.m. before class, in SCI 458B.
+
+{% include separator.html %} -->
 
 ### Class meetings
+
+<!-- Class meets 11:10 a.m. -- 12:20 p.m., in Science Center E111. -->
 
 #### Introduction, administration, and reading a paper.
 `2018-09-06`
@@ -20,30 +35,32 @@ tags: [psyc217]
 
 ####  A whirlwind tour of the mind, from head to toe.
 `2018-09-13`
-<!-- “What goes on inside is just too fast and huge and all interconnected for words to do more than barely sketch the outlines of at most one tiny little part of it at any given instant.”  -->
 - [The standard equipment]({{ site.url }}/assets/cognition/pinker1997standard-equipment.pdf), pgs. 3--44.
-- [What's in your mind?]({{ site.url }}/assets/cognition/pylyshyn1998mind.pdf)
+- [Marr's three levels]({{ site.url }}/assets/cognition/marr.pdf).
 - [Animal cognition]({{ site.url }}/assets/cognition/gallistel1989representation.pdf), pgs. 155--160.
+- [Introduction to AI]({{ site.url }}/assets/cognition/aima-intro.pdf), pgs. 1--16.
 - [The humane representation of thought](https://vimeo.com/115154289).
 
 #### 	On representing space.
 `2018-09-17`
 - [Cognitive maps in rats and men]({{ site.url }}/assets/cognition/tolman1948maps.pdf).
 - [Human spatial representation]({{ site.url }}/assets/cognition/wang2002space.pdf).
-- (optional) [Animal cognition (space)]({{ site.url }}/assets/cognition/gallistel1989representation.pdf), pgs 160--177.
+- (optional) [Animal cognition (space)]({{ site.url }}/assets/cognition/gallistel1989representation.pdf), pgs. 160--177.
 
 #### 	On representing quantity.
 `2018-09-20`
 - [Core systems of number]({{ site.url }}/assets/cognition/feigenson2004number.pdf).
-- [Animal cognition (number)]({{ site.url }}/assets/cognition/gallistel1989representation.pdf), pgs 181--184.
+- [Animal cognition (number)]({{ site.url }}/assets/cognition/gallistel1989representation.pdf), pgs. 181--184.
 - [Who can name the bigger number?](https://www.scottaaronson.com/writings/bignumbers.html)
-- [Innumeracy exercises]({{ site.url }}/assets/cognition/innumeracy-exercises.pdf).
+- [On number numbness]({{ site.url }}/assets/cognition/numbness.pdf).
+- [Combatting number numbness](https://xkcd.com/1732/).
 
 ####	On representing uncertainty to predict the future.
 `2018-09-24`
 - [A visual introduction to probability and statistics](http://students.brown.edu/seeing-theory).
 - [The anthropic principle]({{ site.url }}/assets/cognition/gott1993future.pdf).
 - [Optimal predictions in everyday cognition]({{ site.url }}/assets/cognition/griffiths2006predictions.pdf).
+- [Retrofuturism](https://www.reddit.com/r/RetroFuturism/top/?t=all).
 
 ####	On representing gains and losses in value.
 `2018-09-27`
@@ -65,15 +82,16 @@ tags: [psyc217]
 
 #### 	On representing time and change.
 `2018-10-11`
+- [Sum]({{ site.url }}/assets/cognition/sum.pdf).
 - [Brain time](https://www.edge.org/conversation/brain-time).
 - [Human time perception and its illusions]({{ site.url }}/assets/cognition/eagleman2008time.pdf).
 - [Speed]({{ site.url }}/assets/cognition/speed.pdf).
 - [Animal cognition (time)]({{ site.url }}/assets/cognition/gallistel1989representation.pdf), pgs. 178--181.
 
-
 #### 	On representing cause and effect.
 `2018-10-15`
 - [Simplicity in causal explanation]({{ site.url }}/assets/cognition/pacer2017razor.pdf).
+- Beyond freedom and dignity.
 
 #### 	On representing other people and their beliefs about other people, &c., ad infinitum.
 `2018-10-18`
@@ -81,9 +99,11 @@ tags: [psyc217]
 - [El Farol Bar problem]({{ site.url }}/assets/cognition/arthur1994farol.pdf).
 - Keynesian beauty games.
 - [Capgras syndrome]({{ site.url }}/assets/cognition/hirstein1997capgras.pdf).
+- [Capgras syndrome](https://www.youtube.com/watch?v=JQsQgoPQ24s). (video)
 
 #### 	Assembling a toolkit to describe the mind.
 `2018-10-22`
+<!-- - [Neural networks]({{ site.url }}/assets/cognition/deeplearning.pdf) -->
 
 #### 	Paper-topic conversations.
 `2018-10-25`
@@ -91,13 +111,15 @@ tags: [psyc217]
 ####	On representing objects.
 `2018-10-29`
 - [The writing's on the wall](https://www.youtube.com/watch?v=m86ae_e_ptU). (video)
-- [The itch]({{ site.url }}/assets/cognition/itch.pdf).
-- The man who mistook his wife for a hat.
 - [Principles of object perception]({{ site.url }}/assets/cognition/spelke1990principles.pdf).
+- [The man who mistook his wife for a hat]({{ site.url }}/assets/cognition/hat.pdf).
+- [The itch]({{ site.url }}/assets/cognition/itch.pdf).
 
 #### 	How to remember, and how to forget.
 `2018-11-01`
 - [Make-believe memories]({{ site.url }}/assets/cognition/lotus2003believe.pdf).
+- [Memento](https://www.imdb.com/title/tt0209144/). (movie)
+- [Stephen Wiltshire](https://www.youtube.com/watch?v=CqKRfZHpYBs). (video)
 
 #### 	Exam 2.
 `2018-11-05`
@@ -112,18 +134,19 @@ But it does have a knob, the door can open. But not in the way you think...The t
 So cry all you want, I won't tell anybody.”
 ― David Foster Wallace, Oblivion -->
 - [There is no word](https://www.poetryfoundation.org/poetrymagazine/poems/55650/there-is-no-word).
-- Making peace in the language wars
-- A memoir of living with a brain tumor
+- [Well, maybe not in English, Tony](https://www.theatlantic.com/technology/archive/2013/01/tongue-and-tech-the-many-emotions-for-which-english-has-no-words/266956/).
+- [Making peace in the language wars]({{ site.url }}/assets/cognition/peace.pdf).
+- [A memoir of living with a brain tumor](https://www.theguardian.com/books/2010/nov/07/tom-lubbock-brain-tumour-language).
 
 #### 	On representing categories and relations.
 `2018-11-12`
-- Basic objects in natural categories.
-- The evocation of words.
+- [Basic objects in natural categories]({{ site.url }}/assets/cognition/rosch1976basic.pdf).
+- [The evocation of words]({{ site.url }}/assets/cognition/words.pdf).
 
 #### 	Analogy as the fuel and fire of thinking.
 `2018-11-15`
-- The evocation of phrases.
-- A vast ocean of invisible analogies.
+- [The evocation of phrases]({{ site.url }}/assets/cognition/phrases.pdf).
+- [A vast ocean of invisible analogies]({{ site.url }}/assets/cognition/analogies.pdf).
 
 #### 	Paper-research conversations.
 `2018-11-19`
@@ -134,7 +157,7 @@ So cry all you want, I won't tell anybody.”
 #### 	On individual intelligence.
 `2018-11-26`
 
-- The Flynn Effect.
+- [The Flynn Effect](({{ site.url }}/assets/cognition/flynn.pdf)).
 - Raven's progressive matrices.
 - [Bricks + Mortals](https://mediacentral.ucl.ac.uk/Player/9717).
 <!-- - [Forced sterilization programs in California](http://theconversation.com/forced-sterilization-programs-in-california-once-harmed-thousands-particularly-latinas-92324). -->
@@ -143,12 +166,13 @@ So cry all you want, I won't tell anybody.”
 #### 	On collective intelligence.
 `2018-11-29`
 - [Vox populi]({{ site.url }}/assets/cognition/galton1907vox.pdf).
+- [Wisdom of the crowds](https://ncase.me/crowds/) (demo).
 - [How a cockpit remembers its speed]({{ site.url }}/assets/cognition/hutchins1995cockpit.pdf).
 
 #### 	Weighing the evidence for parapsychological representations.
 `2018-12-03`
 - [Feeling the future]({{ site.url }}/assets/cognition/bem2011future).
-- [The truth wears off]({{ site.url }}/assets/truth.pdf).
+- [The truth wears off]({{ site.url }}/assets/cognition/truth.pdf).
 - [Psi and psychology: the recent debate](https://www.youtube.com/watch?v=0Tdiu5kwjKs). (video)
 - [Statistical problems in ESP research]({{ site.url }}/assets/cognition/diaconis1978esp.pdf).
 
@@ -157,8 +181,8 @@ So cry all you want, I won't tell anybody.”
 
 #### 	AMA / Where am I?
 `2018-12-10`
-- [Consider the lobster]({{ site.url }}/assets/lobster.pdf).
-- On souls and their sizes.
+- [Consider the lobster]({{ site.url }}/assets/cognition/lobster.pdf).
+- [On souls and their sizes]({{ site.url }}/assets/cognition/souls.pdf).
 
 {% include separator.html %}
 
@@ -222,3 +246,5 @@ _Instructions_: TBA
 `2018-12-20` by 4 p.m.
 
 _Instructions_: TBA
+
+{% include separator.html %}
