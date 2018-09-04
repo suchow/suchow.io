@@ -1,0 +1,43 @@
+
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Cormorant:500,500italic);
+      @import url(https://fonts.googleapis.com/css?family=Nunito+Sans:300,300italic);
+      @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700,400italic);
+      body {
+          font-family: 'Nunito Sans';
+      }
+      h1, h2, h3 {
+        font-family: 'Cormorant';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Source Code Pro'; }
+      .remark-slide-content {
+        background-color: #f9f9f9;
+      }
+      .remark-slide-content {
+        background-color: #f9f9f9;
+      }
+      .remark-slide-content h1 {
+        color: #3b3b3b;
+        font-style: italic;
+        padding-top: 75px;
+      }
+      .remark-slide-content li {
+        line-height: 40px;
+      }
+      .remark-slide-number {
+        font-size: 0.85em;
+        padding-right: 15px;
+        padding-bottom: 5px;
+      }
+    </style>
+    <textarea id="source">
+{{ content }}
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create({
+        ratio: '16:9',
+      });
+    </script>
