@@ -63,14 +63,14 @@ p {
 
 .post ul li {
     font-size: $fs6*1.25;
-    line-height: $lhsmall;
+    line-height: $lhsmall*0.75;
     margin-bottom: $lhsmall/4;
 }
 
 h1,.h1 {      font-size: $fs2; }
 h2,.h2 {      font-size: $fs3; }
 h3,.h3 {      font-size: $fs4; }
-h4,.h4 {      font-size: $fs5; }
+h4,.h4 {      font-size: $fsp; }
 h5,.h5 {      font-size: $fs6; }
 h6,.h6 {      font-size: $fs6; }
 
