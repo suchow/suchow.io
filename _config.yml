@@ -2,7 +2,8 @@ title:            Jordan Suchow
 tagline:          Cognitive scientist.
 description:      Jordan Suchow's portfolio of research and other work.
 #Comment out url when working locally to resolve base urls correctly
-url: http://suchow.io
+url: https://suchow.io
+enforce_ssl: suchow.io
 
 # Owner/author information
 owner:
