@@ -8,17 +8,6 @@ tags: [psyc217]
 semester: Fall 2018
 college: Wellesley College
 ---
-<!--
-Mail <a id="mail" href="mailto:{{ site.owner.email }}"><img width="20px" src="{{ site.url }}/images/plane-dark.png"/></a>.
-Syllabus -->
-
-<!-- ### Administrivia
-
-_Instructor_: Jordan Suchow, Ph.D.
-
-_Office hours_: 10–11 a.m. before class, in SCI 458B.
-
-{% include separator.html %} -->
 
 ### Class meetings
 
@@ -26,7 +15,9 @@ _Office hours_: 10–11 a.m. before class, in SCI 458B.
 
 #### Introduction, administration, and reading a paper.
 `2018-09-06`
-- Syllabus.
+- [Syllabus]().
+- [Survey]({{ site.url }}/assets/cognition/survey.txt).
+- [Collective class notes](https://docs.google.com/document/d/1FwlcZKORhKuzF9-BPoK8zwuEGpfw9ubFY6gNCid9dzU/edit?usp=sharing).
 - [The sting of intentional pain]({{ site.url }}/assets/cognition/gray2008sting.pdf).
 - [QALMRI+ worksheet]({{ site.url }}/assets/cognition/QALMRI.pdf).
 
@@ -39,7 +30,7 @@ _Office hours_: 10–11 a.m. before class, in SCI 458B.
 - [Marr's three levels]({{ site.url }}/assets/cognition/marr.pdf).
 - [Animal cognition]({{ site.url }}/assets/cognition/gallistel1989representation.pdf), pgs. 155--160.
 - [Introduction to AI]({{ site.url }}/assets/cognition/aima-intro.pdf), pgs. 1--16.
-- [The humane representation of thought](https://vimeo.com/115154289).
+- [The humane representation of thought](https://vimeo.com/115154289). (video)
 
 #### 	On representing space.
 `2018-09-17`
@@ -198,19 +189,19 @@ _Instructions_: Complete the introductory survey sent to you by email and submit
 
 _Instructions_: As part of this course, you will write a final paper that uses existing research on human cognition to answer a question that you've posed. The first step is to think of some good questions. What drew you to the study of the mind? What have you experienced or noticed about yourself or others that seems interesting, strange, wonderful, or hard to explain? What are you curious about? In this assignment, you will generate a list of 10 questions about cognition. For example, some questions I've had recently are "What's going on when I struggle to recall something, and then it pops into my mind 10 minutes later?"; "Does everyone in the world have a doppelgänger?"; and "How well could I learn Japanese if I spent the next 40 years studying it for a few hours a week?". Compile your questions in a Word file and [submit it here](https://www.dropbox.com/request/uY7DYRP7ZOrdhz9uevrE).
 
-#### 3 --- Playing _rock paper scissors_.
+#### 3 --- Intuitive cartography of mental maps.
 `2018-09-21`
-
-_Instructions_: Define an AI that plays rock–paper–scissors in a human-like way. First define how the player will represent the game (its mental representation); then define its strategy (a process over that mental representation). Find a friend to play a few rounds against the player you have defined. Write 500–1000 words defining the representation and process you chose. What aspects of human behavior does your model capture? What aspects of human behavior does your model fail to capture? Write up your assignment in a Word file and [submit it here](https://www.dropbox.com/request/c57aoUeF7Bp8UguXlshA).
-
-#### 4 --- Intuitive cartography of mental maps.
-`2018-09-28`
 
 _Instructions_: On a large sheet of paper (at least 8.5 &times; 11 inches), draw a map of a place that you know well (e.g., a room, building, neighborhood, or city). Your map can be as detailed or abstract as you see fit, but you should spend a significant amount of time crafting it, at least an hour. (If your map is simple and abstract, consider working through a few drafts.) Critically, you should not use any external resource like Google Maps or a building floor plan to help you out. On the back, write a few sentences pointing out what properties of the world your map brings to the fore and what properties it does not.
 
 Then repeat the process. However, now you should create a map of your own mental map of the place, in the context of a particular task or activity you have done there. Again, on the back write a few sentences pointing out what properties of your mental map your map brings to the fore and what properties it does not.
 
-Take a photo of your maps, or scan them, and [submit them as a JPG or PDF here](https://www.dropbox.com/request/5TdCK2cnzFTjTWGFoBYz).
+Take a photo of your maps, or scan them, and [submit them as a JPG or PDF here](https://www.dropbox.com/request/c57aoUeF7Bp8UguXlshA).
+
+#### 4 --- Playing _rock paper scissors_.
+`2018-09-28`
+
+_Instructions_: Define an AI that plays rock–paper–scissors in a human-like way. First define how the player will represent the game (its mental representation); then define its strategy (a process over that mental representation). Find a friend to play a few rounds against the player you have defined. Write 500–1000 words defining the representation and process you chose. What aspects of human behavior does your model capture? What aspects of human behavior does your model fail to capture? Write up your assignment in a Word file and [submit it here](https://www.dropbox.com/request/5TdCK2cnzFTjTWGFoBYz).
 
 #### 5 --- Narrowing your focus.
 `2018-10-12`
