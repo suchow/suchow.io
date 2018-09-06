@@ -15,7 +15,8 @@ college: Wellesley College
 
 #### Introduction, administration, and reading a paper.
 `2018-09-06`
-- [Syllabus]().
+- [Slides]({{ site.url }}/cognition/intro/#1).
+- [Syllabus]({{ site.url }}/assets/cognition/psyc217-syllabus.pdf).
 - [Survey]({{ site.url }}/assets/cognition/survey.txt).
 - [Collective class notes](https://docs.google.com/document/d/1FwlcZKORhKuzF9-BPoK8zwuEGpfw9ubFY6gNCid9dzU/edit?usp=sharing).
 - [The sting of intentional pain]({{ site.url }}/assets/cognition/gray2008sting.pdf).
