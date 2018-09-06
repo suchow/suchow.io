@@ -27,7 +27,7 @@ college: Wellesley College
 
 ####  A whirlwind tour of the mind, from head to toe.
 `2018-09-13`
-- [The standard equipment]({{ site.url }}/assets/cognition/pinker1997standard-equipment.pdf), pgs. 3--44.
+- [The standard equipment]({{ site.url }}/assets/cognition/pinker1997standard-equipment.pdf).
 - [Marr's three levels]({{ site.url }}/assets/cognition/marr.pdf).
 - [Animal cognition]({{ site.url }}/assets/cognition/gallistel1989representation.pdf), pgs. 155--160.
 - [Introduction to AI]({{ site.url }}/assets/cognition/aima-intro.pdf), pgs. 1--16.
