@@ -24,6 +24,7 @@ college: Wellesley College
 
 ####  Getting curious about cognition.
 `2018-09-10`
+- [Slides]({{ site.url }}/cognition/getting-curious#1).
 
 ####  A whirlwind tour of the mind, from head to toe.
 `2018-09-13`
