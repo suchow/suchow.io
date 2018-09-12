@@ -45,7 +45,7 @@ college: Wellesley College
 `2018-09-20`
 - [Core systems of number]({{ site.url }}/assets/cognition/feigenson2004number.pdf).
 - [Animal cognition (number)]({{ site.url }}/assets/cognition/gallistel1989representation.pdf), pgs. 181--184.
-- [Dyscalculia]({{ site.url }}/assets/cognition/dyscalculia.pdf).
+- [Dyscalculia]({{ site.url }}/assets/cognition/dyscalculia.pdf). (abstract)
 - [Who can name the bigger number?](https://www.scottaaronson.com/writings/bignumbers.html)
 - [On number numbness]({{ site.url }}/assets/cognition/numbness.pdf).
 - [Combatting number numbness](https://xkcd.com/1732/).
