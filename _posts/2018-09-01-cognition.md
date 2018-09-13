@@ -36,7 +36,7 @@ college: Wellesley College
 
 #### 	On representing space.
 `2018-09-17`
-- [Cognitive maps in rats and men]({{ site.url }}/assets/cognition/tolman1948maps.pdf).
+- [Cognitive maps in rats and men]({{ site.url }}/assets/cognition/tolman1948maps.pdf), figs. 6, 15--17.
 - [Human spatial representation]({{ site.url }}/assets/cognition/wang2002space.pdf).
 - [Place cells and grid cells]({{ site.url }}/assets/cognition/grid.pdf), pgs. 69--71.
 - (optional) [Animal cognition (space)]({{ site.url }}/assets/cognition/gallistel1989representation.pdf), pgs. 160--177.
