@@ -198,11 +198,11 @@ _Instructions_: As part of this course, you will write a final paper that uses e
 #### 3 --- Intuitive cartography of mental maps.
 `2018-09-21`
 
-_Instructions_: On a large sheet of paper (at least 8.5 &times; 11 inches), draw a map of a place that you know well (e.g., a room, building, neighborhood, or city). Your map can be as detailed or abstract as you see fit, but you should spend a significant amount of time crafting it, at least an hour. (If your map is simple and abstract, consider working through a few drafts.) Critically, you should not use any external resource like Google Maps or a building floor plan to help you out. On the back, write a few sentences pointing out what properties of the world your map brings to the fore and what properties it does not.
+_Instructions_: On a large sheet of paper (at least 8.5 &times; 11 inches), draw a map of a place that you know well (e.g., a room, building, neighborhood, or city). Your map can be as detailed or abstract as you see fit, but you should spend a significant amount of time crafting it, at least an hour. (If your map is simple and abstract, consider working through a few drafts.) Critically, you should not use any external resource like Google Maps or a building floor plan to help you out. The goal is to confront the ways in which your mental representation of the place differs from the kind of map that a cartographer might draw.
 
-Then repeat the process. However, now you should create a map of your own mental map of the place, in the context of a particular task or activity you have done there. Again, on the back write a few sentences pointing out what properties of your mental map your map brings to the fore and what properties it does not.
+On the back, write a few sentences pointing out what properties of the world your map brings to the fore and what properties it does not.
 
-Take a photo of your maps, or scan them, and [submit them as a JPG or PDF here](https://www.dropbox.com/request/c57aoUeF7Bp8UguXlshA).
+Take a photo of your map, or scan it, and [submit it as a JPG or PDF here](https://www.dropbox.com/request/c57aoUeF7Bp8UguXlshA).
 
 #### 4 --- Playing _rock paper scissors_.
 `2018-09-28`
