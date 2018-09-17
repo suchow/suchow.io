@@ -4,3 +4,4 @@ s3_bucket: suchow.io
 gzip: true
 ignore_on_server: assets/cognition/*
 cloudfront_distribution_id: E2JRZCTAWK32R4
+cloudfront_invalidate_root: true
