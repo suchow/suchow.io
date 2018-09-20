@@ -45,6 +45,7 @@ college: Wellesley College
 
 #### 	On representing quantity.
 `2018-09-20`
+- [Slides]({{ site.url }}/cognition/quantity/#1)
 - [Core systems of number]({{ site.url }}/assets/cognition/feigenson2004number.pdf).
 - [Animal cognition (number)]({{ site.url }}/assets/cognition/gallistel1989representation.pdf), pgs. 181--184.
 - [Dyscalculia]({{ site.url }}/assets/cognition/dyscalculia.pdf). (abstract)
