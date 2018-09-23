@@ -1,0 +1,293 @@
+---
+layout: slides
+title: "On representing uncertainty to predict the future."
+category: hidden
+type: course
+semester: Fall 2018
+college: Wellesley College
+permalink: /cognition/future/
+---
+# On representing uncertainty to predict the future.
+<img width="45%" src="https://i.redd.it/c4fglw0k2p001.jpg"/>
+???
+
+---
+
+# Administrivia.
+
+1. Assignment 4 is due on Friday at 5 p.m.
+
+---
+
+class: center, middle, statement, dark
+< recap >
+
+---
+
+class: center, middle, statement, dark
+
+This course is on cognition.
+
+---
+
+class: center, middle, statement, dark
+
+The QALMRI method can be used to analyze an experiment by considering the (Q)uestion, (A)lternataive hypotheses, (L)ogic and design, (M)ethods, (R)esults, and (I)nferences.
+
+---
+
+class: center, middle, statement, dark
+
+We applied the QALMRI method to "The sting of intentional pain" as an example.
+
+---
+
+class: center, middle, statement, dark
+
+Being curious pays off. Everyday experience can be mined for interesting cognitive phenomena.
+
+---
+
+class: center, middle, statement, dark
+
+We asked where you tend to get lost, how fast your hair grows in miles per hour, whether you believe in parapsychological abilities like ESP, the smartest thing you've seen an animal do, whether you've seen kids try to count, to name concepts for which English has no word, and to define "chair" and "salad".
+
+---
+
+class: center, middle, statement, dark
+The mind faces many maddeningly hard engineering problems. Pinker's Robot Challenge reveals some. You came up with many others.
+
+---
+
+class: center, middle, statement, dark
+To approximately solve them, the mind uses an arsenal of {mental organs, faculties, subsystems, modules, neural networks, machinery, gizmos, widgets}.
+
+---
+
+class: center, middle, statement, dark
+Once identified, the trick is to then reverse engineer the mind's approximate solution to that problem.
+
+---
+
+class: center, middle, statement, dark
+Each problem/solution can be analyzed using Marr's levels-of-analysis framework: computational, representational/algorithmic, implementation.
+
+---
+
+class: center, middle, statement, dark
+What exactly is a "representation"? Consider Gallistel's isomorphisms, Playfair's maps, and Victor's visualization tools.
+
+---
+
+class: center, middle, statement, dark
+<img width="70%" src="{{ site.url }}/assets/cognition/reichardt.png" />
+
+---
+
+class: center, middle, statement, dark
+The story psychology tells itself is that behaviorism (e.g., Watson, Skinner) replaced a hundred years of introspective studies of consciousness, and then there was the cognitive revolution (Tolman, Chomsky, and many more) circa 1950.
+
+---
+
+class: center, middle, statement, dark
+Early evidence that behaviorism isn't the whole story came from Tolman's work on cognitive maps in rats.
+
+---
+
+class: center, middle, statement, dark
+<img width="90%" src="{{ site.url }}/assets/cognition/tolman-plus-maze.png" />
+
+---
+
+class: center, middle, dark
+<img width="80%" src="{{ site.url }}/assets/cognition/tolman-complex-maze.png" />
+
+---
+
+class: center, middle, dark
+<img width="80%" src="{{ site.url }}/assets/cognition/tolman-latent-learning.png" />
+
+???
+- "latent" learning. latent means hidden, existing but not yet revealed.
+- "We used two control groups
+—one that never found food in the
+maze (HNR) and one that found it
+throughout (HR). The experimental
+group (HNR—R) found food at the end
+of the maze from the 11th day on and
+showed the same sort of a sudden drop."
+
+---
+
+class: center, middle, dark
+<img width="60%" src="{{ site.url }}/assets/cognition/tolman-latent-rods-choice.png" />
+
+---
+
+class: center, middle, statement, dark
+But maps aren't the whole story.
+
+
+???
+
+Spelke argues that there are...
+
+---
+
+class: center, middle, statement, dark
+Path integration (dead reckoning)
+
+---
+
+class: center, middle, statement, dark
+Viewpoint-dependent representations of landmarks
+
+---
+
+class: center, middle, dark, statement
+Geometric reorientation mechanism
+
+---
+
+class: center, middle, statement, dark
+<img width="50%" src="{{ site.url }}/assets/cognition/place-cells-and-grid-cells.png" />
+
+---
+
+class: center, middle, statement, dark
+Two core systems of number representation, and others as well.
+
+---
+
+class: center, middle, statement, dark
+Individuation of distinct objects, subitizing.
+
+---
+
+class: center, middle, statement, dark
+Approximate number system (analog magnitude system)
+
+---
+
+class: center, middle, statement, dark
+The precision of the ANS can be expressed as a "Weber fraction": the JND is a constant proportion of the magnitude.
+
+---
+
+class: center, middle, statement, dark
+Counting, which requires learning the (1) stable order principle, (2) one&ndash;one principle, (3) cardinal principle, (4) abstraction principle
+, and (5) order-irrelevance principle.
+
+---
+
+class: center, middle, statement, dark
+Symbolic representations of number, like decimal, unit prefixes, and scientific notation.
+
+---
+
+class: center, middle, statement, dark
+When our number representations break down at the extremes of scale, we get number numbness, which has consequences.
+
+---
+
+class: center, middle, statement, dark
+</ recap >
+
+---
+
+# Goal for today.
+<img width="75%" src="{{ site.url }}/assets/cognition/optimal-predictions.png" />
+
+---
+
+# The delta _t_ argument, problem statement
+- The current time is _t_<sub>now</sub>.
+- Events have a beginning, _t_<sub>begin</sub>, and an end, _t_<sub>end</sub>.
+- We know _t_<sub>now</sub> and _t_<sub>begin</sub>, but not _t_<sub>end</sub>.
+- Our goal is to predict _t_<sub>end</sub>.
+
+---
+# The delta _t_ argument, setup
+- By the Copernican principle, there's no reason to believe we are special&hellip;
+- &hellip;i.e., _t_<sub>now</sub> could be anywhere in the interval _t_<sub>begin</sub> to _t_<sub>end</sub>.
+- We can formalize that uncertainty as a uniform distribution over the interval.
+<center><img width="25%" src="{{ site.url }}/assets/cognition/uniform.png" /></center>
+- What decision rule, based on  _t_<sub>now</sub> and _t_<sub>begin</sub>, will produce the most accurate estimate of _t_<sub>end</sub>?
+
+---
+
+# The delta _t_ argument, prediction
+<img width="25%" src="{{ site.url }}/assets/cognition/uniform.png" />
+- Given this, what should be predict about _t_<sub>end</sub>?
+<img width="50%" style="padding-top:50px" src="{{ site.url }}/assets/cognition/unit2.png" />
+
+---
+
+# The delta _t_ argument, conclusion
+- The best prediction for how long an event will last into the future is how long it has lasted thus far, Δ_t_.
+
+???
+
+The major takeaway concepts here are that probability can be used to describe our uncertainty, but making a decision requires us to resolve that uncertainty in some way.
+
+---
+
+# Optimal predictions in everyday cognition
+
+Say we come across a person who is 20 years old.
+
+How long will they live? Apply the delta _t_ argument.
+
+What went wrong?
+
+???
+
+---
+
+# Bayes' theorem
+<center>
+  <img width="50%" src="{{ site.url }}/assets/cognition/bayes-theorem.png" />
+</center>
+???
+Let A be the event that "the coin I chose is the fair coin".
+Let B be a sequence of flips "heads, heads, heads"
+
+Key terms here are the posterior probability, the prior probability and the likelihood.
+
+Use the example of a coin flip.
+
+---
+
+# Bayes' theorem, in context
+
+<center>
+  <img width="50%" src="{{ site.url }}/assets/cognition/optimal.png" />
+</center>
+
+???
+
+There are two components here: the likelihood and the prior. The likelihood is given to us by the delta _t_ argument. The prior is learned from experience.
+
+---
+
+# Your priors.
+
+Let's draw some:
+- The average temperature tomorrow.
+- How many cats I have.
+- How many children I have.
+- Quickest I've ever run a mile.
+- Time this class will actually end.
+
+---
+class: middle, center
+<img width="75%" src="{{ site.url }}/assets/cognition/optimal-predictions.png" />
+
+---
+# Retrofuturism
+<img width="45%" src="https://i.redd.it/c4fglw0k2p001.jpg"/>
+
+---
+
+class: center, middle
+# Fin.
