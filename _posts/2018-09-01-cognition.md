@@ -54,12 +54,13 @@ college: Wellesley College
 
 ####	On representing uncertainty to predict the future.
 `2018-09-24`
+- [Slides]({{ site.url }}/cognition/future/#1)
 - [A visual introduction to probability and statistics](http://students.brown.edu/seeing-theory).
 - [The anthropic principle]({{ site.url }}/assets/cognition/gott1993future.pdf).
 - [Optimal predictions in everyday cognition]({{ site.url }}/assets/cognition/griffiths2006predictions.pdf).
 - [Retrofuturism](https://www.reddit.com/r/RetroFuturism/top/?t=all).
 
-####	How to study, and how not to study.
+####	How to remember, and how to forget, part I.
 `2018-09-27`
 <!-- “Learning how to think" really means learning how to exercise some control over how and what you think. It means being conscious and aware enough to choose what you pay attention to and to choose how you construct meaning from experience. Because if you cannot or will not exercise this kind of choice in adult life, you will be totally hosed.”  -->
 - [The promise and perils of self-regulated study]({{ site.url }}/assets/cognition/kornell2007study.pdf).
@@ -112,7 +113,7 @@ college: Wellesley College
 - [The man who mistook his wife for a hat]({{ site.url }}/assets/cognition/hat.pdf).
 - [The itch]({{ site.url }}/assets/cognition/itch.pdf).
 
-#### 	How to remember, and how to forget.
+#### 	How to remember, and how to forget, part II.
 `2018-11-01`
 - [Make-believe memories]({{ site.url }}/assets/cognition/lotus2003believe.pdf).
 - [Memento](https://www.imdb.com/title/tt0209144/). (movie)
