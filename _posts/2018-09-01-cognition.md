@@ -9,6 +9,12 @@ semester: Fall 2018
 college: Wellesley College
 ---
 
+<img src="{{ site.url }}/images/head2.png" />
+
+Here's the course site for Wellesley PSYC 217, with a list of [class meetings](#class-meetings) and [assignments](#assignments).
+
+{% include separator.html %}
+
 ### Class meetings
 
 <!-- Class meets 11:10 a.m. -- 12:20 p.m., in Science Center E111. -->
