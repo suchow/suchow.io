@@ -69,6 +69,7 @@ Course site for Wellesley PSYC 217, with a list of [class meetings](#class-meeti
 ####	How to remember, and how to forget, part I.
 `2018-09-27`
 <!-- “Learning how to think" really means learning how to exercise some control over how and what you think. It means being conscious and aware enough to choose what you pay attention to and to choose how you construct meaning from experience. Because if you cannot or will not exercise this kind of choice in adult life, you will be totally hosed.”  -->
+- [Slides]({{ site.url }}/cognition/memory-part-1/#1)
 - [The promise and perils of self-regulated study]({{ site.url }}/assets/cognition/kornell2007study.pdf).
 - [Bjork's study techniques]({{ site.url }}/assets/cognition/bjork.pdf).
 - [Anki](https://apps.ankiweb.net/).
