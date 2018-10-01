@@ -76,6 +76,7 @@ Course site for Wellesley PSYC 217, with a list of [class meetings](#class-meeti
 
 #### On representing gains and losses in value.
 `2018-10-01`
+- [Slides]({{ site.url }}/cognition/gains-and-losses/#1)
 - [Judgment under uncertainty: heuristics and biases]({{ site.url }}/assets/cognition/tversky1974heuristics.pdf).
 - [When less is more]({{ site.url }}/assets/cognition/medvec1995satisfaction.pdf).
 
@@ -220,7 +221,7 @@ _Instructions_: Define an AI that plays rock–paper–scissors in a human-like 
 #### 5 --- Narrowing your focus.
 `2018-10-12`
 
-_Instructions_: TBA
+_Instructions_: Use the 10 questions you asked in Assignment #2, any feedback you got, and anything you've learned or thought about in the course so far to craft 3 questions about cognition that may serve as a topic for your final paper. Rate each question in terms of how excited you would be to write your paper on that topic, on a scale of 1 (aka, "please don't make me write about this") to 10 (aka, "I'd hate to write about anything else"). [Submit it here](https://www.dropbox.com/request/3ZkKEl9Vz0eqA6z7dSVJ).
 
 #### 6 --- A problem set on causality.
 `2018-10-19`
