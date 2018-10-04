@@ -3,11 +3,11 @@ layout: index
 permalink: /index.html
 title:
 description: I&rsquo;m Jordan Suchow, a cognitive scientist studying vision, learning, memory, and technology.
-tags: [suchow, portfolio, research, cognitive science]
+tags: [Jordan Suchow, portfolio, research, cognitive science]
 image:
-  feature: head.png
+  feature: head2.png
 ---
 
-I received my doctorate from Harvard in 2014. Now I'm a postdoctoral fellow at UC Berkeley, affiliated with the Institute of Cognitive and Brain Sciences; the Berkeley Artificial Intelligence Research Lab; the Social Science Matrix; and the Center for Technology, Society, and Policy.
+After an undergraduate degree in computer science at Brandeis (B.S. 2009), I studied cognitive psychology at Harvard (A.M. 2011, Ph.D. 2014) before doing a postdoc at University of California, Berkeley.
 
-To get in touch, [send an email](mailto:suchow@berkeley.edu).
+Get in touch by [email](mailto:suchow@berkeley.edu).

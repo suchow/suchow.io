@@ -1,50 +1,77 @@
 {% include head.html %}
 
-<section class="article">
+      <section class="article">
+        {% if page.image.feature %}
+          <div class="overlay"></div>
+          <div class="featured-image" style="background-image: url({{ site.url }}/images/{{ page.image.feature }})"></div>
+        {% else %}
+          <div class="overlay"></div>
+          <div class="featured-image" style="background-image: url({{ site.url }}/images/typewriter.jpg)"></div>
+        {% endif %}
+          <article class="archive-wrap">
+              <ol class="post-list">
+                <header class="post-header" id="named-introduction">
+                  <hgroup>
+                    {% if page.title %}
+                      <h1>{{page.title}}</h1>
+                    {% endif %}
+                    <p class="intro donthyphenate"><img id="headshot" src="{{ site.url }}/images/headshot.jpg" width="20px" alt="a large headshot"/>
+                      {% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %} <a href=/cv/>CV</a></p>
+                  </hgroup>
+                </header>
+                 <lh><h2>{{ page.title }}</h2></lh>
+                  <!-- <p class="intro">{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</p> -->
+                  {{ content }}
 
-{% if page.image.feature %}
-  <div class="overlay"></div>
-  <div class="featured-image" style="background-image: url({{ site.url }}/images/{{ page.image.feature }})"></div>
-{% else %}
-  <div class="overlay"></div>
-  <div class="featured-image" style="background-image: url({{ site.url }}/images/typewriter.jpg)"></div>
-{% endif %}
-
-      <article class="wrap post">
-        <header class="post-header" id="named-introduction">
-          <hgroup>
-            {% if page.title %}
-              <h1>{{page.title}}</h1>
-            {% endif %}
-            <p class="intro donthyphenate">{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</p>
-          </hgroup>
-        </header>
-
-        {{ content }}
-
-      {% if page.comments %}
-      <aside class="disqus">
-        <div id="disqus_thread"></div>
-        <script type="text/javascript">
-            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-            var disqus_shortname = '{{ site.owner.disqus }}'; // required: replace example with your forum shortname
-
-            /* * * DON'T EDIT BELOW THIS LINE * * */
-            (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-      </aside>
-      {% endif %}
+                  {% include separator.html %}
 
 
-      </article>
+                  {% for post in site.posts reversed %}
+                    {% if post.category contains 'papers' %}
+                      <li>
+                        <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+                          <a href="{{ site.url }}/assets/docs/{{ post.pdf }}">{{ post.title }}</a>.
+                          <p class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished"><span class="journal">{{ post.journal }}</span> <span class="separator-horizontal">/</span> {{ post.date | date: "%Y" }} <span class="separator-horizontal">/</span> {{ post.type }}</time></p>
+                        </div>
+                      </li>
+                    {% endif %}
+                  {% endfor %}
 
-    </section>
-</div>
+                  {% include separator.html %}
+
+                  {% for post in site.posts %}
+                    {% if post.category contains 'posters' %}
+                      <li>
+                        <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+                          <a href="{{ site.baseurl }}/assets/docs/{{ post.pdf }}"><img style="width:100%; max-width:350px;" src="{{ site.baseurl }}/images/{{ post.preview_img }}" class="poster"></a>
+                          <p class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished"><span class="journal">{{ post.journal }}</span> <span class="separator-horizontal">/</span> {{ post.date | date: "%Y" }} <span class="separator-horizontal">/</span> {{ post.type }}</time></p>
+                        </div>
+                      </li>
+                    {% endif %}
+                  {% endfor %}
+
+                  {% include separator.html %}
+
+                  {% for post in site.posts %}
+                    {% unless post.category contains 'papers' %}
+                      {% unless post.category contains 'posters' %}
+                      {% unless post.category contains 'hidden' %}
+                        <li>
+                          <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+                            {% if post.external_url %}
+                              <a href="{{ post.external_url }}">{{ post.title }}</a>.
+                            {% else %}
+                              <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>.
+                            {% endif %}
+                          <p class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished"><span class="journal">{{ post.type }}</span> <span class="separator-horizontal">/</span> {{ post.date | date: "%B %d, %Y" }}</time></p>
+                          </div>
+                        </li>
+                      {% endunless %}
+                    {% endunless %}
+                    {% endunless %}
+                  {% endfor %}
+              </ol>
+          </article>
+      </section>
 
 {% include footer.html %}
