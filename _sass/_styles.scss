@@ -808,67 +808,6 @@ footer {
         padding-left: 0;
     }
 
-    header.site-header a.menu {
-        position: absolute;
-        right: 7%;
-        display: block;
-        float: right;
-        width: 16px;
-        height: 16px;
-        color: white;
-        .icons {
-            font-size: 32px;
-        }
-    }
-
-    header.site-header a.menu img {
-        width: 24px;
-        height: auto;
-    }
-
-    header.site-header nav {
-        display: none;
-        float: none;
-        width: 100%;
-        padding-right: 0;
-    }
-
-    header.site-header nav:before {
-        display: table;
-        clear: both;
-        content: '';
-    }
-
-    header.site-header nav ul {
-        padding: 20px 0 10px 0;
-        margin-top: 15px;
-    }
-
-    header.site-header nav ul li {
-        display: block;
-        margin-left: 0;
-        top: 0px;
-        font-size: $fs5;
-    }
-
-    header.site-header nav ul li a {
-        display: block;
-        text-align: right;
-        font-weight: bold;
-        padding: 15px 0px;
-        padding-right: 7%;
-        position: relative;
-        width: 100%;
-        color: $white;
-        &:active {
-            background-color: $link;
-            color: white;
-        }
-        &:hover {
-            text-shadow: none;
-        }
-    }
-
     #bump .darken nav ul {
           padding: 0;
           margin-top: 40px;
