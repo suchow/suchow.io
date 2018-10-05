@@ -1,0 +1,18 @@
+<RoutingRules>
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>cv/</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyWith>https://suchow.io/assets/docs/suchow2018cv.pdf</ReplaceKeyWith>
+    </Redirect>
+  </RoutingRule>
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>works/</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyWith>https://suchow.io/</ReplaceKeyWith>
+    </Redirect>
+  </RoutingRule>
+</RoutingRules>

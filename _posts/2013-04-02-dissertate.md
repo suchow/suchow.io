@@ -1,11 +1,11 @@
 ---
 layout: post-no-feature
 title: "Dissertate"
-external_url: http://dissertate.io
-external_site: dissertate.io
+external_url: https://github.com/suchow/dissertate
+external_site: https://github.com/suchow/dissertate
 category: software
 type: software
 tags: [dissertation, template, latex, word]
 redirect_to:
-  - https://dissertate.io
+  - https://github.com/suchow/dissertate
 ---
