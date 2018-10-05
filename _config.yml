@@ -57,3 +57,6 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 gems:
   - jekyll-redirect-from
+plugins:
+  - jekyll-sitemap
+  - jekyll-compass
