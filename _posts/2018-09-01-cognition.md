@@ -97,8 +97,8 @@ Course site for Wellesley PSYC 217, with a list of [class meetings](#class-meeti
 
 #### 	On representing cause and effect.
 `2018-10-15`
-- [Simplicity in causal explanation]({{ site.url }}/assets/cognition/pacer2017razor.pdf).
-- Beyond freedom and dignity.
+- [Simplicity in causal explanation]({{ site.url }}/assets/cognition/pacer2017razor.pdf), introduction up to Experiment 1.
+- [Dignity]({{ site.url }}/assets/cognition/dignity.pdf).
 
 #### 	On representing other people and their beliefs about other people, &c., ad infinitum.
 `2018-10-18`
