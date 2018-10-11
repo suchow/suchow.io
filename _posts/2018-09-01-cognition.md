@@ -88,6 +88,7 @@ Course site for Wellesley PSYC 217, with a list of [class meetings](#class-meeti
 
 #### 	On representing time and change.
 `2018-10-11`
+- [Slides]({{ site.url }}/cognition/time/#1)
 - [Sum]({{ site.url }}/assets/cognition/sum.pdf).
 - [Brain time](https://www.edge.org/conversation/brain-time).
 - [Human time perception and its illusions]({{ site.url }}/assets/cognition/eagleman2008time.pdf).
