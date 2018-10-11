@@ -105,7 +105,7 @@ Course site for Wellesley PSYC 217, with a list of [class meetings](#class-meeti
 <!-- “You will become way less concerned with what other people think of you when you realize how seldom they do.”&nbsp;---David Foster Wallace -->
 - [El Farol Bar problem]({{ site.url }}/assets/cognition/arthur1994farol.pdf).
 - [Miss Rheingold](http://missrheingold.com/history/).
-- [Capgras syndrome]({{ site.url }}/assets/cognition/hirstein1997capgras.pdf).
+- [Capgras syndrome]({{ site.url }}/assets/cognition/hirstein1997capgras.pdf), abstract.
 - [Capgras syndrome](https://www.youtube.com/watch?v=JQsQgoPQ24s). (video)
 
 #### 	Assembling a toolkit to describe the mind.
