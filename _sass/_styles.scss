@@ -811,18 +811,18 @@ footer {
     #bump .darken nav ul {
           padding: 0;
           margin-top: 40px;
-          background: $black;
+          // background: $black;
     }
 
     #bump .darken nav ul li a {
-        color: $white;
-        &:active {
-          background-color: $link;
-        }
+        // color: $white;
+        // &:active {
+        //   background-color: $link;
+        // }
         &:hover {
             text-shadow: none;
-            color: $white;
-            background-color: $link;
+            color: $link;
+            // background-color: $link;
         }
     }
 
