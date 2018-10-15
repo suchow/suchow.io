@@ -1,0 +1,248 @@
+---
+layout: slides
+title: "On representing cause and effect"
+category: hidden
+type: course
+semester: Fall 2018
+college: Wellesley College
+permalink: /cognition/causality/
+---
+# On representing cause and effect.
+
+
+<img src="https://imgs.xkcd.com/comics/correlation.png" style="padding-top: 50px" width="75%" />
+
+???
+
+---
+
+class: center, middle, statement, dark
+< recap >
+
+---
+
+class: center, middle, statement, dark
+The mind faces many maddeningly hard engineering problems, and we have an arsenal of mental faculties for solving each of them approximately.
+
+---
+
+class: center, middle, statement, dark
+We have representations of space, quantity, value, the future, and the past.
+
+---
+
+class: center, middle, statement, dark
+We can also represent time.
+
+---
+
+class: center, middle, statement, dark
+Perception is bounded temporally, with events that are too quick or too slow. We create technologies to perceive temporal scales beyond these bounds (e.g., Muybridge's photos of a galloping horse).
+
+---
+
+class: center, middle, statement, dark
+We represent the past, the present, and the future.
+
+---
+
+class: center, middle, statement, dark
+The present moment is a physical reality, but the present as an extended interval is a psychological construction (the "specious present").
+
+---
+
+class: center, middle, statement, dark
+"Living systems contain self-sustaining biochemical and biophysical oscillations,
+whose periods range from fractions of a second to a year and perhaps
+more" &mdash;&nbsp;Gallistel
+
+---
+
+class: center, middle, statement, dark
+We have a circadian rhythm (e.g., that guy in a cave).
+
+---
+
+class: center, middle, statement, dark
+We have neural oscillations at a range of frequencies.
+
+---
+
+class: center, middle, statement, dark
+And disorders, such as Parkinson's, seem to affect the timescale of experience and action.
+
+---
+class: center, middle, statement, dark
+</ recap >
+
+---
+
+# Administrivia
+- Attendance sheet
+- Assignment #6 &mdash; a problem set on causality
+- Exam #1 review: questions 2, 5, 9, 10
+
+---
+
+# Question 2
+
+Turn your attention to the work of Kahneman and Tversky, as discussed in their 1974 paper “Judgment under uncertainty: heuristics and biases”.  In this context, what is the phrase “6 minutes” from the previous question (Question 1) an example of, in what way would we expect it to affect your estimate, and what mechanism is the most likely cause?
+
+
+---
+
+# Question 5
+
+Analyze a Reichardt detector in the context of motion detection by an insect, using Marr’s three levels of analysis. Include a diagram and a sentence or two on each level.
+
+---
+
+# Question 9
+
+Define a counterfactual. State the role it might play in an Olympic silver medalist being less satisfied than the bronze medalist she outperformed.
+
+---
+
+# Question 10
+
+State Weber’s law in the context of the approximate number system (aka, analog magnitude system).
+
+<!-- ---
+
+# Causality
+
+- Background, Halley & Hume
+
+- Causal perception / attribution, Michotte
+
+- Causal graphical models / Bayesian networks
+
+- Explaining away, screening off
+
+- Occam's razor -->
+
+---
+
+# Sir Edmond Halley.
+
+<img src="https://cdn.britannica.com/s:700x450/73/124973-004-369BB46A.jpg" />
+
+???
+
+Sir Edmond Halley was an astronomer, sailor, and arguably the first statistician. In 1695,
+Halley was computing the orbits of a set of comets for inclusion in Newton’s Principia
+mathematica when he noticed a surprising regularity: the comets of 1531, 1607, and 1682
+took remarkably similar paths across the sky, and visited the Earth approximately 76 years
+apart. In the first edition of the Principia, Newton had argued that comets, like planets,
+follow orbits corresponding to conic sections – parabolas, hyperbolas, and ellipses – although
+he concluded that “as to the transverse diameters of their orbits, and the periodic times
+of their revolutions I leave them to be determined by comparing comets together which
+after long intervals of time return again on the same orbit” (Newton, 1687/1962, p. 532).
+Halley inferred that the comets of 1531, 1607, and 1682 were not three separate events, but
+three consequences of a single common cause: a comet that had visited the Earth three
+times, travelling in an elliptical orbit. He went on to state that “if according to what we
+have already said it should return again about the year 1758, candid posterity will not
+refuse to acknowledge that this was first discovered by an Englishman” (Halley, 1752, p.
+Ssss3).1 The comet returned in December 1758, as predicted, and has continued to visit the
+Earth approximately every 76 years since, providing a sensational confirmation of Newton’s
+physics.
+
+The discovery of Halley’s comet is a compelling example of causal induction: inferring
+causal structure from data.
+
+The same machinery that Halley had for causal inference is shared by us all, and is a key mechanism by which we learn about the world, so let's take a stab at trying to understanding it.
+
+---
+
+# Hume on causality
+
+"When we look about us towards external objects, and consider the operation of causes, we are never able, in a single instance, to discover any power or necessary connexion; any quality, which binds the effect to the cause, and renders the one an infallible consequence of the other. We only find, that the one does actually, in act, follow the other. The impulse of one billiard-ball is attended with motion in the second. This is the whole that appears to the outward senses. The mind feels no sentiment or inward impression from this succession of objects: consequently, there is not, in any single, particular instance of cause and effect, any thing which can suggest the idea of power or necessary connexion." &mdash; David Hume
+
+???
+
+One of the key questions that plagued philosophers is how we infer causality when all we can directly measure is correlation. Correlation does not equal causation, but in some sense it's all that's available in the data.
+
+---
+
+# Causal perception: Michotte
+- Launching videos
+- Factors such as timing and proportionality
+
+---
+
+# Causal perception: Fritz Heider & Marianne Simmel
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XtXTumJAniA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+---
+
+# Modeling causality
+
+The setup:
+- Alarms & earthquakes scenario
+- Contigency tables?
+
+---
+
+# Causal graphical models (&ldquo;Bayes nets&rdquo;)
+
+- Networks or "graphs": nodes and edges
+- Directed acyclic graph (DAG)
+- Dependencies + conditional probabilities
+
+---
+
+# Causal graphical models (&ldquo;Bayes nets&rdquo;)
+<img width="70%" src="{{ site.url }}/assets/cognition/earthquakes.png" />
+
+---
+
+# Conditional independence: common cause.
+<img width="70%" src="{{ site.url }}/assets/cognition/conditional-independence-1.png" />
+
+---
+
+# Conditional independence: screening off.
+<img width="70%" src="{{ site.url }}/assets/cognition/earthquakes.png" />
+
+---
+
+# Conditional independence: explaining away.
+<img width="70%" src="{{ site.url }}/assets/cognition/explaining-away.png" />
+
+---
+
+# Conditional independence, general statement.
+<img width="70%" src="{{ site.url }}/assets/cognition/conditional-independence-general.png" />
+
+---
+
+# The Ronald Opus Murder case.
+
+???
+
+On March 23, 1994, a medical examiner viewed the body of Ronald Opus and concluded that he died from a gunshot wound of the head caused by a shotgun. Investigation to that point had revealed that the decedent had jumped from the top of a ten-story building with the intent to commit suicide. (He left a note indicating his despondency.) As he passed the 9th floor on the way down, his life was interrupted by a shotgun blast through a window, killing him instantly. Neither the shooter nor the decedent was aware that a safety net had been erected at the 8th floor level to protect some window washers, and that the decedent would most likely not have been able to complete his intent to commit suicide because of this.
+Ordinarily, a person who sets out to commit suicide and ultimately succeeds, even if the mechanism might not be what they intended, is defined as having committed suicide. That he was shot on the way to certain death nine stories below probably would not change his mode of death from suicide to homicide, but the fact that his suicide intent would not have been achieved under any circumstance caused the medical examiner to feel that he had homicide on his hands.
+Further investigation led to the discovery that the room on the 9th floor whence the shotgun blast emanated was occupied by an elderly women and her husband. She was threatening him with the shotgun because of an interspousal spat and became so upset that she could not hold the shotgun straight. Therefore, when she pulled the trigger, she completely missed her husband, and the pellets went through the window, striking the decedent.
+
+When one intends to kill subject A but kills subject B in the attempt, one is guilty of the murder of subject B. The old woman was confronted with this conclusion, but both she and her husband were adamant in stating that neither knew that the shotgun was loaded. It was the longtime habit of the old woman to threaten her husband with an unloaded shotgun. She had no intent to murder him; therefore, the killing of the decedent appeared then to be accident. That is, the gun had been accidentally loaded.
+
+But further investigation turned up a witness that their son was seen loading the shotgun approximately six weeks prior to the fatal accident. That investigation showed that the father (the old man) had cut off his son's financial support, and his son, knowing the propensity of his mother to use the shotgun threateningly, loaded the gun with the expectation that his mother would shoot his father. The case now becomes one of murder on the part of the son for the death of Ronald Opus.
+
+Now comes the exquisite twist. Further investigation revealed that the son, Ronald Opus himself, had become increasingly despondent over the failure of his attempt to get his father murdered. This led him to jump off the ten-story building on March 23, only to be killed by a shotgun blast through a 9th story window.
+The medical examiner closed the case as a suicide.
+
+---
+
+# Occam's razor
+
+"We are to admit no more causes of natural things than such as are both true and sufficient to explain their appearances. Therefore, to the same natural effects we must, as far as possible, assign the same causes."  &mdash; Isaac Newton
+
+---
+
+class: center, middle
+<img width="85%" src="{{ site.url }}/assets/cognition/occam.png" />
+
+---
+
+class: center, middle
+# Fin.
