@@ -101,17 +101,17 @@ Course site for Wellesley PSYC 217, with a list of [class meetings](#class-meeti
 - [Simplicity in causal explanation]({{ site.url }}/assets/cognition/pacer2017razor.pdf), introduction up to Experiment 1.
 - [Dignity]({{ site.url }}/assets/cognition/dignity.pdf).
 
-#### 	On representing other people and their beliefs about other people, &c., ad infinitum.
+#### 	Assembling a toolkit to describe the mind.
 `2018-10-18`
+- [Slides]({{ site.url }}/cognition/networks/#1)
+#### 	On representing other people and their beliefs about other people, &c., ad infinitum.
+`2018-10-22`
 <!-- “You will become way less concerned with what other people think of you when you realize how seldom they do.”&nbsp;---David Foster Wallace -->
+- [Slides]({{ site.url }}/cognition/social/#1)
 - [El Farol Bar problem]({{ site.url }}/assets/cognition/arthur1994farol.pdf).
 - [Miss Rheingold](http://missrheingold.com/history/).
 - [Capgras syndrome]({{ site.url }}/assets/cognition/hirstein1997capgras.pdf), abstract.
 - [Capgras syndrome](https://www.youtube.com/watch?v=JQsQgoPQ24s). (video)
-
-#### 	Assembling a toolkit to describe the mind.
-`2018-10-22`
-<!-- - [Neural networks]({{ site.url }}/assets/cognition/deeplearning.pdf) -->
 
 #### 	Paper-topic conversations.
 `2018-10-25`
@@ -233,7 +233,7 @@ _Instructions_: Read [pages 510--522 of Artificial Intelligence: a Modern Approa
 #### 7 --- Selecting a final-paper topic.
 `2018-10-26`
 
-_Instructions_: TBA
+_Instructions_: Select a topic for your final paper, then write a tentative outline of the paper. [Submit it here](https://www.dropbox.com/request/3xGtUTqLv1UxSljyGqao).
 
 #### 8 --- Replicating the serial-position effect.
 `2018-11-09`
