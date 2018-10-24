@@ -116,6 +116,7 @@ Course site for Wellesley PSYC 217, with a list of [class meetings](#class-meeti
 
 #### 	Paper-topic conversations.
 `2018-10-25`
+- [Slides]({{ site.url }}/cognition/paper/#1)
 
 ####	On representing objects.
 `2018-10-29`
