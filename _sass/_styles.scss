@@ -613,12 +613,11 @@ header.site-header nav {
 
 footer {
     width: 100%;
-    background: #254d60;
-    height: $footerHeight;
+    // background: #254d60;
     font-size: $fsp;
     color: $white;
     position: relative;
-    border-top: 2px solid $highlight;
+    border-bottom: 2px solid $highlight;
 
     // Contain that ish
     section {
