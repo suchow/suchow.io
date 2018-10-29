@@ -120,6 +120,7 @@ Course site for Wellesley PSYC 217, with a list of [class meetings](#class-meeti
 
 ####	On representing objects.
 `2018-10-29`
+- [Slides]({{ site.url }}/cognition/objects/#1)
 - [The writing's on the wall](https://www.youtube.com/watch?v=m86ae_e_ptU). (video)
 - [Principles of object perception]({{ site.url }}/assets/cognition/spelke1990principles.pdf).
 - [The man who mistook his wife for a hat]({{ site.url }}/assets/cognition/hat.pdf).
