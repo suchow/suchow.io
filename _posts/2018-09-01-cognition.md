@@ -238,10 +238,10 @@ _Instructions_: Read [pages 510--522 of Artificial Intelligence: a Modern Approa
 
 _Instructions_: Select a topic for your final paper, then write a tentative outline of the paper. [Submit it here](https://www.dropbox.com/request/3xGtUTqLv1UxSljyGqao).
 
-#### 8 --- Replicating the serial-position effect.
+#### 8 --- Replicating false memories in the DRM paradigm.
 `2018-11-09`
 
-_Instructions_: TBA
+_Instructions_: The Deese-Roediger-McDermott paradigm is a classic method for studying false memories in the lab. [Here](https://psychology.hanover.edu/classes/Cognition/Papers/RoedigerMcDermott%201996%20DRM%20False.pdf) is the original paper describing the paradigm. Replicate either the serial-position effect (Figure 1) or the rate of intrusions by running the experiment on some friends. The original word lists can be found on the last page of the paper. Submit a [plot of the results here](https://www.dropbox.com/request/RDtX6TnIYut68A35IHNW).
 
 #### 9 --- A checkpoint.
 `2018-11-16`
