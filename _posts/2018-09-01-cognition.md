@@ -128,6 +128,7 @@ Course site for Wellesley PSYC 217, with a list of [class meetings](#class-meeti
 
 #### 	How to remember, and how to forget, part II.
 `2018-11-01`
+- [Slides]({{ site.url }}/assets/cognition/memory-part-2/#1)
 - [Make-believe memories]({{ site.url }}/assets/cognition/lotus2003believe.pdf).
 - [Memento](https://www.imdb.com/title/tt0209144/). (movie)
 - [Stephen Wiltshire](https://www.youtube.com/watch?v=CqKRfZHpYBs). (video)
