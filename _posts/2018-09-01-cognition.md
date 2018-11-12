@@ -247,14 +247,18 @@ _Instructions_: Select a topic for your final paper, then write a tentative outl
 _Instructions_: The Deese-Roediger-McDermott paradigm is a classic method for studying false memories in the lab. [Here](https://psychology.hanover.edu/classes/Cognition/Papers/RoedigerMcDermott%201996%20DRM%20False.pdf) is the original paper describing the paradigm. Replicate either the serial-position effect (Figure 1) or the rate of intrusions by running the experiment on some friends. The original word lists can be found on the last page of the paper. Submit a [plot of the results here](https://www.dropbox.com/request/RDtX6TnIYut68A35IHNW).
 
 #### 9 --- A checkpoint.
-`2018-11-16`
+`2018-12-07`
 
-_Instructions_: TBA
+_Instructions_: By now, you should have made significant progress on your paper. Upload a draft with at least 1/3 the final word count as a checkpoint. Submit your draft [here](https://www.dropbox.com/request/yNTkILF4FbHRH13P52Za).
 
 #### 10 --- Replicating the wisdom of the crowd.
 `2018-12-07`
 
-_Instructions_: TBA
+_Instructions_: In the *wisdom of the crowds* effect, which you can read about in Galton's *Vox Populi* (one of the readings from the class on collective intelligence), the median estimate of a group of non-experts is found to be surprisingly accurate. Here, you'll replicate that effect. First, think of a quantity that your peers are unlikely to know, but wouldn't necessarily be surprised to learn. Next, ask at least 20 people to estimate the quantity. Make sure each person earnestly tries their best to get it right. (If you'd like to participate in the class pool, submitting your own example and providing responses to everyone else's in the pool, email your example to `jsuchow@wellesley.edu`.)
+
+Once you've collected the data, create a document with (a) the question you asked participants, (b) the correct answer, (c) a histogram of participants' responses, (d) the mean response, and (e) the median response. Finally, write a sentence or two about whether your data replicated the effect.
+
+Submit your writeup [here](https://www.dropbox.com/request/tbrHgOfXmu5Cxa5onOVq).
 
 #### Fin.
 `2018-12-20` by 4 p.m.
