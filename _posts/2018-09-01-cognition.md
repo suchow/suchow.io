@@ -145,6 +145,7 @@ But it does have a knob, the door can open. But not in the way you think...The t
 
 So cry all you want, I won't tell anybody.”
 ― David Foster Wallace, Oblivion -->
+- [Slides]({{ site.url }}/cognition/language/#1)
 - [There is no word](https://www.poetryfoundation.org/poetrymagazine/poems/55650/there-is-no-word).
 - [Well, maybe not in English, Tony](https://www.theatlantic.com/technology/archive/2013/01/tongue-and-tech-the-many-emotions-for-which-english-has-no-words/266956/).
 - [Making peace in the language wars]({{ site.url }}/assets/cognition/peace.pdf).
@@ -152,6 +153,7 @@ So cry all you want, I won't tell anybody.”
 
 #### 	On representing categories and relations.
 `2018-11-12`
+- [Slides]({{ site.url }}/cognition/categories/#1)
 - [Basic objects in natural categories]({{ site.url }}/assets/cognition/rosch1976basic.pdf).
 - [The evocation of words]({{ site.url }}/assets/cognition/words.pdf).
 
