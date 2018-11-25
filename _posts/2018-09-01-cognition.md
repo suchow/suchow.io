@@ -171,8 +171,8 @@ So cry all you want, I won't tell anybody.”
 #### 	On individual intelligence.
 `2018-11-26`
 
-- [The Flynn Effect](({{ site.url }}/assets/cognition/flynn.pdf)).
-- Raven's progressive matrices.
+- [The Flynn Effect]({{ site.url }}/assets/cognition/flynn.pdf).
+- [Raven's progressive matrices (product details)](https://www.pearsonclinical.com/psychology/products/100000504/ravens-standard-progressive-matrices.html#tab-details).
 - [Bricks + Mortals](https://mediacentral.ucl.ac.uk/Player/9717).
 <!-- - [Forced sterilization programs in California](http://theconversation.com/forced-sterilization-programs-in-california-once-harmed-thousands-particularly-latinas-92324). -->
 <!-- “Everybody is identical in their secret unspoken belief that way deep down they are different from everyone else.” ---&nbsp;David Foster Wallace -->
