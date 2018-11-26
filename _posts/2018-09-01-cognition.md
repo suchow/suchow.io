@@ -159,6 +159,7 @@ So cry all you want, I won't tell anybody.”
 
 #### 	Analogy as the fuel and fire of thinking.
 `2018-11-15`
+- [Slides]({{ site.url }}/cognition/analogies/#1)
 - [The evocation of phrases]({{ site.url }}/assets/cognition/phrases.pdf).
 - [A vast ocean of invisible analogies]({{ site.url }}/assets/cognition/analogies.pdf).
 
@@ -171,6 +172,7 @@ So cry all you want, I won't tell anybody.”
 #### 	On individual intelligence.
 `2018-11-26`
 
+- [Slides]({{ site.url }}/cognition/intelligence/#1)
 - [The Flynn Effect]({{ site.url }}/assets/cognition/flynn.pdf).
 - [Raven's progressive matrices (product details)](https://www.pearsonclinical.com/psychology/products/100000504/ravens-standard-progressive-matrices.html#tab-details).
 - [Bricks + Mortals](https://mediacentral.ucl.ac.uk/Player/9717).
