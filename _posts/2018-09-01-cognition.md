@@ -187,7 +187,7 @@ So cry all you want, I won't tell anybody.”
 
 #### 	Weighing the evidence for parapsychological representations.
 `2018-12-03`
-- [Feeling the future]({{ site.url }}/assets/cognition/bem2011future).
+- [Feeling the future]({{ site.url }}/assets/cognition/bem2011future.pdf).
 - [The truth wears off]({{ site.url }}/assets/cognition/truth.pdf).
 - [Psi and psychology: the recent debate](https://www.youtube.com/watch?v=0Tdiu5kwjKs). (video)
 - [Statistical problems in ESP research]({{ site.url }}/assets/cognition/diaconis1978esp.pdf).
