@@ -181,12 +181,14 @@ So cry all you want, I won't tell anybody.”
 
 #### 	On collective intelligence.
 `2018-11-29`
+- [Slides]({{ site.url }}/cognition/collectives/#1)
 - [Vox populi]({{ site.url }}/assets/cognition/galton1907vox.pdf).
 - [Wisdom of the crowds](https://ncase.me/crowds/) (demo).
 - [How a cockpit remembers its speed]({{ site.url }}/assets/cognition/hutchins1995cockpit.pdf).
 
 #### 	Weighing the evidence for parapsychological representations.
 `2018-12-03`
+- [Slides]({{ site.url }}/cognition/parapsychology/#1)
 - [Feeling the future]({{ site.url }}/assets/cognition/bem2011future.pdf).
 - [The truth wears off]({{ site.url }}/assets/cognition/truth.pdf).
 - [Psi and psychology: the recent debate](https://www.youtube.com/watch?v=0Tdiu5kwjKs). (video)
