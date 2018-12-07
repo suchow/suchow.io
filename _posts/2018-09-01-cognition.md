@@ -264,9 +264,4 @@ Once you've collected the data, create a document with (a) the question you aske
 
 Submit your writeup [here](https://www.dropbox.com/request/tbrHgOfXmu5Cxa5onOVq).
 
-#### Fin.
-`2018-12-20` by 4 p.m.
-
-_Instructions_: TBA
-
 {% include separator.html %}
