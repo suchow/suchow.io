@@ -10,4 +10,6 @@ image:
 
 After an undergraduate degree in computer science at Brandeis (B.S. 2009), I studied cognitive psychology at Harvard (A.M. 2011, Ph.D. 2014) before doing a postdoc at University of California, Berkeley.
 
-Get in touch by [email](mailto:suchow@berkeley.edu).
+Now I am an assistant professor at Stevens Institute of Technology.
+
+Get in touch by [email](mailto:jws@stevens.edu).
