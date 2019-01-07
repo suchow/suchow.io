@@ -4,3 +4,4 @@ assets/css/i.css
 *.sublime-project
 *.sublime-workspace
 .DS_Store
+assets/cognition/*
