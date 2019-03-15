@@ -1,29 +1,29 @@
 language: ruby
 rvm:
-- 2.2.5
+  - 2.2.5
 install:
-- gem install sass --version 3.4.22
-- gem install jekyll --version 2.5.3
-- gem install jekyll-watch -v 2.0.0
-- gem install jekyll-compass
-- gem install s3_website
-- gem install compass --version 0.12.5
-- gem install kramdown
-- gem install link-checker
-- gem install jekyll-postfiles
-- gem install jekyll-sitemap
-# - gem install html-proofer
-- gem install jekyll-redirect-from
+  - gem install sass --version 3.4.22
+  - gem install jekyll --version 2.5.3
+  - gem install jekyll-watch -v 2.0.0
+  - gem install jekyll-compass
+  - gem install s3_website
+  - gem install compass --version 0.12.5
+  - gem install kramdown -v 1.17.0
+  - gem install link-checker
+  - gem install jekyll-postfiles
+  - gem install jekyll-sitemap
+  # - gem install html-proofer
+  - gem install jekyll-redirect-from
 script:
-- jekyll build
-- compass compile
+  - jekyll build
+  - compass compile
 # - htmlproof ./_site
 after_success:
-- s3_website push
+  - s3_website push
 # - check-links 'http://suchow.io'
 env:
   global:
-  - secure: Bv/AsTZw03qfZC+mYaxF7Ny9KOzMbe0k3z4cphD6lDqMpeZ172Kn95XQbehs0RMMZ/2CebtOBRndK0LtOFkyAd/fn2YoWmCJj9+M7OODqxQkgd6p1JOGM3lwGbFCtBxilJzjQCgVJrxaWPyuUa6ekArceqVtj9zrKHh3uE/eYYw=
-  - secure: PxFQMiS3b4T+tqN4khB3BUtESTnwc7Qru0EdsoweDCyN8l9+wK5BkMpq4zTj+MECWR3eZULf7esp52K6RpWpvH6kJyCaMsfdNLKC5ihpDjmS/XnPb8c17zzUcBV3gPVU+x7jzE9H+iBc6pyRh1gHj2w60p8Mx56Z7Pnw3d/z+lE=
+    - secure: Bv/AsTZw03qfZC+mYaxF7Ny9KOzMbe0k3z4cphD6lDqMpeZ172Kn95XQbehs0RMMZ/2CebtOBRndK0LtOFkyAd/fn2YoWmCJj9+M7OODqxQkgd6p1JOGM3lwGbFCtBxilJzjQCgVJrxaWPyuUa6ekArceqVtj9zrKHh3uE/eYYw=
+    - secure: PxFQMiS3b4T+tqN4khB3BUtESTnwc7Qru0EdsoweDCyN8l9+wK5BkMpq4zTj+MECWR3eZULf7esp52K6RpWpvH6kJyCaMsfdNLKC5ihpDjmS/XnPb8c17zzUcBV3gPVU+x7jzE9H+iBc6pyRh1gHj2w60p8Mx56Z7Pnw3d/z+lE=
   on:
     branch: master
