@@ -1,11 +1,13 @@
 ---
 layout: post-no-feature
-title: "1,000 CGI doppelgangers of Obama"
+title: "1,000 doppelgangers"
 description:
 category: photos
 type: Photographs
 tags: [doppelgangers]
 ---
+
+1,000 CGI doppelgangers of Barack Obama.
 
 <style>
 .post img {
