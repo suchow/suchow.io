@@ -1,6 +1,6 @@
 ---
 layout: post-no-feature
-title: "1,000 doppelgangers"
+title: "1,000 CGI doppelgangers of Obama"
 description:
 category: photos
 type: Photographs
