@@ -7,6 +7,12 @@ type: Photographs
 tags: [doppelgangers]
 ---
 
+<style>
+.post img {
+  width: 128px;
+}
+</style>
+
 <a href ="https://s3.amazonaws.com/doppelganger-faces/obama/obama-0.png"><img src="https://s3.amazonaws.com/doppelganger-faces/obama/thumbnails/obama-0.jpg" width="128px" /></a>
 <a href ="https://s3.amazonaws.com/doppelganger-faces/obama/obama-1.png"><img src="https://s3.amazonaws.com/doppelganger-faces/obama/thumbnails/obama-1.jpg" width="128px" /></a>
 <a href ="https://s3.amazonaws.com/doppelganger-faces/obama/obama-2.png"><img src="https://s3.amazonaws.com/doppelganger-faces/obama/thumbnails/obama-2.jpg" width="128px" /></a>
