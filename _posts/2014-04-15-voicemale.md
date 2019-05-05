@@ -34,19 +34,20 @@ tags: [Brandeis VoiceMale]
 + (Tens of VM videos are on [YouTube](http://www.youtube.com/results?search_query=brandeis+voicemale))
 
 ## Photos
-+ [Chums 2000](https://s3.amazonaws.com/VoiceMale/Shows/chums2000.zip)
-+ [ICCA 2001](https://s3.amazonaws.com/VoiceMale/Shows/icca2001.zip)
-+ [TestFest 2004](https://s3.amazonaws.com/VoiceMale/Shows/testfest2004.zip)
-+ [Central park 2005](https://s3.amazonaws.com/VoiceMale/Shows/centralpark2005.zip)
-+ [Tour 2005](https://s3.amazonaws.com/VoiceMale/Shows/tour2005.zip)
-+ [Tour 2006](https://s3.amazonaws.com/VoiceMale/Shows/tour2006.pdf)
-+ [Arizona 2007](https://s3.amazonaws.com/VoiceMale/Shows/arizona2007.zip)
-+ [Tour 2007](https://s3.amazonaws.com/VoiceMale/Shows/tour2007.zip)
-+ [Tour 2008](https://s3.amazonaws.com/VoiceMale/Shows/tour2008.zip)
-+ [VoiceHouse 2009](https://s3.amazonaws.com/VoiceMale/Shows/tour2009.zip)
-+ [Tour 2009](https://s3.amazonaws.com/VoiceMale/Shows/tour2009.zip)
-+ [Tour 2010](https://s3.amazonaws.com/VoiceMale/Shows/tour2010.zip)
-+ [Tour 2011](https://s3.amazonaws.com/VoiceMale/Shows/tour2011.zip)
+
+- [Chums 2000](https://s3.amazonaws.com/VoiceMale/Photos/chums2000.zip)
+- [ICCA 2001](https://s3.amazonaws.com/VoiceMale/Photos/icca2001.zip)
+- [TestFest 2004](https://s3.amazonaws.com/VoiceMale/Photos/testfest2004.zip)
+- [Central park 2005](https://s3.amazonaws.com/VoiceMale/Photos/centralpark2005.zip)
+- [Tour 2005](https://s3.amazonaws.com/VoiceMale/Photos/tour2005.zip)
+- [Tour 2006](https://s3.amazonaws.com/VoiceMale/Photos/tour2006.pdf)
+- [Arizona 2007](https://s3.amazonaws.com/VoiceMale/Photos/arizona2007.zip)
+- [Tour 2007](https://s3.amazonaws.com/VoiceMale/Photos/tour2007.zip)
+- [Tour 2008](https://s3.amazonaws.com/VoiceMale/Photos/tour2008.zip)
+- [VoiceHouse 2009](https://s3.amazonaws.com/VoiceMale/Photos/tour2009.zip)
+- [Tour 2009](https://s3.amazonaws.com/VoiceMale/Photos/tour2009.zip)
+- [Tour 2010](https://s3.amazonaws.com/VoiceMale/Photos/tour2010.zip)
+- [Tour 2011](https://s3.amazonaws.com/VoiceMale/Photos/tour2011.zip)
 
 ## Arrangements & Part tapes
 + [The letter](https://s3.amazonaws.com/VoiceMale/Misc/TheLetter.zip)
