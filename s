@@ -4,7 +4,7 @@
       <KeyPrefixEquals>cv/</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyWith>https://suchow.io/assets/docs/suchow2019cv.pdf</ReplaceKeyWith>
+      <ReplaceKeyWith>https://suchow.io/assets/docs/suchow2020cv.pdf</ReplaceKeyWith>
     </Redirect>
   </RoutingRule>
   <RoutingRule>

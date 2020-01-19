@@ -28,7 +28,7 @@ tools:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 redirects:
-  cv/index.html: https://suchow.io/assets/docs/suchow2019cv.pdf
+  cv/index.html: https://suchow.io/assets/docs/suchow2020.pdf
 
 
 timezone:    America/New_York
