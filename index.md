@@ -12,4 +12,4 @@ After an undergraduate degree in computer science at Brandeis (B.S. 2009), I stu
 
 Now I am an assistant professor at Stevens Institute of Technology.
 
-Get in touch by [email](mailto:jwsuchow@gmail.com).
+Get in touch by [email](mailto:jws@stevens.edu).
