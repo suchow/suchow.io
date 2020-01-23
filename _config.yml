@@ -20,7 +20,7 @@ owner:
 # For external links add external: true
 links:
   - title: CV
-    url: /cv/
+    url: /cv.pdf
 
 tools:
   standards:      "HTML, Jekyll, SCSS"
