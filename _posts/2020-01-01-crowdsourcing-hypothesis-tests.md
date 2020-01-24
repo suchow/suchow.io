@@ -5,7 +5,7 @@ description:
 category: papers
 type: Paper
 journal: Psychological Bulletin
-pdf: landy2019crowdsourcing.pdf
+pdf: landy2020crowdsourcing.pdf
 tags: [crowdsourcing, metascience]
 ---
 
