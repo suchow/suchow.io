@@ -15,7 +15,7 @@ install:
   - gem install jekyll-postfiles
   - gem install jekyll-sitemap
   # - gem install html-proofer
-  - gem install jekyll-redirect-from
+  - gem install jekyll-redirect-from -v 0.15.0
 script:
   - jekyll build
   - compass compile
