@@ -14,6 +14,8 @@ permalink: /thought-and-behavior/
 
 Course site for MGT 451A, with a list of [class meetings](#class-meetings) and [assignments](#assignments).
 
+{% include separator.html %}
+
 In this course, we review computational models of thought and behavior from across the behavioral and social sciences, including economics, psychology, evolutionary biology, network science, information systems, and sociology. The course begins by studying individual thought and behavior, from predicting the future to taking risks. The course proceeds to study group thought and behavior, from social influence to the design of voting mechanisms. Each class covers a new topic in the study of thought and behavior and introduces the range of empirical and theoretical computational approaches to studying that topic.
 
 {% include separator.html %}
@@ -25,14 +27,14 @@ In this course, we review computational models of thought and behavior from acro
 Monday, 8/26
 
 Topics:
-•	Overview of class
-•	Small-group discussion to spark interest
-•	Review this syllabus
+- Overview of class
+- Small-group discussion to spark interest
+- Review this syllabus
 
 Readings:
-•	This syllabus
-•	“The Standard Equipment” by Steve Pinker
-•	NCM Chapter 1
+- This syllabus
+- “The Standard Equipment” by Steve Pinker
+- NCM Chapter 1
 
 
 ### Part I: Computational models of individual thought and behavior.
@@ -43,16 +45,16 @@ Readings:
 Day, Date
 
 Topics:
-•	The Anthropic Principle, in
-•	Basics of Bayesian inference
-•	“Optimal predictions in everyday life” by Griffiths & Tenenbaum.
-•	The end-of-history illusion
-•	The recency illusion
-•	Retrofuturism
+- The Anthropic Principle, in
+- Basics of Bayesian inference
+- “Optimal predictions in everyday life” by Griffiths & Tenenbaum.
+- The end-of-history illusion
+- The recency illusion
+- Retrofuturism
 
 Readings:
-•	The Anthropic Principle by J. Richad Gott
-•	Retrofuturism subreddit (https://www.reddit.com/r/RetroFuturism/top/?t=all)
+- The Anthropic Principle by J. Richad Gott
+- Retrofuturism subreddit (https://www.reddit.com/r/RetroFuturism/top/?t=all)
 
 Assignment #1: In this assignment, you will replicate the experiment detailed in the  “Optimal predictions…” reading.
 
@@ -61,20 +63,20 @@ Assignment #1: In this assignment, you will replicate the experiment detailed in
 Day, Date
 
 Topics:
-•	Causal graphical models
-•	Measures of simplicity in causal explanation
-•	The survivorship bias
+- Causal graphical models
+- Measures of simplicity in causal explanation
+- The survivorship bias
 
 #### On seeking and avoiding risk.
 
 Day, Date
 
 Topics:
-•	Kahneman and Tversky and the history of behavioral economics
-•	Risk aversion
-•	The certainty effect
-•	Expected Value Theory
-•	Expected Utility Theory
+- Kahneman and Tversky and the history of behavioral economics
+- Risk aversion
+- The certainty effect
+- Expected Value Theory
+- Expected Utility Theory
 
 Assignment #2: In this assignment, you will implementing Expected Value Theory and Expected Utility Theory using the Python language and demonstrate a choice anomaly.
 
@@ -83,18 +85,18 @@ Assignment #2: In this assignment, you will implementing Expected Value Theory a
 Day, Date
 
 Topics:
-•	Prospect theory
-•	“When less is more” and counterfactual reasoning
-•	Anchoring and adjustment
+- Prospect theory
+- “When less is more” and counterfactual reasoning
+- Anchoring and adjustment
 
 #### On choosing between now and later.
 
 Day, Date
 
 Topics:
-•	Intertemporal choice
-•	Hyperbolic vs. exponential discounting
-•	Cooperating with the future
+- Intertemporal choice
+- Hyperbolic vs. exponential discounting
+- Cooperating with the future
 
 Assignment #3: In this assignment, you will measuring your own temporal discounting function and determine whether it is better described as a hyperbolic or exponential function.
 
@@ -103,32 +105,32 @@ Assignment #3: In this assignment, you will measuring your own temporal discount
 Day, Date
 
 Topics:
-•	Marr’s three levels and definitions of rationality
-•	The Allais paradox
-•	Ellsberg paradox
-•	The Law of Small Numbers
-•	Gambler’s Fallacy
+- Marr’s three levels and definitions of rationality
+- The Allais paradox
+- Ellsberg paradox
+- The Law of Small Numbers
+- Gambler’s Fallacy
 
 #### On exploring and exploiting.
 
 Day, Date
 
 Topics:
-•	Multiarmed bandit problems
-•	The Gittins index
-•	The Upper Confidence Bound algorithm
-•	Epsilon-greedy strategies for solving multiarmed bandit problems
-•	Thompson sampling
-•	From multiarmed bandits to contextual bandits
+- Multiarmed bandit problems
+- The Gittins index
+- The Upper Confidence Bound algorithm
+- Epsilon-greedy strategies for solving multiarmed bandit problems
+- Thompson sampling
+- From multiarmed bandits to contextual bandits
 
 #### On deciding under incomplete information.
 
 Day, Date
 
 Topics:
-•	Markov Processes
-•	Markov Decision Processes
-•	Partially Observable Markov Decision Processes
+- Markov Processes
+- Markov Decision Processes
+- Partially Observable Markov Decision Processes
 
 Assignment #4: In this assignment, you will implement a Partially Observable Markov Decision process using the Python programming language.
 
@@ -137,31 +139,31 @@ Assignment #4: In this assignment, you will implement a Partially Observable Mar
 Day, Date
 
 Topics:
-•	Drift diffusion models of choice
-•	System I and System II thinking
-•	The idea of time as a resource
+- Drift diffusion models of choice
+- System I and System II thinking
+- The idea of time as a resource
 
 #### On summarizing one’s experience.
 
 Day, Date
 
 Topics:
-•	Peak-end rule
-•	Extension neglect
-•	Duration neglect
-•	Representativeness heuristic
+- Peak-end rule
+- Extension neglect
+- Duration neglect
+- Representativeness heuristic
 
 #### On having limits.
 
 Day, Date
 
 Topics:
-•	Bounded rationality
-•	The concept of attentional limits
-•	Availability heuristics
-•	Base-rate neglect
-•	Conjunction fallacy
-•	Resource rationality
+- Bounded rationality
+- The concept of attentional limits
+- Availability heuristics
+- Base-rate neglect
+- Conjunction fallacy
+- Resource rationality
 
 Assignment #5: In this assignment, you will test some of your own perceptual and attentional limits and consider various ways to quantify them.
 
@@ -170,19 +172,19 @@ Assignment #5: In this assignment, you will test some of your own perceptual and
 Day, Date
 
 Topics:
-•	Metacognition
-•	Dunning-Kruger effect
-•	Curse of knowledge
+- Metacognition
+- Dunning-Kruger effect
+- Curse of knowledge
 
 #### On having preferences.
 
 Day, Date
 
 Topics:
-•	Preferences
-•	Implicit Associations
-•	Multi-objective scalarization
-•	Multi-objective optimization
+- Preferences
+- Implicit Associations
+- Multi-objective scalarization
+- Multi-objective optimization
 
 Assignment #6: In this assignment, you will take an online version of the Implicit Association Test.
 
@@ -191,31 +193,31 @@ Assignment #6: In this assignment, you will take an online version of the Implic
 Day, Date
 
 Topics:
-•	Motivated reasoning
-•	Survivorship bias
-•	Selection biases
+- Motivated reasoning
+- Survivorship bias
+- Selection biases
 
 #### “But I like it / Because it is bitter / And because it is my heart.”
 
 Day, Date
 
 Topics:
-•	The Endowment Effect
-•	The Ikea Effect
-•	Not Invented Here disorder
-•	The Illusion of Control
+- The Endowment Effect
+- The Ikea Effect
+- Not Invented Here disorder
+- The Illusion of Control
 
 #### On the troubled history of intelligence.
 
 Day, Date
 
 Topics:
-•	What is intelligence?
-•	The troubled history of studying intelligence
-•	The foundations of eugenics
-•	Measuring and modeling “general” intelligence (G)
-•	The concept of multiple intelligences
-•	The Intelligence Quotient (IQ)
+- What is intelligence?
+- The troubled history of studying intelligence
+- The foundations of eugenics
+- Measuring and modeling “general” intelligence (G)
+- The concept of multiple intelligences
+- The Intelligence Quotient (IQ)
 
 #### Midterm exam.
 
@@ -226,12 +228,12 @@ Topics:
 Day, Date
 
 Topics:
-•	Is evolution actually survival of the fittest?
-•	The Iterated Prisoner’s Dilemma (IPD)
-•	IPD on structured networks
+- Is evolution actually survival of the fittest?
+- The Iterated Prisoner’s Dilemma (IPD)
+- IPD on structured networks
 
 Readings:
-•	NCM Chapter 6
+- NCM Chapter 6
 
 Assignment #7: In this assignment, you will write an evolutionary IPD tournament in Python.
 
@@ -240,13 +242,13 @@ Assignment #7: In this assignment, you will write an evolutionary IPD tournament
 Day, Date
 
 Topics:
-•	Francis Galton and the voice of the people
-•	The Delphi Method
-•	The Bayesian Truth Serum
+- Francis Galton and the voice of the people
+- The Delphi Method
+- The Bayesian Truth Serum
 
 Readings:
-•	Vox Populi
-•	Bayesian Truth Serum paper
+- Vox Populi
+- Bayesian Truth Serum paper
 
 Assignment #8: In this assignment, you will replicating the wisdom of the crowds effect from the Galton reading.
 
@@ -255,55 +257,55 @@ Assignment #8: In this assignment, you will replicating the wisdom of the crowds
 Day, Date
 
 Topics:
-•	Algorithmic Game Theory
-•	Game theory vs. mechanism design
-•	Algorithmic mechanism design
-•	The Price of Anarchy
-•	Mechanisms for Voting
-•	Mechanisms for Auctions
+- Algorithmic Game Theory
+- Game theory vs. mechanism design
+- Algorithmic mechanism design
+- The Price of Anarchy
+- Mechanisms for Voting
+- Mechanisms for Auctions
 
 #### On collective intelligence.
 
 Day, Date
 
 Topics:
-•	Schooling in fish
-•	Social learning
-•	Collective intelligence
-•	Crowdsourced markets
+- Schooling in fish
+- Social learning
+- Collective intelligence
+- Crowdsourced markets
 
 #### On recursive social reasoning.
 
 Day, Date
 
 Topics:
-•	Theory of mind
-•	Schelling coordination games
-•	Keynesian beauty contests
-•	El Farol Bar Problem
-•	The minority game
-•	Limits to recursive reasoning
+- Theory of mind
+- Schelling coordination games
+- Keynesian beauty contests
+- El Farol Bar Problem
+- The minority game
+- Limits to recursive reasoning
 
 #### On social influence.
 
 Day, Date
 
 Topics:
-•	Conformity bias
-•	Prestige bias
-•	Herding in crowds
-•	Information cascades
-•	Ingroup bias
-•	Fundamental attribution error
+- Conformity bias
+- Prestige bias
+- Herding in crowds
+- Information cascades
+- Ingroup bias
+- Fundamental attribution error
 
 #### On being fair.
 
 Day, Date
 
 Topics:
-•	Algorithmic fairness
-•	Cake cutting
-•	Fair division
+- Algorithmic fairness
+- Cake cutting
+- Fair division
 
 Assignment #9: In this assignment, you will studying the fairness of an AI system.
 
@@ -312,18 +314,18 @@ Assignment #9: In this assignment, you will studying the fairness of an AI syste
 Day, Date
 
 Topics:
-•	The Dictator Game
-•	The Ultimatum Game
+- The Dictator Game
+- The Ultimatum Game
 
 #### On remembering together.
 
 Day, Date
 
 Topics:
-•	Collective memory
-•	Transactive memory
-•	Interactive cueing
-•	Forgetting on networks
+- Collective memory
+- Transactive memory
+- Interactive cueing
+- Forgetting on networks
 
 Assignment #10: In this assignment, you will replicate the effect of interactive cueing with a friend.
 
