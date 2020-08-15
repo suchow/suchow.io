@@ -10,6 +10,22 @@ tags: [reading list, books]
 Here are some books I've recently read:<br/>
 <small><em>(</em><span style="color:#FBB829"><small>&#9733;</small></span><em>s are like Michelin stars, where even one is great. Skip anything with a <span style="color:#800F25"><b>&mdash;</b></span>)</em></small>
 
+White fragility (DiAngelo), 7/2020
+
+Guns, Germs and Steel (Diamond), 4/2020
+
+Cribsheet (Oster), 10/2019
+
+Expecting better (Oster), 1/2020
+
+How to: Absurd scientific advice for common real-world Problems (Munroe), 7/2019
+
+Nonviolent communication (Rosenberg), 3/2019
+
+Homo deus (Harari), 2/2019
+
+Secrets of closing the sale (Ziglar), 11/2018
+
 A history of the Jews (Johnson), 6/2018
 
 The pale king (Wallace), 4/2018
