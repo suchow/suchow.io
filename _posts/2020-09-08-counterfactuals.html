@@ -1,0 +1,123 @@
+---
+layout: slides
+title: "On reasoning about what might have been"
+category: hidden
+type: course
+semester: Fall 2020
+college: Stevens Institute of Technology
+permalink: /thought-and-behavior/counterfactuals/
+---
+# On reasoning about what might have been.
+
+
+<img src="https://imgs.xkcd.com/comics/correlation.png" style="padding-top: 50px" width="75%" />
+
+???
+
+---
+
+# QALMRI+
+
+- The Sting of Intentional Pain
+
+---
+
+# When less is more, the setup.
+
+Assumptions of _homo economicus_ model:
+- More is better, better is better
+- What others get shouldn't matter
+- What might have been shouldn't matter
+
+---
+
+# However...
+
+Which one is worse, missing a flight by 5 minutes and watching it pull away from the gate without you, or missing that same flight by 30 minutes? (Kahneman & Tversky, 1982)
+???
+
+In both cases, the outcome is the same --- you miss the flight and have to take the next one or reschedule. What's different in the two cases?
+
+Let's everyone try to think of an example where this has happened to you.
+
+---
+
+class: center, middle
+
+[Sad olympians...](https://sports.yahoo.com/photos/olympics-silver-medal-expressions-slideshow/olympics-day-9-gymnastics-artistic-photo-1344256222.html)
+
+<img width="30%" src="https://images.unsplash.com/photo-1511406471420-feeac25c74c7" />
+
+???
+
+You're not the only one to have had something terribly sad like this happen to you.
+
+For example, consider the olympic games...
+
+---
+
+# When less is more, the study...
+
+Counterfactuals, e.g. "but-for causation"
+
+<img width="40%" src="https://suchow.io/assets/cognition/medvec.png" />
+
+???
+
+"We videotaped all of the National Broadcasting Company
+(NBC) coverage of the 1992 Summer Olympic games in Barcelona,
+Spain."
+
+Just as a bit of a preview, this idea of counterfactual reasoning plays a large part on our judgments of causality. In fact, in law there is a concept of "but-for causality", which uses counterfactual reasoning explicitly, asking whether it's true that but for the action, the result would not have happened. (For example, but for running the red light, the collision would not have occurred.)
+
+---
+
+# Modeling counterfactuals, intro
+
+The setup:
+- Alarms & earthquakes scenario
+- Contigency tables?
+
+---
+
+# Causal graphical models (&ldquo;Bayes nets&rdquo;)
+
+- Networks or "graphs": nodes and edges
+- Directed acyclic graph (DAG)
+- Dependencies + conditional probabilities
+
+---
+
+# Practice creating a causal graphical model
+
+- [Air and Liquid Systems Corp. v. Devries](https://www.oyez.org/cases/2018/17-1104)
+
+---
+
+# Causal graphical models (&ldquo;Bayes nets&rdquo;)
+<img width="70%" src="{{ site.url }}/assets/cognition/earthquakes.png" />
+
+---
+
+# Conditional independence: common cause.
+<img width="70%" src="{{ site.url }}/assets/cognition/conditional-independence-1.png" />
+
+---
+
+# Conditional independence: screening off.
+<img width="70%" src="{{ site.url }}/assets/cognition/earthquakes.png" />
+
+---
+
+# Conditional independence: explaining away.
+<img width="70%" src="{{ site.url }}/assets/cognition/explaining-away.png" />
+
+---
+
+# Conditional independence, general statement.
+<img width="70%" src="{{ site.url }}/assets/cognition/conditional-independence-general.png" />
+
+---
+
+class: center, middle
+# Fin.
