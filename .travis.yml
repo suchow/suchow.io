@@ -5,6 +5,7 @@ sudo: true
 rvm:
   - 2.3.0
 install:
+  - gem install faraday -v 1.0.1
   - gem install sass --version 3.4.22
   - gem install jekyll --version 2.5.3
   - gem install jekyll-watch -v 2.0.0
