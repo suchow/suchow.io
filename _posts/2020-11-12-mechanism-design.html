@@ -1,0 +1,143 @@
+---
+layout: slides
+title: "On mechanism design"
+category: hidden
+type: course
+semester: Fall 2020
+college: Stevens Institute of Technology
+permalink: /thought-and-behavior/mechanism-design/
+---
+
+# On mechanism design.
+
+<img src="https://news.artnet.com/app/news-upload/2016/06/christies-auction.jpg" width="30%" />
+
+???
+
+---
+
+# Mechanism design
+
+- c.f. game theory
+- "reverse game theory"
+- "incentive compatible"
+
+---
+
+# Example: Auctions
+
+---
+
+# Japanese auction
+
+- Ascending clock auction
+
+???
+
+Suppose a buyer believes that the value of the item is v. Then this buyer has a simple dominant strategy: stay in the arena as long as the displayed price is below v; exit the arena whenever the displayed price equals v. This means that the Japanese auction is a truthful mechanism: it is always best to act according to your true value, regardless of the others' values.
+
+When all buyers play their dominant strategies, the outcome is:
+
+The winning buyer is the buyer with the highest valuation;
+The final price is the second-highest valuation.
+
+---
+
+# Dutch auction
+
+- Descending clock auction
+
+---
+
+# English auction
+
+- Start at reserve
+- Increment standing bid
+- Last standing bid becomes winner
+
+---
+
+# Sealed first-price auction
+
+- "Blind" auction
+- First price == bid of highest bidder
+
+---
+
+# Vickrey auction
+
+- Second price sealed bid auction
+- Efficient and incentive-compatible
+- Issues?
+
+???
+
+Weaknesses
+
+It does not allow for price discovery, that is, discovery of the market price if the buyers are unsure of their own valuations, without sequential auctions.
+
+Sellers may use shill bids to increase profit.
+
+The Vickrey–Clarke–Groves (VCG) mechanism has the additional shortcomings:
+
+It is vulnerable to bidder collusion. If all bidders in Vickrey auction reveal their valuations to each other, they can lower some or all of their valuations, while preserving who wins the auction.[7]
+
+It is vulnerable to a version of shill bidding in which a buyer uses multiple identities in the auction in order to maximize its profit.[8]
+
+It does not necessarily maximize seller revenues; seller revenues may even be zero in VCG auctions. If the purpose of holding the auction is to maximize profit for the seller rather than just allocate resources among buyers, then VCG may be a poor choice.
+
+---
+
+# Example: Voting
+
+<img src="{{ site.url }}/assets/thought-and-behavior/voting.png" />
+
+Who *should* win and why?
+
+???
+
+Given the voters’ expressed opinions, which candidate should win the election? Since the voters disagree about the ranking of the candidates, there is no obvious candidate that best represents the group’s opinion. If there were only two candidates to choose from, there is a very straightforward answer: The winner should be the candidate or alternative that is supported by more than 50 percent of the voters (cf. the discussion below about May’s Theorem in Section 4.2). However, if there are more than two candidates, as in the above example, the statement “the candidate that is supported by more than 50 percent of the voters” can be interpreted in different ways, leading to different ideas about who should win the election.
+
+---
+
+# Condorcet winners and losers
+
+- Winner beats everyone 1-on-1
+- Loser beats everyone 1-on-1
+
+---
+
+# Borda winners and losers
+
+- Considers *margin* of victory in 1-on-1
+- Sum of "points", n-1 to top-ranked, n-2 to next
+
+---
+
+# Some voting mechanisms
+- First-past the post
+- Plurality with runoff
+- Hare rule ("instant runoff")
+- Coombs rule (Hare, but for last place)
+- Negative voting (+1 or -1)
+- Approval voting (i.e., negative for subsets)
+- Cumulative voting
+
+???
+
+Coombs iterative delete candidate with the most last-place votes
+
+In approval voting, each voter selects a subset to approve vs. disapprove
+
+In cumulative voting you spread, a bunch of points around and winner is whomever gets the most points
+
+---
+
+# Example: Fair division
+
+
+---
+
+
+class: center, middle
+# Fin.
