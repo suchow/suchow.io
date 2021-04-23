@@ -21,7 +21,7 @@ Having imagined success, we'll apply the two tests, manipulating your mental ima
 
 *The volunteer test*. Just as a volunteer can provide a service with the understanding that there will be no financial gain that comes of it, in your alternate universe you can do the same, agreeing beforehand that any proceeds from the endeavor will be reinvested in the endeavor and unavailable to you[^3]. The endeavor is fantastically profitable, but you see none of that wealth.
 
-How do these alternate universes compare to what you had imagined earlier? At one extreme, the endeavor becomes worthless after the knockout. At the other, it is left unchanged. Where your visions fall between these extremes tells you something important about what motivates your actions.
+How do these alternate universes compare to what you had imagined earlier? At one extreme, the endeavor becomes worthless after the knockout. At the other, it is left unchanged. Where your visions fall between these extremes tells you something important about what motivates your actions. {% include fleuron.html %}
 
 {% include separator.html %}
 

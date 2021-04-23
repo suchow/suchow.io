@@ -11,4 +11,4 @@ Every handshake is a negotiation: how firm will it be? Some squeeze too soft, le
 
 Is hand-shaking symmetric? If I think your shake was too firm, do you think mine was too limp? Can it be good for me, but not for you?
 
-*The handshake conjecture.* Consider a single handshake. Let *a* and *b* be the firmness of the shake as perceived by the two shakers, A and B, respectively. Let perceived firmness take one of three values: -1 (limp), 0 (just right), or 1 (too firm). The conjecture states that *a = -b*.
+*The handshake conjecture.* Consider a single handshake. Let *a* and *b* be the firmness of the shake as perceived by the two shakers, A and B, respectively. Let perceived firmness take one of three values: -1 (limp), 0 (just right), or 1 (too firm). The conjecture states that *a = -b*. {% include fleuron.html %}
