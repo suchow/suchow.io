@@ -5,3 +5,4 @@ assets/css/i.css
 *.sublime-workspace
 .DS_Store
 assets/cognition/*
+.jekyll-cache/*
