@@ -1,6 +1,7 @@
 os: osx
 osx_image: xcode8
 language: ruby
+sudo: true
 rvm:
   - 2.3.0
 install:
