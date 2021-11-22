@@ -12,7 +12,7 @@ orbs:
 jobs:
   build:
     docker:
-      - image: cimg/ruby:2.3.0
+      - image: circleci/ruby:2.4.4
     executor: ruby/default
     steps:
       - checkout
