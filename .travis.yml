@@ -3,7 +3,7 @@ osx_image: xcode8
 language: ruby
 sudo: true
 rvm:
-  - 2.4
+  - 2.4.10
 install:
   - gem install faraday -v 1.0.1
   - gem install sass --version 3.4.22
