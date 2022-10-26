@@ -2,7 +2,7 @@
 layout: index
 permalink: /index.html
 title:
-description: I&rsquo;m Jordan Suchow, a cognitive scientist studying vision, learning, memory, and technology.
+description: Cognitive science + information systems at Stevens Institute of Technology. Studying minds, brains, and machines. 🧠 🤖
 tags: [Jordan Suchow, portfolio, research, cognitive science]
 image:
   feature: head2.png
