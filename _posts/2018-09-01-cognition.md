@@ -9,7 +9,7 @@ semester: Fall 2018
 college: Wellesley College
 ---
 
-<img style="border: 1px solid #ccdddd" src="{{ site.url }}/images/head2.png" />
+<img style="border: 1px solid #ccdddd" src="{{site.url}}/images/head2.png" />
 
 Course site for Wellesley PSYC 217, with a list of [class meetings](#class-meetings) and [assignments](#assignments).
 
@@ -21,64 +21,64 @@ Course site for Wellesley PSYC 217, with a list of [class meetings](#class-meeti
 
 #### Introduction, administration, and reading a paper.
 `2018-09-06`
-- [Slides]({{ site.url }}/cognition/intro/#1).
-- [Syllabus]({{ site.url }}/assets/cognition/psyc217-syllabus.pdf).
-- [Survey]({{ site.url }}/assets/cognition/survey.pdf).
-- [The sting of intentional pain]({{ site.url }}/assets/cognition/gray2008sting.pdf).
-- [QALMRI+ worksheet]({{ site.url }}/assets/cognition/QALMRI.pdf).
+- [Slides]({{site.url}}/cognition/intro/#1).
+- [Syllabus]({{site.url}}/assets/cognition/psyc217-syllabus.pdf).
+- [Survey]({{site.url}}/assets/cognition/survey.pdf).
+- [The sting of intentional pain]({{site.url}}/assets/cognition/gray2008sting.pdf).
+- [QALMRI+ worksheet]({{site.url}}/assets/cognition/QALMRI.pdf).
 
 ####  Getting curious about cognition.
 `2018-09-10`
-- [Slides]({{ site.url }}/cognition/getting-curious#1).
+- [Slides]({{site.url}}/cognition/getting-curious#1).
 
 ####  A whirlwind tour of the mind, from head to toe.
 `2018-09-13`
-- [Slides]({{ site.url }}/cognition/whirlwind-tour/#1).
-- [The standard equipment]({{ site.url }}/assets/cognition/pinker1997standard-equipment.pdf).
-- [Marr's three levels]({{ site.url }}/assets/cognition/marr.pdf).
-- [Animal cognition]({{ site.url }}/assets/cognition/gallistel1989representation.pdf), pgs. 155--160.
-- [Introduction to AI]({{ site.url }}/assets/cognition/aima-intro.pdf), pgs. 1--16.
+- [Slides]({{site.url}}/cognition/whirlwind-tour/#1).
+- [The standard equipment]({{site.url}}/assets/cognition/pinker1997standard-equipment.pdf).
+- [Marr's three levels]({{site.url}}/assets/cognition/marr.pdf).
+- [Animal cognition]({{site.url}}/assets/cognition/gallistel1989representation.pdf), pgs. 155--160.
+- [Introduction to AI]({{site.url}}/assets/cognition/aima-intro.pdf), pgs. 1--16.
 - [The humane representation of thought](https://vimeo.com/115154289). (video)
 
 #### 	On representing space.
 `2018-09-17`
-- [Slides]({{ site.url }}/cognition/space#1).
-- [Cognitive maps in rats and men]({{ site.url }}/assets/cognition/tolman1948maps.pdf), figs. 6, 15--17.
-- [Human spatial representation]({{ site.url }}/assets/cognition/wang2002space.pdf).
-- [Place cells and grid cells]({{ site.url }}/assets/cognition/grid.pdf), pgs. 69--71.
-- (optional) [Animal cognition (space)]({{ site.url }}/assets/cognition/gallistel1989representation.pdf), pgs. 160--177.
+- [Slides]({{site.url}}/cognition/space#1).
+- [Cognitive maps in rats and men]({{site.url}}/assets/cognition/tolman1948maps.pdf), figs. 6, 15--17.
+- [Human spatial representation]({{site.url}}/assets/cognition/wang2002space.pdf).
+- [Place cells and grid cells]({{site.url}}/assets/cognition/grid.pdf), pgs. 69--71.
+- (optional) [Animal cognition (space)]({{site.url}}/assets/cognition/gallistel1989representation.pdf), pgs. 160--177.
 
 #### 	On representing quantity.
 `2018-09-20`
-- [Slides]({{ site.url }}/cognition/quantity/#1)
-- [Core systems of number]({{ site.url }}/assets/cognition/feigenson2004number.pdf).
-- [Animal cognition (number)]({{ site.url }}/assets/cognition/gallistel1989representation.pdf), pgs. 181--184.
-- [Dyscalculia]({{ site.url }}/assets/cognition/dyscalculia.pdf). (abstract)
+- [Slides]({{site.url}}/cognition/quantity/#1)
+- [Core systems of number]({{site.url}}/assets/cognition/feigenson2004number.pdf).
+- [Animal cognition (number)]({{site.url}}/assets/cognition/gallistel1989representation.pdf), pgs. 181--184.
+- [Dyscalculia]({{site.url}}/assets/cognition/dyscalculia.pdf). (abstract)
 - [Who can name the bigger number?](https://www.scottaaronson.com/writings/bignumbers.html)
-- [On number numbness]({{ site.url }}/assets/cognition/numbness.pdf).
+- [On number numbness]({{site.url}}/assets/cognition/numbness.pdf).
 - [Combatting number numbness](https://xkcd.com/1732/).
 
 ####	On representing uncertainty to predict the future.
 `2018-09-24`
-- [Slides]({{ site.url }}/cognition/future/#1)
+- [Slides]({{site.url}}/cognition/future/#1)
 - [A visual introduction to probability and statistics](http://students.brown.edu/seeing-theory).
-- [The anthropic principle]({{ site.url }}/assets/cognition/gott1993future.pdf).
-- [Optimal predictions in everyday cognition]({{ site.url }}/assets/cognition/griffiths2006predictions.pdf).
+- [The anthropic principle]({{site.url}}/assets/cognition/gott1993future.pdf).
+- [Optimal predictions in everyday cognition]({{site.url}}/assets/cognition/griffiths2006predictions.pdf).
 - [Retrofuturism](https://www.reddit.com/r/RetroFuturism/top/?t=all).
 
 ####	How to remember, and how to forget, part I.
 `2018-09-27`
 <!-- “Learning how to think" really means learning how to exercise some control over how and what you think. It means being conscious and aware enough to choose what you pay attention to and to choose how you construct meaning from experience. Because if you cannot or will not exercise this kind of choice in adult life, you will be totally hosed.”  -->
-- [Slides]({{ site.url }}/cognition/memory-part-1/#1)
-- [The promise and perils of self-regulated study]({{ site.url }}/assets/cognition/kornell2007study.pdf).
-- [Bjork's study techniques]({{ site.url }}/assets/cognition/bjork.pdf).
+- [Slides]({{site.url}}/cognition/memory-part-1/#1)
+- [The promise and perils of self-regulated study]({{site.url}}/assets/cognition/kornell2007study.pdf).
+- [Bjork's study techniques]({{site.url}}/assets/cognition/bjork.pdf).
 - [Anki](https://apps.ankiweb.net/).
 
 #### On representing gains and losses in value.
 `2018-10-01`
-- [Slides]({{ site.url }}/cognition/gains-and-losses/#1)
-- [Judgment under uncertainty: heuristics and biases]({{ site.url }}/assets/cognition/tversky1974heuristics.pdf).
-- [When less is more]({{ site.url }}/assets/cognition/medvec1995satisfaction.pdf).
+- [Slides]({{site.url}}/cognition/gains-and-losses/#1)
+- [Judgment under uncertainty: heuristics and biases]({{site.url}}/assets/cognition/tversky1974heuristics.pdf).
+- [When less is more]({{site.url}}/assets/cognition/medvec1995satisfaction.pdf).
 
 #### 	Exam 1.
 `2018-10-04`
@@ -88,48 +88,48 @@ Course site for Wellesley PSYC 217, with a list of [class meetings](#class-meeti
 
 #### 	On representing time and change.
 `2018-10-11`
-- [Slides]({{ site.url }}/cognition/time/#1)
-- [Sum]({{ site.url }}/assets/cognition/sum.pdf).
+- [Slides]({{site.url}}/cognition/time/#1)
+- [Sum]({{site.url}}/assets/cognition/sum.pdf).
 - [Brain time](https://www.edge.org/conversation/brain-time).
-- [Human time perception and its illusions]({{ site.url }}/assets/cognition/eagleman2008time.pdf).
-- [Speed]({{ site.url }}/assets/cognition/speed.pdf).
-- [Animal cognition (time)]({{ site.url }}/assets/cognition/gallistel1989representation.pdf), pgs. 178--181.
+- [Human time perception and its illusions]({{site.url}}/assets/cognition/eagleman2008time.pdf).
+- [Speed]({{site.url}}/assets/cognition/speed.pdf).
+- [Animal cognition (time)]({{site.url}}/assets/cognition/gallistel1989representation.pdf), pgs. 178--181.
 
 #### 	On representing cause and effect.
 `2018-10-15`
-- [Slides]({{ site.url }}/cognition/causality/#1)
-- [Simplicity in causal explanation]({{ site.url }}/assets/cognition/pacer2017razor.pdf), introduction up to Experiment 1.
-- [Dignity]({{ site.url }}/assets/cognition/dignity.pdf).
+- [Slides]({{site.url}}/cognition/causality/#1)
+- [Simplicity in causal explanation]({{site.url}}/assets/cognition/pacer2017razor.pdf), introduction up to Experiment 1.
+- [Dignity]({{site.url}}/assets/cognition/dignity.pdf).
 
 #### 	Assembling a toolkit to describe the mind.
 `2018-10-18`
-- [Slides]({{ site.url }}/cognition/networks/#1)
+- [Slides]({{site.url}}/cognition/networks/#1)
 
 #### 	On representing other people and their beliefs about other people, &c., ad infinitum.
 `2018-10-22`
 <!-- “You will become way less concerned with what other people think of you when you realize how seldom they do.”&nbsp;---David Foster Wallace -->
-- [Slides]({{ site.url }}/cognition/social/#1)
-- [El Farol Bar problem]({{ site.url }}/assets/cognition/arthur1994farol.pdf).
+- [Slides]({{site.url}}/cognition/social/#1)
+- [El Farol Bar problem]({{site.url}}/assets/cognition/arthur1994farol.pdf).
 - [Miss Rheingold](http://missrheingold.com/history/).
-- [Capgras syndrome]({{ site.url }}/assets/cognition/hirstein1997capgras.pdf), abstract.
+- [Capgras syndrome]({{site.url}}/assets/cognition/hirstein1997capgras.pdf), abstract.
 - [Capgras syndrome](https://www.youtube.com/watch?v=JQsQgoPQ24s). (video)
 
 #### 	Paper-topic conversations.
 `2018-10-25`
-- [Slides]({{ site.url }}/cognition/paper/#1)
+- [Slides]({{site.url}}/cognition/paper/#1)
 
 ####	On representing objects.
 `2018-10-29`
-- [Slides]({{ site.url }}/cognition/objects/#1)
+- [Slides]({{site.url}}/cognition/objects/#1)
 - [The writing's on the wall](https://www.youtube.com/watch?v=m86ae_e_ptU). (video)
-- [Principles of object perception]({{ site.url }}/assets/cognition/spelke1990principles.pdf).
-- [The man who mistook his wife for a hat]({{ site.url }}/assets/cognition/hat.pdf).
-- [The itch]({{ site.url }}/assets/cognition/itch.pdf).
+- [Principles of object perception]({{site.url}}/assets/cognition/spelke1990principles.pdf).
+- [The man who mistook his wife for a hat]({{site.url}}/assets/cognition/hat.pdf).
+- [The itch]({{site.url}}/assets/cognition/itch.pdf).
 
 #### 	How to remember, and how to forget, part II.
 `2018-11-01`
-- [Slides]({{ site.url }}/cognition/memory-part-2/#1)
-- [Make-believe memories]({{ site.url }}/assets/cognition/lotus2003believe.pdf).
+- [Slides]({{site.url}}/cognition/memory-part-2/#1)
+- [Make-believe memories]({{site.url}}/assets/cognition/lotus2003believe.pdf).
 - [Memento](https://www.imdb.com/title/tt0209144/). (movie)
 - [Stephen Wiltshire](https://www.youtube.com/watch?v=CqKRfZHpYBs). (video)
 
@@ -145,23 +145,23 @@ But it does have a knob, the door can open. But not in the way you think...The t
 
 So cry all you want, I won't tell anybody.”
 ― David Foster Wallace, Oblivion -->
-- [Slides]({{ site.url }}/cognition/language/#1)
+- [Slides]({{site.url}}/cognition/language/#1)
 - [There is no word](https://www.poetryfoundation.org/poetrymagazine/poems/55650/there-is-no-word).
 - [Well, maybe not in English, Tony](https://www.theatlantic.com/technology/archive/2013/01/tongue-and-tech-the-many-emotions-for-which-english-has-no-words/266956/).
-- [Making peace in the language wars]({{ site.url }}/assets/cognition/peace.pdf).
+- [Making peace in the language wars]({{site.url}}/assets/cognition/peace.pdf).
 - [A memoir of living with a brain tumor](https://www.theguardian.com/books/2010/nov/07/tom-lubbock-brain-tumour-language).
 
 #### 	On representing categories and relations.
 `2018-11-12`
-- [Slides]({{ site.url }}/cognition/categories/#1)
-- [Basic objects in natural categories]({{ site.url }}/assets/cognition/rosch1976basic.pdf).
-- [The evocation of words]({{ site.url }}/assets/cognition/words.pdf).
+- [Slides]({{site.url}}/cognition/categories/#1)
+- [Basic objects in natural categories]({{site.url}}/assets/cognition/rosch1976basic.pdf).
+- [The evocation of words]({{site.url}}/assets/cognition/words.pdf).
 
 #### 	Analogy as the fuel and fire of thinking.
 `2018-11-15`
-- [Slides]({{ site.url }}/cognition/analogies/#1)
-- [The evocation of phrases]({{ site.url }}/assets/cognition/phrases.pdf).
-- [A vast ocean of invisible analogies]({{ site.url }}/assets/cognition/analogies.pdf).
+- [Slides]({{site.url}}/cognition/analogies/#1)
+- [The evocation of phrases]({{site.url}}/assets/cognition/phrases.pdf).
+- [A vast ocean of invisible analogies]({{site.url}}/assets/cognition/analogies.pdf).
 
 #### 	Paper-research conversations.
 `2018-11-19`
@@ -172,8 +172,8 @@ So cry all you want, I won't tell anybody.”
 #### 	On individual intelligence.
 `2018-11-26`
 
-- [Slides]({{ site.url }}/cognition/intelligence/#1)
-- [The Flynn Effect]({{ site.url }}/assets/cognition/flynn.pdf).
+- [Slides]({{site.url}}/cognition/intelligence/#1)
+- [The Flynn Effect]({{site.url}}/assets/cognition/flynn.pdf).
 - [Raven's progressive matrices (product details)](https://www.pearsonclinical.com/psychology/products/100000504/ravens-standard-progressive-matrices.html#tab-details).
 - [Bricks + Mortals](https://mediacentral.ucl.ac.uk/Player/9717).
 <!-- - [Forced sterilization programs in California](http://theconversation.com/forced-sterilization-programs-in-california-once-harmed-thousands-particularly-latinas-92324). -->
@@ -181,26 +181,26 @@ So cry all you want, I won't tell anybody.”
 
 #### 	On collective intelligence.
 `2018-11-29`
-- [Slides]({{ site.url }}/cognition/collectives/#1)
-- [Vox populi]({{ site.url }}/assets/cognition/galton1907vox.pdf).
+- [Slides]({{site.url}}/cognition/collectives/#1)
+- [Vox populi]({{site.url}}/assets/cognition/galton1907vox.pdf).
 - [Wisdom of the crowds](https://ncase.me/crowds/) (demo).
-- [How a cockpit remembers its speed]({{ site.url }}/assets/cognition/hutchins1995cockpit.pdf).
+- [How a cockpit remembers its speed]({{site.url}}/assets/cognition/hutchins1995cockpit.pdf).
 
 #### 	Weighing the evidence for parapsychological representations.
 `2018-12-03`
-- [Slides]({{ site.url }}/cognition/parapsychology/#1)
-- [Feeling the future]({{ site.url }}/assets/cognition/bem2011future.pdf).
-- [The truth wears off]({{ site.url }}/assets/cognition/truth.pdf).
+- [Slides]({{site.url}}/cognition/parapsychology/#1)
+- [Feeling the future]({{site.url}}/assets/cognition/bem2011future.pdf).
+- [The truth wears off]({{site.url}}/assets/cognition/truth.pdf).
 - [Psi and psychology: the recent debate](https://www.youtube.com/watch?v=0Tdiu5kwjKs). (video)
-- [Statistical problems in ESP research]({{ site.url }}/assets/cognition/diaconis1978esp.pdf).
+- [Statistical problems in ESP research]({{site.url}}/assets/cognition/diaconis1978esp.pdf).
 
 #### 	Exam 3
 `2018-12-06`
 
 #### 	AMA / Where am I?
 `2018-12-10`
-- [Consider the lobster]({{ site.url }}/assets/cognition/lobster.pdf).
-- [On souls and their sizes]({{ site.url }}/assets/cognition/souls.pdf).
+- [Consider the lobster]({{site.url}}/assets/cognition/lobster.pdf).
+- [On souls and their sizes]({{site.url}}/assets/cognition/souls.pdf).
 
 {% include separator.html %}
 
@@ -238,7 +238,7 @@ _Instructions_: Use the 10 questions you asked in Assignment #2, any feedback yo
 #### 6 --- A problem set on causality.
 `2018-10-19`
 
-_Instructions_: Read [pages 510--522 of Artificial Intelligence: a Modern Approach (AIMA)]({{ site.url }}/assets/cognition/causality.pdf). Complete exercises 14.1, 14.4, and 14.11. Finally, think of an everyday scenario where a person has an incorrect causal model of something. Describe the scenario and misconception, and then draw two Bayes nets, one representing the truth, the other representing the misconception. [Submit your problem set here](https://www.dropbox.com/request/30WxfOysbnfUmx4vpMmc).
+_Instructions_: Read [pages 510--522 of Artificial Intelligence: a Modern Approach (AIMA)]({{site.url}}/assets/cognition/causality.pdf). Complete exercises 14.1, 14.4, and 14.11. Finally, think of an everyday scenario where a person has an incorrect causal model of something. Describe the scenario and misconception, and then draw two Bayes nets, one representing the truth, the other representing the misconception. [Submit your problem set here](https://www.dropbox.com/request/30WxfOysbnfUmx4vpMmc).
 
 #### 7 --- Selecting a final-paper topic.
 `2018-10-26`

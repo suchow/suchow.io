@@ -1,28 +1,31 @@
 <div class="push"></div>
   <footer>
     <aside class="wrap">
+      
       <div class="social">
-        <!-- <h1>Jordan Suchow</h1> -->
-            <!-- <a id="mail" href="mailto:{{ site.owner.email }}"><img src="{{ site.url }}/images/plane-dark.png" alt="Send me an email"/></a>
-
-            {% if site.owner.twitter %}
-            <a id="twit" href="https://twitter.com/{{ site.owner.twitter }}" target="_blank"><img src="{{ site.url }}/images/twit-dark.png" alt="Twitter profile"/><span class="foot-link"></span></a>
-            {% endif %}
-
-
-            {% if site.owner.github %}
-            <a id="drib" href="https://github.com/{{ site.owner.github }}" target="_blank"><img src="{{ site.url }}/images/github-dark.png" alt="Github profile"/></a>
-            {% endif %} -->
-    </div>
+        <a id="mail" href="mailto:{{site.owner.email}}"><img src="{{site.url}}/images/plane-dark.png" alt="Send me an email"/></a>
+        
+        {% if site.owner.twitter %}
+        <a id="twit" href="https://twitter.com/{{site.owner.twitter}}" target="_blank"><img src="{{site.url}}/images/twit-dark.png" alt="Twitter profile"/><span class="foot-link"></span></a>
+        {% endif %}
+        
+        
+        {% if site.owner.github %}
+        <a id="drib" href="https://github.com/{{site.owner.github}}" target="_blank"><img src="{{site.url}}/images/github-dark.png" alt="Github profile"/></a>
+        {% endif %}
+        <p style="text-align: center; margin: 20px auto; color: black; font-size: 1rem;">
+          {{site.title}}. All rights reserved. © {{site.time | date: "%Y"}}
+        </p>
+      </div>
     </aside>
   </footer>
 
   <!-- If they're out, get some from the cellar -->
-  <script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-  <script src="{{ site.url }}/assets/js/retina.min.js"></script>
+  <script>window.jQuery || document.write('<script src="{{site.url}}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+  <script src="{{site.url}}/assets/js/retina.min.js"></script>
 
   <!-- Custom JS -->
-  <script src="{{ site.url }}/assets/js/scripts.js"></script>
+  <script src="{{site.url}}/assets/js/scripts.js"></script>
 
 
   </body>

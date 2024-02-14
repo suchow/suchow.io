@@ -10,7 +10,7 @@ college: Stevens Institute of Technology
 permalink: /thought-and-behavior/
 ---
 
-<img style="border: 1px solid #ccdddd" src="{{ site.url }}/images/head2.png" />
+<img style="border: 1px solid #ccdddd" src="{{site.url}}/images/head2.png" />
 
 Course site for MGT 451A, with a list of [class meetings](#class-meetings) and [assignments](#assignments).
 
@@ -368,7 +368,7 @@ _Instructions_: Use the 10 questions you asked in Assignment #2, any feedback yo
 #### 6 --- A problem set on causality.
 `2018-10-19`
 
-_Instructions_: Read [pages 510--522 of Artificial Intelligence: a Modern Approach (AIMA)]({{ site.url }}/assets/cognition/causality.pdf). Complete exercises 14.1, 14.4, and 14.11. Finally, think of an everyday scenario where a person has an incorrect causal model of something. Describe the scenario and misconception, and then draw two Bayes nets, one representing the truth, the other representing the misconception. [Submit your problem set here](https://www.dropbox.com/request/30WxfOysbnfUmx4vpMmc).
+_Instructions_: Read [pages 510--522 of Artificial Intelligence: a Modern Approach (AIMA)]({{site.url}}/assets/cognition/causality.pdf). Complete exercises 14.1, 14.4, and 14.11. Finally, think of an everyday scenario where a person has an incorrect causal model of something. Describe the scenario and misconception, and then draw two Bayes nets, one representing the truth, the other representing the misconception. [Submit your problem set here](https://www.dropbox.com/request/30WxfOysbnfUmx4vpMmc).
 
 #### 7 --- Selecting a final-paper topic.
 `2018-10-26`

@@ -3,7 +3,7 @@ tagline:          Cognitive scientist.
 description:      Jordan Suchow's portfolio of research and other work.
 encoding:         utf-8
 #Comment out url when working locally to resolve base urls correctly
-url: https://suchow.io
+#url: https://suchow.io
 enforce_ssl: suchow.io
 
 # Owner/author information
@@ -43,12 +43,12 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+  syntax_highlighter_opts:
+    line_numbers.:
+    line_numbers_start.: 1
+    tab_width.: 4
+    bold_every.: 10
+    css: class
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:title/
@@ -56,8 +56,6 @@ permalink:   /:title/
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "_drafts/**/*.pdf"]
 
-gems:
-  - jekyll-redirect-from
+
 plugins:
   - jekyll-sitemap
-  - jekyll-compass
