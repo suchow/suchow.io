@@ -386,6 +386,7 @@ header.site-header nav {
 }
 
 .archive-wrap {
+    text-align: left;
     @include column(10);
     max-width: 800px;
     display: block;
