@@ -1,13 +1,13 @@
 {% include head.html %}
 
       <section class="article">
-        {% if page.image.feature %}
+        {%- if page.image.feature -%}
           <div class="overlay"></div>
-          <div class="featured-image" style="background-image: url({{ site.url }}/images/{{ page.image.feature }})"></div>
-        {% else %}
+          <div class="featured-image" style="background-image: url({{site.url}}/images/{{page.image.feature}})"></div>
+        {%- else -%}
           <div class="overlay"></div>
-          <div class="featured-image" style="background-image: url({{ site.url }}/images/typewriter.jpg)"></div>
-        {% endif %}
+          <div class="featured-image" style="background-image: url({{site.url}}/images/typewriter.jpg)"></div>
+        {%- endif -%}
           <article class="archive-wrap">
               <ol class="post-list">
                 <header class="post-header" id="named-introduction">
@@ -15,13 +15,13 @@
                     {% if page.title %}
                       <h1>{{page.title}}</h1>
                     {% endif %}
-                    <p class="intro donthyphenate"><img id="headshot" src="{{ site.url }}/images/headshot.jpg" width="20px" alt="a large headshot"/>
-                      {% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %} <a href=/cv.pdf>CV</a></p>
+                    <p class="intro donthyphenate"><img id="headshot" src="{{site.url}}/images/headshot.jpg" width="20px" alt="a large headshot"/>
+                      {% if page.description %}{{page.description}}{% else %}{{page.tagline}}{% endif %} <a href=/cv.pdf>CV</a></p>
                   </hgroup>
                 </header>
-                 <lh><h2>{{ page.title }}</h2></lh>
-                  <!-- <p class="intro">{% if page.description %}{{ page.description }}{% else %}{{ page.tagline }}{% endif %}</p> -->
-                  {{ content }}
+                 <lh><h2>{{page.title}}</h2></lh>
+                  <!-- <p class="intro">{% if page.description %}{{page.description}}{% else %}{{page.tagline}}{% endif %}</p> -->
+                  {{content}}
 
                   {% include separator.html %}
 
@@ -30,8 +30,8 @@
                     {% if post.category contains 'papers' %}
                       <li>
                         <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-                          <a href="{{ site.url }}/assets/docs/{{ post.pdf }}">{{ post.title }}</a>.
-                          <p class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished"><span class="journal">{{ post.journal }}</span> <span class="separator-horizontal">/</span> {{ post.date | date: "%Y" }} <span class="separator-horizontal">/</span> {{ post.type }}</time></p>
+                          <a href="{{site.url}}/assets/docs/{{post.pdf}}">{{post.title}}</a>.
+                          <p class="date"><time datetime="{{post.date | date_to_xmlschema}}" itemprop="datePublished"><span class="journal">{{post.journal}}</span> <span class="separator-horizontal">/</span> {{post.date | date: "%Y"}} <span class="separator-horizontal">/</span> {{post.type}}</time></p>
                         </div>
                       </li>
                     {% endif %}
@@ -43,8 +43,8 @@
                     {% if post.category contains 'posters' %}
                       <li>
                         <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-                          <a href="{{ site.baseurl }}/assets/docs/{{ post.pdf }}"><img style="width:100%; max-width:350px;" src="{{ site.baseurl }}/images/{{ post.preview_img }}" class="poster"></a>
-                          <p class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished"><span class="journal">{{ post.journal }}</span> <span class="separator-horizontal">/</span> {{ post.date | date: "%Y" }} <span class="separator-horizontal">/</span> {{ post.type }}</time></p>
+                          <a href="{{site.baseurl}}/assets/docs/{{post.pdf}}"><img style="width:100%; max-width:350px;margin: 30px auto 10px; display: block;" src="{{site.baseurl}}/images/{{post.preview_img}}" class="poster"></a>
+                          <p class="date" style="text-align: center;"><time datetime="{{post.date | date_to_xmlschema}}" itemprop="datePublished"><span class="journal">{{post.journal}}</span> <span class="separator-horizontal">/</span> {{post.date | date: "%Y"}} <span class="separator-horizontal">/</span> {{post.type}}</time></p>
                         </div>
                       </li>
                     {% endif %}
@@ -59,11 +59,11 @@
                         <li>
                           <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
                             {% if post.external_url %}
-                              <a href="{{ post.external_url }}">{{ post.title }}</a>.
+                              <a href="{{post.external_url}}">{{post.title}}</a>.
                             {% else %}
-                              <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>.
+                              <a href="{{site.url}}{{post.url}}">{{post.title}}</a>.
                             {% endif %}
-                          <p class="date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished"><span class="journal">{{ post.type }}</span> <span class="separator-horizontal">/</span> {{ post.date | date: "%B %d, %Y" }}</time></p>
+                          <p class="date"><time datetime="{{post.date | date_to_xmlschema}}" itemprop="datePublished"><span class="journal">{{post.type}}</span> <span class="separator-horizontal">/</span> {{post.date | date: "%B %d, %Y"}}</time></p>
                           </div>
                         </li>
                       {% endunless %}

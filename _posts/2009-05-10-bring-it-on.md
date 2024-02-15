@@ -18,4 +18,4 @@ Your browser does not support the audio element.
 </center>
 {% endraw %}
 
-<img class="half-width" src="{{ site.url }}/images/suit-up.jpg" width="150" alt="Album cover.">
+<img class="half-width" src="{{site.url}}/images/suit-up.jpg" width="150" alt="Album cover.">

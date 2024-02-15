@@ -91,7 +91,6 @@ blockquote, blockquote p {
   padding-left: 2px;
 }
 
-
 /*   Code Formatting    */
 
 code {
@@ -117,12 +116,15 @@ code {
             color: $grey-light;
             line-height: 2em;
         }
+
         .nt {
             color: #c85b5c;
         }
+
         .na {
             color: #f0e687;
         }
+
         .s {
             color: #87ceeb;
         }
@@ -198,7 +200,6 @@ input {
     float: none;
 }
 
-
 /* Header */
 
 header.site-header {
@@ -213,7 +214,6 @@ header.site-header {
 }
 
 #bump .darken {
-
     a {
         color: $black;
         @include transit(all, .2s, ease-in-out);
@@ -233,14 +233,13 @@ header.site-header {
             &:active {
               color: $link;
             }
+
             &:hover {
                 text-shadow: none;
                 color: $link;
             }
         }
-
 }
-
 
 header.site-header a.menu {
     display: none;
@@ -249,6 +248,7 @@ header.site-header a.menu {
 header.site-header hgroup h1, header.site-header nav ul {
     font-family: $sans;
 }
+
 header.site-header hgroup {
     float: left;
     padding-left: 5vw;
@@ -260,6 +260,7 @@ header.site-header hgroup {
         letter-spacing: 1px;
         text-transform: uppercase;
     }
+
     a {
         color: #fff;
         @include transit(all, .2s, ease);
@@ -298,9 +299,7 @@ header.site-header nav {
     }
 }
 
-
 /* Article Stuff */
-
 
 .article {
     position: relative;
@@ -316,6 +315,7 @@ header.site-header nav {
         z-index: 2;
         background: rgba(0,0,0,.2);
     }
+
     .overlay-lighter {
         background: rgba(0,0,0,.1);
     }
@@ -338,6 +338,7 @@ header.site-header nav {
         img {
             max-height: 800px;
         }
+
         border-bottom: 1px solid $highlight;
     }
 
@@ -385,6 +386,7 @@ header.site-header nav {
 }
 
 .archive-wrap {
+    text-align: left;
     @include column(10);
     max-width: 800px;
     display: block;
@@ -476,7 +478,6 @@ header.site-header nav {
 }
 
 .post {
-
     min-height: 500px;
 
     .deets {
@@ -501,7 +502,6 @@ header.site-header nav {
         padding-top: ($lh * 1);
         margin-bottom: ($lh * 1/2);
         line-height: 1.25em
-
     }
 
     figure {
@@ -554,6 +554,7 @@ header.site-header nav {
         lh h1, lh h2, lh h3, lh h4, lh h5 {
             @include underline(2px, solid, $grey-light);
         }
+
         li {
             list-style: disc;
             list-style-type: disc;
@@ -571,6 +572,7 @@ header.site-header nav {
         lh h1, lh h2, lh h3, lh h4, lh h5 {
             @include underline(2px, solid, $grey-light);
         }
+
         li {
             margin-left: $lh*2;
             padding-left: $lh/4;
@@ -612,12 +614,14 @@ header.site-header nav {
 }
 
 footer {
+    padding: 40px 20px;
     width: 100%;
     // background: #254d60;
     // height: $footerHeight;
     font-size: $fsp;
     color: $white;
     position: relative;
+    border-top: 2px solid $highlight;
     border-bottom: 2px solid $highlight;
 
     // Contain that ish
@@ -649,6 +653,7 @@ footer {
         font-style: italic;
         font-size: $fs4;
     }
+
     .prev-posts {
         @include column(6,10);
         max-width: 600px;
@@ -657,9 +662,11 @@ footer {
         p {
             padding-top: $lh*2;
         }
+
         a {
             color: $footer-link-color;
         }
+
         li {
             @include row(12);
             margin-top: $lh/2;
@@ -672,6 +679,7 @@ footer {
                     }
                 }
             }
+
             span.date {
                 float: none;
                 color: transparentize($grey-light, .4);
@@ -698,6 +706,7 @@ footer {
                 color: $white;
             }
         }
+
         ul {
             li {
                 margin-bottom: $lh/4;
@@ -706,16 +715,19 @@ footer {
                 }
             }
         }
+
         .foot-link {
             font-family: $sans;
             font-size: 18px;
             font-style: normal;
             padding-bottom: 5px;
         }
+
         img {
             margin-bottom: -6px;
             margin-right: 40px;
         }
+
         a {
             color: $footer-link-color;
         }
@@ -726,12 +738,10 @@ footer {
     margin-top: $lh*3;
 }
 
-
 /* Tablet
    ========================================================================== */
 
 @media only screen and (max-width: $breakpoint-2-max-width) {
-
     // Type Fixes
 
     h1 {
@@ -747,7 +757,6 @@ footer {
 
         .prev-posts {
             li  {
-
                 .recent-title {
                 }
 
@@ -764,7 +773,6 @@ footer {
 
 @media only screen and (max-width: 500px) {
     footer {
-
         aside {
             width: 90%;
             margin: 0 auto;
@@ -788,7 +796,6 @@ footer {
 }
 
 @media only screen and (max-width : 680px) {
-
     /* All Posts */
 
     section.article img.loading {
@@ -847,9 +854,7 @@ footer {
     }
 }
 
-
 @media only screen and (max-width: $breakpoint-1-max-width) {
-
     .post {
         @include column(9);
         max-width: 420px;
@@ -884,5 +889,4 @@ footer {
     .archive-wrap {
         padding-top: 0px;
     }
-
 }
