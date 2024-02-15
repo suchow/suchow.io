@@ -43,8 +43,8 @@
                     {% if post.category contains 'posters' %}
                       <li>
                         <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-                          <a href="{{site.baseurl}}/assets/docs/{{post.pdf}}"><img style="width:100%; max-width:350px;" src="{{site.baseurl}}/images/{{post.preview_img}}" class="poster"></a>
-                          <p class="date"><time datetime="{{post.date | date_to_xmlschema}}" itemprop="datePublished"><span class="journal">{{post.journal}}</span> <span class="separator-horizontal">/</span> {{post.date | date: "%Y"}} <span class="separator-horizontal">/</span> {{post.type}}</time></p>
+                          <a href="{{site.baseurl}}/assets/docs/{{post.pdf}}"><img style="width:100%; max-width:350px;margin: 30px auto 10px; display: block;" src="{{site.baseurl}}/images/{{post.preview_img}}" class="poster"></a>
+                          <p class="date" style="text-align: center;"><time datetime="{{post.date | date_to_xmlschema}}" itemprop="datePublished"><span class="journal">{{post.journal}}</span> <span class="separator-horizontal">/</span> {{post.date | date: "%Y"}} <span class="separator-horizontal">/</span> {{post.type}}</time></p>
                         </div>
                       </li>
                     {% endif %}
