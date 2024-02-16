@@ -1,16 +1,16 @@
 <div class="push"></div>
   <footer>
     <aside class="wrap">
-      
+
       <div class="social">
-        <a id="mail" href="mailto:{{site.owner.email}}"><img src="{{site.url}}/images/plane-dark.png" alt="Send me an email"/></a>
-        
+        <a id="mail" href="mailto:{{site.owner.email}}"><img src="{{site.baseurl}}/images/plane-dark.png" alt="Send me an email"/></a>
+
         {% if site.owner.twitter %}
-        <a id="twit" href="https://twitter.com/{{site.owner.twitter}}" target="_blank"><img src="{{site.url}}/images/twit-dark.png" alt="Twitter profile"/><span class="foot-link"></span></a>
+        <a id="twit" href="https://twitter.com/{{site.owner.twitter}}" target="_blank"><img src="{{site.baseurl}}/images/twit-dark.png" alt="Twitter profile"/><span class="foot-link"></span></a>
         {% endif %}
-        
+
         {% if site.owner.github %}
-        <a id="drib" href="https://github.com/{{site.owner.github}}" target="_blank"><img src="{{site.url}}/images/github-dark.png" alt="Github profile"/></a>
+        <a id="drib" href="https://github.com/{{site.owner.github}}" target="_blank"><img src="{{site.baseurl}}/images/github-dark.png" alt="Github profile"/></a>
         {% endif %}
       </div>
     </aside>
@@ -18,10 +18,10 @@
 
   <!-- If they're out, get some from the cellar -->
   <script>window.jQuery || document.write('<script src="{{site.url}}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-  <script src="{{site.url}}/assets/js/retina.min.js"></script>
+  <script src="{{site.baseurl}}/assets/js/retina.min.js"></script>
 
   <!-- Custom JS -->
-  <script src="{{site.url}}/assets/js/scripts.js"></script>
+  <script src="{{site.baseurl}}/assets/js/scripts.js"></script>
 
 
   </body>
