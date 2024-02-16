@@ -10,7 +10,7 @@ college: Stevens Institute of Technology
 permalink: /thought-and-behavior/
 ---
 
-<img style="border: 1px solid #ccdddd" src="{{site.url}}/images/head2.png" />
+<img style="border: 1px solid #ccdddd" src="{{site.baseurl}}/images/head2.png" />
 
 Course site for MGT 451A, with a list of [class meetings](#class-meetings) and [assignments](#assignments).
 

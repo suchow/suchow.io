@@ -9,7 +9,7 @@ semester: Fall 2018
 college: Wellesley College
 ---
 
-<img style="border: 1px solid #ccdddd" src="{{site.url}}/images/head2.png" />
+<img style="border: 1px solid #ccdddd" src="{{site.baseurl}}/images/head2.png" />
 
 Course site for Wellesley PSYC 217, with a list of [class meetings](#class-meetings) and [assignments](#assignments).
 
