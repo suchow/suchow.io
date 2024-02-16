@@ -2,4 +2,4 @@
 
 Jordan Suchow's portfolio of research and other work.
 
-[![Build Status](https://travis-ci.org/suchow/suchow.io.svg?branch=master)](https://travis-ci.org/suchow/suchow.io)
+[![pages-build-deployment](https://github.com/suchow/suchow.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/suchow/suchow.io/actions/workflows/pages/pages-build-deployment)
