@@ -1,7 +1,6 @@
 ---
 layout: post-no-feature
 title: "Scaling up behavioural studies of visual memory"
-"
 description:
 category: papers
 type: Commentary
