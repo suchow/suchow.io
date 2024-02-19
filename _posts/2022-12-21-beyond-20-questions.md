@@ -1,7 +1,6 @@
 ---
 layout: post-no-feature
-title: "Beyond playing 20 questions with nature: Integrative experiment design in the social and behavioral sciences
-"
+title: "Beyond playing 20 questions with nature: Integrative experiment design in the social and behavioral sciences"
 description:
 category: papers
 type: Paper
