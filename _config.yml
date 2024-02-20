@@ -5,6 +5,7 @@ encoding:         utf-8
 #Comment out url when working locally to resolve base urls correctly
 #url: https://suchow.io
 enforce_ssl: suchow.io
+error_mode: strict
 
 # Owner/author information
 owner:
