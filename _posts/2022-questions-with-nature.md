@@ -6,7 +6,7 @@ description:
 category: papers
 type: Paper
 journal: Cognitive Science Society
-pdf: suchow2022paradox-learning.pdf
+pdf: suchow2022questions-with-nature.pdf
 tags: [category learning; collectible items; rarity; nonfungible tokens; cryptocurrency]
 ---
 
