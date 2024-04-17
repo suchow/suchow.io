@@ -4,7 +4,7 @@ title: "Predicting judgments of food healthiness with deep latent-construct cult
 description:
 category: papers
 type: paper
-journal: Cognitive Science Society
+journal: CogSci2023
 pdf: suchow2023predicting-judgements.pdf
 tags: [cultural consensus theory, individual differences, bayesian modeling, food beliefs]
 ---
