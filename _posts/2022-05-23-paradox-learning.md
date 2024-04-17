@@ -5,7 +5,7 @@ Bored Ape Yacht Club"
 description:
 category: papers
 type: Paper
-journal: Cognitive Science Society
+journal: CogSci2022
 pdf: suchow2022paradox-learning.pdf
 tags: [category learning; collectible items; rarity; nonfungible tokens; cryptocurrency]
 ---
