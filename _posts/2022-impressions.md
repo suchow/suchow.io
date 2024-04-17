@@ -5,7 +5,7 @@ description:
 category: papers
 type: Paper
 journal: SVRHM
-pdf: suchow2022shadowbanning.pdf
+pdf: suchow2022impressions.pdf
 tags: [impressions]
 ---
 
