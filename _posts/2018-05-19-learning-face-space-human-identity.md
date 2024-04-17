@@ -4,7 +4,7 @@ title: "Learning a face space for experiments on human identity"
 description:
 category: papers
 type: Experiment
-journal: Cognitive Science Society
+journal: CogSci 2018
 pdf: suchow2018learning.pdf
 tags: [face recognition, machine learning, generative models, images]
 ---
