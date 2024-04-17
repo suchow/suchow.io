@@ -4,7 +4,7 @@ title: "Cultural alignment of machine-vision representations"
 description:
 category: papers
 type: Paper
-journal: NeurIPS 
+journal: NeurIPS SVRHM Workshop
 pdf: suchow2022cultural-alignment.pdf
 tags: [mental representations, machine vision representation]
 ---
