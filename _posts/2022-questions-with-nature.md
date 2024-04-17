@@ -1,7 +1,6 @@
 ---
 layout: post-no-feature
-title: "The paradox of learning categories from rare examples: a case study of NFTs &amp; The
-Bored Ape Yacht Club"
+title: "Beyond Playing 20 Questions with Nature: Integrative Experiment Design in the Social and Behavioral Sciences"
 description:
 category: papers
 type: Paper
