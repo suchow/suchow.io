@@ -2,9 +2,9 @@
 layout: post-no-feature
 title: "Deep models of superficial face judgments"
 description: 
-category: paper
-type: paper
-journal: PSYCHOLOGICAL AND COGNITIVE SCIENCES
+category: papers
+type: Paper
+journal: Proceedings of the National Academy of Sciences
 pdf: suchow2022superficial-face-judgments.pdf
 tags: [face perception, social traits, computational models]
 ---
