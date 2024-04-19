@@ -5,7 +5,7 @@ description:
 category: papers
 type: paper
 journal: CogSci2023
-pdf: suchow2023predicting-judgements.pdf
+pdf: suchow2023predicting-judgments.pdf
 tags: [cultural consensus theory, individual differences, bayesian modeling, food beliefs]
 ---
 
