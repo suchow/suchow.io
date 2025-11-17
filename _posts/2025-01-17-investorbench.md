@@ -1,10 +1,10 @@
 ---
 layout: post-no-feature
-title: "INVESTORBENCH: A Benchmark for Financial Decision-Making Tasks with LLM-based Agent"
+title: "INVESTORBENCH: A benchmark for financial decision-making tasks with LLM-based agents"
 description:
 category: papers
 type: paper
-journal: ACL2025
+journal: ACL 2025
 pdf: li2025investorbench.pdf
 tags: [LLM agents, financial decision making, benchmark, financial tasks, investment, stocks, cryptocurrency, ETFs]
 ---
