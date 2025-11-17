@@ -1,0 +1,12 @@
+---
+layout: post-no-feature
+title: "INVESTORBENCH: A Benchmark for Financial Decision-Making Tasks with LLM-based Agent"
+description:
+category: papers
+type: paper
+journal: ACL2025
+pdf: li2025investorbench.pdf
+tags: [LLM agents, financial decision making, benchmark, financial tasks, investment, stocks, cryptocurrency, ETFs]
+---
+
+Recent advancements have underscored the potential of large language model (LLM)-based agents in financial decision-making. Despite this progress, the field currently encounters two main challenges: (1) the lack of a comprehensive LLM agent framework adaptable to a variety of financial tasks, and (2) the absence of standardized benchmarks and consistent datasets for assessing agent performance. To tackle these issues, we introduce InvestorBench, the first benchmark specifically designed for evaluating LLM-based agents in diverse financial decision-making contexts. InvestorBench enhances the versatility of LLM-enabled agents by providing a comprehensive suite of tasks applicable to different financial products, including single equities like stocks and cryptocurrencies, and exchange-traded funds (ETFs). Additionally, we assess the reasoning and decision-making capabilities of our agent framework using thirteen different LLMs as backbone models, across various market environments and tasks. Furthermore, we have curated a diverse collection of open-source, datasets and developed a comprehensive suite of environments for financial decision-making. This establishes a highly accessible platform for evaluating financial agents' performance across various scenarios.
