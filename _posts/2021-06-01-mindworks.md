@@ -1,7 +1,7 @@
 ---
-layout: post-no-feature
 title: "Face morphing at Mindworks, Chicago Booth"
-description:
+layout: post
+external_url: https://www.chicagobooth.edu/mindworks/explore/exhibits/whats-in-a-face
 category: demo
 type: Exhibit
 tags: [museum, exhibit, face perception, generative AI]
