@@ -1,5 +1,5 @@
 title:            Jordan Suchow
-tagline:          Cognitive scientist.
+tagline:          "Cognitive science + information systems at Stevens Institute of Technology, studying human, machine, and collective intelligence"
 description:      Jordan Suchow's portfolio of research and other work.
 encoding:         utf-8
 #Comment out url when working locally to resolve base urls correctly
@@ -11,7 +11,7 @@ error_mode: strict
 owner:
   name:           Jordan Suchow
   avatar:         avatar.png
-  bio:            "Cognitive scientist"
+  bio:            "Cognitive science + information systems at Stevens Institute of Technology, studying human, machine, and collective intelligence"
   email:          jws@stevens.edu
   twitter:        suchow
   github:         suchow
