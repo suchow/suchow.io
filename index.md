@@ -8,7 +8,7 @@ image:
   feature: head2.png
 ---
 
-After an undergraduate degree in computer science at Brandeis (B.S. 2009), I studied cognitive psychology at Harvard (A.M. 2011, Ph.D. 2014), then completed a postdoc and appointment as a research scientist at the University of California, Berkeley.
+After an undergraduate degree in computer science at Brandeis (<span style="font-size: 0.85em;">B.S. 2009</span>), I studied cognitive psychology at Harvard (<span style="font-size: 0.85em;">A.M. 2011</span>, <span style="font-size: 0.85em;">Ph.D. 2014</span>), then completed a postdoc and appointment as a research scientist at the University of California, Berkeley.
 
 Now I am an assistant professor at Stevens Institute of Technology.
 
