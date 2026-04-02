@@ -7,6 +7,7 @@ type: Paper
 journal: Proceedings of the National Academy of Sciences
 pdf: suchow2022superficial-face-judgments.pdf
 tags: [face perception, social traits, computational models]
+selected: true
 ---
 
 The diversity of human faces and the contexts in which they appear gives rise to an

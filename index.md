@@ -12,6 +12,6 @@ After an undergraduate degree in computer science at Brandeis (B.S. 2009), I stu
 
 Now I am an assistant professor at Stevens Institute of Technology.
 
-My research program considers how information technology can advance empirical research into human, machine, and collective intelligence, not simply by scaling up traditional experiments but by fundamentally rethinking their structure as sociotechnical systems. I have also pursued scaling experiments along other dimensions, including team size via global data-collection efforts and multiverse analyses, participant-pool size via crowdsourcing, and stimulus-design-space size via generative AI models.
+My research program considers how information technology can reshape empirical research into human, machine, and collective intelligence, not simply by scaling up traditional experiments but by fundamentally rethinking their structure as sociotechnical systems. I have also pursued scaling experiments along multiple dimensions, including team size via global data-collection efforts and multiverse analyses, participant-pool size via crowdsourcing, and stimulus-design-space size via deep generative models.
 
 Get in touch by [email](mailto:jws@stevens.edu).

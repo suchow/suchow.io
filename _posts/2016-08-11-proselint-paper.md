@@ -7,6 +7,7 @@ type: Paper
 journal: SciPy 2016
 pdf: pacer2016proselint.pdf
 tags: [linters, writing, prose, editing]
+selected: true
 ---
 
 The craft of writing is hard despite the abundance of thoughtful

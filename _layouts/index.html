@@ -25,6 +25,23 @@
 
                   {% include separator.html %}
 
+                  <h2 style="font-family: 'AvenirLTStd-Book', 'Avenir', 'Helvetica Neue', Helvetica, sans-serif; font-variant: small-caps; text-transform: lowercase; text-align: center; letter-spacing: 0.05em; font-size: 18px; font-weight: 600; font-style: italic; margin-bottom: 1.5em;">Selected Publications</h2>
+
+                  {% for post in site.posts %}
+                    {% if post.category contains 'papers' and post.selected %}
+                      <li>
+                        <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+                          <a href="{{site.url}}/assets/docs/{{post.pdf}}">{{post.title}}</a>.
+                          <p class="date"><time datetime="{{post.date | date_to_xmlschema}}" itemprop="datePublished"><span class="journal">{{post.journal}}</span> <span class="separator-horizontal">/</span> {{post.date | date: "%Y"}} <span class="separator-horizontal">/</span> {{post.type}}</time></p>
+                        </div>
+                      </li>
+                    {% endif %}
+                  {% endfor %}
+
+                  <!--
+                  {% include separator.html %}
+
+                  <h2 style="font-family: 'AvenirLTStd-Book', 'Avenir', 'Helvetica Neue', Helvetica, sans-serif; font-variant: small-caps; text-transform: lowercase; text-align: center; letter-spacing: 0.05em; font-size: 18px; font-weight: 600; margin-bottom: 1.5em;">All Publications</h2>
 
                   {% for post in site.posts reversed %}
                     {% if post.category contains 'papers' %}
@@ -36,7 +53,9 @@
                       </li>
                     {% endif %}
                   {% endfor %}
+                  -->
 
+                  <!--
                   {% include separator.html %}
 
                   {% for post in site.posts %}
@@ -49,7 +68,9 @@
                       </li>
                     {% endif %}
                   {% endfor %}
+                  -->
 
+                  <!--
                   {% include separator.html %}
 
                   {% for post in site.posts %}
@@ -70,6 +91,7 @@
                     {% endunless %}
                     {% endunless %}
                   {% endfor %}
+                  -->
               </ol>
           </article>
       </section>

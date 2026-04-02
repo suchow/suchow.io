@@ -7,6 +7,7 @@ type: Paper
 journal: Current Biology
 pdf: suchow2011silencing.pdf
 tags: [visual awareness, motion perception, change blindness]
+selected: true
 ---
 
 Loud bangs, bright flashes, and intense shocks capture
