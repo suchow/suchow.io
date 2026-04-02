@@ -23,7 +23,7 @@ p {
 
 a, a:visited, a:active {
     color: $link;
-    @include transit(all,0.25s,ease-in-out);
+    @include transit(color,0.25s,ease-in-out);
 }
 
 sup {
@@ -36,7 +36,7 @@ sup {
 
 a:hover {
     color: $accent;
-    @include transit(all,.25s, ease-in-out)
+    @include transit(color,.25s, ease-in-out)
 }
 
 em {
@@ -258,8 +258,20 @@ header.site-header hgroup {
         font-size: 18px;
         line-height: 100%;
         color: $accent;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
         text-transform: uppercase;
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            inset: -30px -50px;
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            background: rgba(255,255,255,0.25);
+            z-index: -1;
+            -webkit-mask-image: radial-gradient(ellipse at center, black 5%, transparent 55%);
+            mask-image: radial-gradient(ellipse at center, black 5%, transparent 55%);
+        }
     }
 
     a {
@@ -340,7 +352,7 @@ header.site-header nav {
             max-height: 800px;
         }
 
-        border-bottom: 1px solid $highlight;
+        border-bottom: 1px solid #e6a832;
     }
 
     // Header Stuff
@@ -374,6 +386,7 @@ header.site-header nav {
     font-size: $fsp;
     border-right: 1px dashed $highlight;
     border-bottom: 1px dashed $highlight;
+    padding-right: 1.5em;
 }
 
 // Archive Page
