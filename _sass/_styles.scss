@@ -2,6 +2,7 @@
 
 body {
     font-family: $sans;
+    font-feature-settings: "onum";
     color: $black;
     -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
     -moz-osx-font-smoothing: grayscale;
@@ -446,11 +447,11 @@ header.site-header nav {
         .date time {
             position: relative;
             top: -3px;
-            font-size: $fs6;
+            font-size: 12px;
             font-weight: bold;
             font-family: $sans;
             font-style: normal;
-            color: $grey-light;
+            color: #aaa;
             text-transform: uppercase;
             vertical-align: middle;
         }
@@ -458,13 +459,14 @@ header.site-header nav {
 }
 
 .journal {
-    color: #999;
-    letter-spacing: 0.05em;
+    color: #777;
+    letter-spacing: 0.08em;
 }
 
 .separator-horizontal {
     padding-right: 3px;
     padding-left: 3px;
+    color: $grey-light;
 }
 
 // Post Formatting
