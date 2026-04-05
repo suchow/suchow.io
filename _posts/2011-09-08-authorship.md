@@ -1,6 +1,6 @@
 ---
 layout: post-no-feature
-title: "A specific policy on authorship"
+title: "NPG's policy on authorship"
 description:
 category: papers
 type: Fiction
