@@ -24,6 +24,7 @@
 <script type="text/javascript" src="{{site.baseurl}}/assets/js/fontsmoothie.min.js" async></script>
 <script src="{{site.baseurl}}/assets/js/hyphenator.js" type="text/javascript"></script>
 <style>@import url('https://fonts.googleapis.com/css?family=Cormorant:600,600i');</style>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=block" rel="stylesheet">
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{site.url}}/assets/css/i.css">
@@ -47,7 +48,7 @@
 <link rel="icon" type="image/png" href="{{site.baseurl}}/assets/ico/favicon-16x16.png" sizes="16x16" />
 
 <div id="bump">
-  <body class="hyphenate">
+  <body class="{% if page.body_class %}{{page.body_class}}{% else %}hyphenate{% endif %}">
     <header class="site-header darken">
       <div class="wrap">
         <hgroup>

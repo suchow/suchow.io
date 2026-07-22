@@ -1,0 +1,22 @@
+{% include head-dark.html %}
+
+<link rel="stylesheet" href="{{site.baseurl}}/assets/css/viz.css">
+
+<section class="article pad-top">
+
+  <article class="wrap viz-body">
+    <header class="post-header">
+      <hgroup>
+        <h1 class="donthyphenate">{{page.title}}</h1>
+      </hgroup>
+    </header>
+
+    {{content}}
+
+  </article>
+</section>
+</div>
+
+<script src="{{site.baseurl}}/assets/js/viz.js" defer></script>
+
+{% include footer.html %}

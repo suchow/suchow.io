@@ -1,0 +1,25 @@
+{
+  "//": "Excerpt of an renv.lock, for orientation; renv::snapshot() writes the real one. Note it records R's version but does NOT install it: record/pin R itself separately (rig, or a rocker container).",
+  "R": {
+    "Version": "4.4.1",
+    "Repositories": [
+      { "Name": "CRAN", "URL": "https://packagemanager.posit.co/cran/2026-06-01" }
+    ]
+  },
+  "Packages": {
+    "dplyr": {
+      "Package": "dplyr",
+      "Version": "1.1.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "fedd9d00c2944ff00a0e2696ccf048ec"
+    },
+    "lme4": {
+      "Package": "lme4",
+      "Version": "1.1-37",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "5df4b6b0d8b3b1a37835eaad2e6ba1a2"
+    }
+  }
+}

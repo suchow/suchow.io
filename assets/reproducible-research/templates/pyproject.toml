@@ -1,0 +1,20 @@
+# Python project metadata for a research project, managed with uv.
+# Workflow:   uv init  ->  uv add <packages>  ->  uv lock  ->  commit uv.lock
+# Rerun with: uv run python analysis/main.py   (uses the locked versions)
+
+[project]
+name = "rt-study"
+version = "1.0.0"
+description = "Analysis code for: <paper title>"
+requires-python = "==3.12.*"        # pin the interpreter line, not just packages
+dependencies = [
+    # Named versions here; exact resolved versions live in uv.lock.
+    "numpy==2.3.*",
+    "pandas==2.3.*",
+    "matplotlib==3.10.*",
+]
+
+[dependency-groups]
+dev = [
+    "pytest==8.*",
+]

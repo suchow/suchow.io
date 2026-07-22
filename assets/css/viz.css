@@ -1,0 +1,433 @@
+/* ==========================================================================
+   The cost of training — Tufte-leaning visualization styles
+   ========================================================================== */
+
+.viz-body {
+    font-family: "EB Garamond", "Crimson Text", "Georgia", serif;
+    font-size: 21px;
+    line-height: 32px;
+    font-feature-settings: "onum";
+    color: #3b3b3b;
+    width: 100%;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 24px;
+    box-sizing: border-box;
+}
+
+.viz-body .post-header {
+    margin: 0 0 1.5em 0;
+}
+
+.viz-body .post-header h1 {
+    font-family: inherit;
+    font-style: italic;
+    font-weight: 400;
+    font-size: clamp(40px, 4.5vw, 56px);
+    line-height: 1.1;
+    text-align: left;
+    margin: 0 0 0.4em 0;
+    color: #1a1a1a;
+}
+
+.viz-body .lede {
+    font-size: 22px;
+    line-height: 1.5;
+    max-width: 640px;
+    margin: 0 0 2em 0;
+}
+
+.viz-body .lede p {
+    margin-bottom: 0.7em;
+}
+
+.viz-body p {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.viz-body a, .viz-body a:visited {
+    color: #3b3b3b;
+    text-decoration: none;
+    border-bottom: 1px dotted #999;
+}
+
+.viz-body a:hover {
+    color: #24536b;
+    border-bottom-color: #24536b;
+}
+
+/* Section rule — Tufte uses thin horizontal rule, no decoration. */
+.viz-rule {
+    border: none;
+    border-top: 1px solid #cdcdcd;
+    margin: 2em 0 1.5em 0;
+}
+
+/* ==========================================================================
+   The visualization itself
+   ========================================================================== */
+
+#viz-root {
+    margin: 1.5em 0 2em 0;
+}
+
+.viz-figure {
+    width: 100%;
+    margin: 0 0 1.5em 0;
+}
+
+.viz-figure svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+}
+
+.viz-figure .axis text,
+.viz-figure .label,
+.viz-figure .model-label {
+    font-family: "EB Garamond", "Georgia", serif;
+    font-size: 13px;
+    fill: #555;
+}
+
+.viz-figure .axis line,
+.viz-figure .axis path {
+    stroke: #888;
+    stroke-width: 0.5;
+    fill: none;
+    shape-rendering: crispEdges;
+}
+
+.viz-figure .axis-title {
+    font-family: "EB Garamond", "Georgia", serif;
+    font-style: italic;
+    font-size: 13px;
+    fill: #3b3b3b;
+}
+
+.viz-figure .model-dot {
+    fill: #999;
+    stroke: none;
+    cursor: pointer;
+    transition: fill 0.15s ease;
+}
+
+.viz-figure .model-dot:hover {
+    fill: #3b3b3b;
+}
+
+.viz-figure .model-dot.selected {
+    fill: #a83232;
+}
+
+.viz-figure .model-label {
+    fill: #777;
+    pointer-events: none;
+    font-size: 11px;
+}
+
+.viz-figure .model-label.selected {
+    fill: #a83232;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.viz-figure .gridline {
+    stroke: #e6e6e6;
+    stroke-width: 0.5;
+    shape-rendering: crispEdges;
+}
+
+.viz-figure .figure-caption {
+    font-family: "EB Garamond", "Georgia", serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.3;
+    margin-top: 0.4em;
+    max-width: 640px;
+}
+
+/* ==========================================================================
+   Controls + readout, side-by-side
+   ========================================================================== */
+
+.viz-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 48px;
+    margin: 1em 0 2em 0;
+}
+
+@media (max-width: 720px) {
+    .viz-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+}
+
+.viz-block {
+    min-width: 0;
+}
+
+.viz-block-title {
+    font-family: "AvenirLTStd-Book", "Avenir", "Helvetica Neue", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #999;
+    margin: 0 0 1em 0;
+    padding-bottom: 0.4em;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+/* ----- sliders ----- */
+
+.slider-row {
+    margin-bottom: 1.4em;
+}
+
+.slider-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.3em;
+}
+
+.slider-label .name {
+    font-family: "EB Garamond", "Georgia", serif;
+    font-style: italic;
+    font-size: 17px;
+    color: #3b3b3b;
+}
+
+.slider-label .value {
+    font-family: "Monaco", "Courier New", monospace;
+    font-size: 13px;
+    color: #1a1a1a;
+    background: rgba(0, 0, 0, 0.04);
+    padding: 1px 5px;
+}
+
+.slider-row input[type=range] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 2px;
+    background: #cdcdcd;
+    outline: none;
+    margin: 0.6em 0 0.2em 0;
+}
+
+.slider-row input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: #3b3b3b;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+.slider-row input[type=range]::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: #3b3b3b;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+.slider-ticks {
+    display: flex;
+    justify-content: space-between;
+    font-family: "AvenirLTStd-Book", "Avenir", "Helvetica Neue", sans-serif;
+    font-size: 10px;
+    color: #999;
+    letter-spacing: 0.06em;
+    margin-top: 2px;
+}
+
+.slider-note {
+    font-family: "EB Garamond", "Georgia", serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.35;
+    margin-top: 0.3em;
+}
+
+/* ----- readout (the right-hand pane) ----- */
+
+.readout {
+    font-family: "EB Garamond", "Georgia", serif;
+}
+
+.readout-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: baseline;
+    gap: 12px;
+    padding: 0.55em 0;
+    border-bottom: 1px dotted #d8d8d8;
+}
+
+.readout-row:last-child {
+    border-bottom: none;
+}
+
+.readout-name {
+    font-style: italic;
+    font-size: 17px;
+    color: #3b3b3b;
+}
+
+.readout-value {
+    font-family: "Monaco", "Courier New", monospace;
+    font-size: 14px;
+    color: #1a1a1a;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.readout-row.published .readout-value {
+    color: #a83232;
+}
+
+.readout-row.published .readout-name::after {
+    content: " (published)";
+    font-style: normal;
+    font-family: "AvenirLTStd-Book", "Avenir", "Helvetica Neue", sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #a83232;
+    margin-left: 6px;
+    vertical-align: 1px;
+}
+
+.readout-formula {
+    font-family: "Monaco", "Courier New", monospace;
+    font-size: 11px;
+    color: #999;
+    grid-column: 1 / 3;
+    margin-top: 2px;
+    line-height: 1.4;
+}
+
+/* ----- read-only "fixed assumptions" row ----- */
+
+.assumptions {
+    margin: 1.5em 0 0 0;
+}
+
+.assumptions-title {
+    font-family: "AvenirLTStd-Book", "Avenir", "Helvetica Neue", sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #999;
+    margin: 0 0 0.6em 0;
+}
+
+.assumptions-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px 28px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.assumptions-list li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: "EB Garamond", "Georgia", serif;
+    font-size: 14px;
+    color: #3b3b3b;
+}
+
+.assumptions-list .name {
+    font-style: italic;
+    color: #777;
+    margin-right: 6px;
+}
+
+.assumptions-list .value {
+    font-family: "Monaco", "Courier New", monospace;
+    font-size: 12px;
+    color: #1a1a1a;
+}
+
+/* ----- selected-model header ----- */
+
+.selected-model {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin: 0 0 0.8em 0;
+}
+
+.selected-model .name {
+    font-family: "EB Garamond", "Georgia", serif;
+    font-style: italic;
+    font-size: 28px;
+    color: #1a1a1a;
+}
+
+.selected-model .year {
+    font-family: "AvenirLTStd-Book", "Avenir", "Helvetica Neue", sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    color: #999;
+}
+
+.selected-model .citation {
+    font-family: "EB Garamond", "Georgia", serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #777;
+}
+
+.selected-model .citation a {
+    color: #777;
+    border-bottom: 1px dotted #bbb;
+}
+
+/* ----- closing notes ----- */
+
+.closing-notes {
+    margin-top: 3em;
+    max-width: 640px;
+    font-size: 19px;
+    line-height: 1.55;
+    color: #555;
+    font-style: italic;
+}
+
+.closing-notes p {
+    margin-bottom: 0.7em;
+}
+
+.closing-notes em {
+    font-style: normal;
+}
+
+/* ----- footnotes ----- */
+
+.footnote-marker {
+    font-family: "AvenirLTStd-Book", "Avenir", "Helvetica Neue", sans-serif;
+    font-size: 0.7em;
+    vertical-align: super;
+    color: #a83232;
+    margin-left: 1px;
+}

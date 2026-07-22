@@ -1,0 +1,18 @@
+# Conda environment for a research project; conda-forge only.
+# (Prefer pixi + pixi.lock for full lockfile discipline; this file alone
+# records *requested* versions, not the fully resolved stack.)
+#
+# Create with:  conda env create -f environment.yml   (via Miniforge)
+# Or better:    pixi init --import environment.yml && pixi lock
+
+name: rt-study
+channels:
+  - conda-forge          # NOT `defaults` (licensing + reproducibility)
+  - nodefaults
+dependencies:
+  - python=3.12.3        # exact interpreter version
+  - numpy=2.3.1
+  - pandas=2.3.0
+  - matplotlib=3.10.3
+  - r-base=4.4.1         # delete the R lines if not using R
+  - r-renv=1.2.3

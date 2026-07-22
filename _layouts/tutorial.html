@@ -1,0 +1,27 @@
+{% include head-dark.html %}
+
+<link rel="stylesheet" href="{{site.baseurl}}/assets/reproducible-research/tutorial.css">
+
+<section class="article pad-top">
+
+  <article class="wrap post tutorial-body">
+    <header class="post-header">
+      <hgroup>
+        {% if page.kicker %}<span class="tutorial-kicker">{{page.kicker}}</span>{% endif %}
+        <h1 class="donthyphenate">{{page.title}}</h1>
+      </hgroup>
+    </header>
+
+    {{content}}
+
+    <noscript><p><em>The interactive Python examples on this page require
+    JavaScript; the surrounding text stands on its own without
+    them.</em></p></noscript>
+
+  </article>
+</section>
+</div>
+
+<script type="module" src="{{site.baseurl}}/assets/reproducible-research/js/tutorial.js" defer></script>
+
+{% include footer.html %}

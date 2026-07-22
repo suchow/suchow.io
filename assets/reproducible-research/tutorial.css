@@ -1,0 +1,449 @@
+/* Styles for the reproducible-research tutorial pages.
+ *
+ * Two halves: (1) the .tutorial-body reading frame — the site's standard
+ * body type (AvenirLTStd-Book at 20px/30px, per _sass/_type.scss) with
+ * Cormorant display headings, on a wider measure to fit code; (2) the
+ * interactive .pycell components, ported from torchlette's app.css (MIT),
+ * whose palette already echoes this site. */
+
+/* The site declares this face in assets/css/main.css, but head-dark pages
+ * (this layout included) load only i.css — so declare it here too. URLs are
+ * relative: ../fonts/ resolves to assets/fonts/. */
+@font-face {
+  font-family: 'AvenirLTStd-Book';
+  src: url('../fonts/AvenirLTStd-Book_gdi.eot');
+  src: url('../fonts/AvenirLTStd-Book_gdi.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTStd-Book_gdi.woff') format('woff'),
+    url('../fonts/AvenirLTStd-Book_gdi.ttf') format('truetype'),
+    url('../fonts/AvenirLTStd-Book_gdi.svg#AvenirLTStd-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --t-bg: #ffffff;
+  --t-bg-soft: #f5f3ed;
+  --t-bg-code: #1d1f21; /* Tomorrow Night background */
+  --t-fg: #1a1a1a;
+  --t-fg-muted: #aaaaaa;
+  --t-fg-meta: #666666;
+  --t-border: #eeeeee;
+  --t-link: #569BBB;   /* site $link */
+  --t-accent: #eebb66; /* site $highlight */
+  --t-accent-hover: #dba049;
+  --t-red: #aa0000;
+  --t-sans: AvenirLTStd-Book, Avenir, "Avenir Next", -apple-system,
+    BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  --t-mono: Monaco, ui-monospace, "JetBrains Mono", "SF Mono",
+    "Courier New", monospace;
+}
+
+/* ── reading frame ─────────────────────────────────────────────────────── */
+
+/* Tutorial pages drop the site chrome (name, nav, mail) for a quieter
+ * reading frame; the layout sets body_class: tutorial-page. */
+.tutorial-page .site-header { display: none; }
+
+.tutorial-body {
+  max-width: 720px;
+  margin: 0 auto;
+  font-family: var(--t-sans);
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--t-fg);
+}
+
+.tutorial-body .post-header {
+  margin-bottom: 2.4em;
+}
+
+.tutorial-body .post-header h1 {
+  font-family: "Cormorant", Georgia, serif;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 1.15;
+  margin-bottom: 0;
+}
+
+.tutorial-body h2 {
+  font-family: "Cormorant", Georgia, serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.2;
+  margin: 2.2em 0 0.5em;
+}
+
+.tutorial-body h3 {
+  font-family: "Cormorant", Georgia, serif;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.25;
+  margin: 1.8em 0 0.4em;
+}
+
+.tutorial-body a {
+  color: var(--t-link);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(86, 155, 187, 0.35);
+}
+.tutorial-body a:hover { border-bottom-color: var(--t-link); }
+
+.tutorial-body p { margin: 0 0 1em; }
+.tutorial-body ul, .tutorial-body ol { margin: 0 0 1em; padding-left: 1.4em; }
+.tutorial-body li { margin-bottom: 0.35em; }
+
+.tutorial-body blockquote {
+  margin: 1.4em 0;
+  padding-left: 1.2em;
+  border-left: 3px solid var(--t-accent);
+  font-style: italic;
+  color: #444;
+}
+.tutorial-body blockquote cite {
+  display: block;
+  margin-top: 0.4em;
+  font-style: normal;
+  font-size: 0.85em;
+  color: var(--t-fg-meta);
+}
+
+.tutorial-body code {
+  font-family: var(--t-mono);
+  font-size: 0.78em;
+  background: var(--t-bg-soft);
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+}
+
+.tutorial-body pre {
+  background: var(--t-bg-soft);
+  border: 1px solid var(--t-border);
+  border-radius: 6px;
+  padding: 0.9rem 1.1rem;
+  overflow-x: auto;
+  font-family: var(--t-mono);
+  font-size: 15px;
+  line-height: 1.55;
+  margin: 0 0 1.2em;
+}
+.tutorial-body pre code {
+  background: none;
+  padding: 0;
+  font-size: inherit;
+}
+
+.tutorial-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.4em 0;
+  font-family: var(--t-sans);
+  font-size: 15px;
+  line-height: 1.45;
+}
+.tutorial-body th {
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid var(--t-fg);
+  padding: 0.4em 0.7em 0.4em 0;
+}
+.tutorial-body td {
+  border-bottom: 1px solid var(--t-border);
+  padding: 0.45em 0.7em 0.45em 0;
+  vertical-align: top;
+}
+
+.tutorial-body hr {
+  border: none;
+  border-top: 1px solid var(--t-border);
+  margin: 2.5em auto;
+  width: 40%;
+}
+
+/* Small-caps section kicker, e.g. "Part 2" */
+.tutorial-kicker {
+  font-family: var(--t-sans);
+  font-size: 13px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--t-fg-meta);
+  display: block;
+  margin-bottom: 0.2em;
+}
+
+/* Main-page section link lists */
+.tutorial-body .section-links {
+  list-style: none;
+  padding-left: 0;
+}
+.tutorial-body .section-links > li {
+  margin-bottom: 0.55em;
+  padding-left: 1.3em;
+  text-indent: -1.3em;
+}
+.tutorial-body .section-links > li::before {
+  content: "→";
+  color: var(--t-accent-hover);
+  padding-right: 0.55em;
+}
+
+/* Group-discussion questions at the end of each part */
+.tutorial-discussion {
+  border: 1px solid var(--t-border);
+  border-left: 3px solid var(--t-link);
+  border-radius: 0 6px 6px 0;
+  padding: 1.1rem 1.5rem 0.9rem;
+  margin: 2.2em 0;
+}
+.tutorial-discussion h2 {
+  margin: 0 0 0.5em;
+  font-size: 26px;
+}
+.tutorial-discussion ol { margin-bottom: 0.4em; }
+.tutorial-discussion li { margin-bottom: 0.6em; }
+
+/* Callout box for teaching asides */
+.tutorial-callout {
+  background: var(--t-bg-soft);
+  border-left: 3px solid var(--t-accent);
+  border-radius: 0 6px 6px 0;
+  padding: 0.9rem 1.2rem;
+  margin: 1.5em 0;
+  font-size: 0.92em;
+}
+.tutorial-callout > :last-child { margin-bottom: 0; }
+
+/* Disclosure for lab answers and expected output */
+.tutorial-body details {
+  margin: 1em 0 1.5em;
+  border: 1px solid var(--t-border);
+  border-radius: 6px;
+  padding: 0.55rem 1rem;
+  font-size: 0.95em;
+}
+.tutorial-body details summary {
+  cursor: pointer;
+  font-family: var(--t-sans);
+  font-size: 14px;
+  color: var(--t-fg-meta);
+}
+.tutorial-body details[open] summary { margin-bottom: 0.6rem; }
+
+/* ── pycell: the interactive unit ──────────────────────────────────────── */
+
+.pycell {
+  margin: 1.6em 0 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.editor-frame { position: relative; }
+
+.cm-host {
+  border: 1px solid var(--t-border);
+  border-radius: 6px;
+  overflow: hidden;
+  font-size: 0.9rem;
+  background: var(--t-bg-code);
+}
+.cm-host .cm-editor { padding: 0.25rem 0; }
+/* Chunky accent caret. CodeMirror's base theme sets a hairline black caret;
+ * override width and recentre. !important defends against base-theme
+ * regeneration when extensions reorder. */
+.cm-host .cm-cursor,
+.cm-host .cm-dropCursor {
+  border-left-width: 3px !important;
+  border-left-color: var(--t-accent) !important;
+  margin-left: -1.5px !important;
+}
+
+.pycell-fallback-code {
+  background: var(--t-bg-code);
+  color: #c5c8c6;
+  border-radius: 6px;
+  padding: 0.9rem 1.1rem;
+  overflow-x: auto;
+  font-family: var(--t-mono);
+  font-size: 0.85rem;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.pycell-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--t-sans);
+}
+
+/* The .btn display rule would otherwise defeat the hidden attribute. */
+.pycell-actions [hidden] { display: none !important; }
+
+.pycell-fresh-note {
+  font-size: 12.5px;
+  color: var(--t-fg-muted);
+  font-style: italic;
+  margin-right: auto;
+}
+
+/* Run button, ported intact: fixed geometry so idle, hover, running, and
+ * disabled states are byte-for-byte identical in size. */
+.btn {
+  font-family: var(--t-sans);
+  font-size: 0.9rem;
+  padding: 0 1.2rem;
+  background: transparent;
+  color: var(--t-fg);
+  border: 1.5px solid var(--t-fg);
+  border-radius: 999px;
+  cursor: pointer;
+  min-width: 6rem;
+  height: 2.4rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  line-height: 1;
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease,
+    box-shadow 160ms ease;
+}
+.btn:hover {
+  background: var(--t-fg);
+  border-color: var(--t-fg);
+  color: var(--t-bg);
+}
+.btn:active:not(:disabled) {
+  box-shadow: inset 0 0 0 99px rgba(238, 187, 102, 0.25);
+}
+.btn:focus-visible {
+  outline: 2px solid var(--t-accent);
+  outline-offset: 2px;
+}
+
+.btn-running {
+  cursor: progress;
+  background: transparent;
+  border-color: var(--t-fg);
+  color: var(--t-fg);
+  opacity: 0.65;
+}
+.btn-running:hover,
+.btn-running:focus,
+.btn-running:active:not(:disabled) {
+  background: transparent;
+  border-color: var(--t-fg);
+  color: var(--t-fg);
+  box-shadow: none;
+}
+.btn-running-dots {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.btn-running-dots .dot {
+  width: 6px;
+  height: 6px;
+  background: currentColor;
+  border-radius: 50%;
+  opacity: 0.25;
+  transform: scale(0.85);
+  animation: dot-wave 1.4s ease-in-out infinite;
+}
+.btn-running-dots .dot:nth-child(2) { animation-delay: 0.16s; }
+.btn-running-dots .dot:nth-child(3) { animation-delay: 0.32s; }
+@keyframes dot-wave {
+  0%, 80%, 100% { opacity: 0.25; transform: scale(0.85); }
+  40%           { opacity: 1;    transform: scale(1);    }
+}
+
+.btn-stop {
+  min-width: 5rem;
+  border-color: var(--t-red);
+  color: var(--t-red);
+}
+.btn-stop:hover {
+  background: var(--t-red);
+  border-color: var(--t-red);
+  color: #fff;
+}
+
+/* Output panel */
+.output-panel {
+  background: var(--t-bg-soft);
+  color: var(--t-fg);
+  border: 1px solid var(--t-border);
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  font-family: var(--t-mono);
+  font-size: 0.85rem;
+  line-height: 1.55;
+  min-height: 2.5rem;
+  white-space: pre-wrap;
+  overflow-x: auto;
+  margin: 0;
+}
+.output-end-sentinel {
+  display: block;
+  height: 0;
+  scroll-margin-bottom: 40vh;
+}
+.output-stderr { color: var(--t-red); }
+.output-error { color: var(--t-red); display: block; margin-top: 0.5rem; }
+.output-note { color: var(--t-fg-meta); font-style: italic; }
+
+/* Expected-output disclosure attached to a cell */
+.pycell-expected {
+  margin: -0.5rem 0 0;
+  border: 1px dashed var(--t-border);
+  border-radius: 6px;
+  padding: 0.45rem 0.9rem;
+}
+.pycell-expected summary {
+  cursor: pointer;
+  font-family: var(--t-sans);
+  font-size: 13px;
+  color: var(--t-fg-muted);
+}
+.pycell-expected pre {
+  margin: 0.5rem 0 0.25rem;
+  font-family: var(--t-mono);
+  font-size: 0.8rem;
+  white-space: pre-wrap;
+}
+
+/* Boot indicator pill */
+.pycell-boot {
+  position: fixed;
+  bottom: 1.2rem;
+  right: 1.2rem;
+  z-index: 50;
+  background: var(--t-bg-code);
+  color: #f5f3ed;
+  font-family: var(--t-sans);
+  font-size: 13px;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+  animation: pycell-boot-in 300ms ease;
+}
+.pycell-boot-done { background: #2e5a2e; }
+.pycell-boot-failed { background: var(--t-red); }
+@keyframes pycell-boot-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 800px) {
+  .tutorial-body { font-size: 18px; line-height: 27px; }
+  .tutorial-body .post-header h1 { font-size: 36px; }
+  .tutorial-body h2 { font-size: 27px; }
+  .tutorial-body table { font-size: 13.5px; }
+}
+
+@media print {
+  .pycell-actions, .pycell-boot { display: none; }
+}

@@ -627,6 +627,74 @@ header.site-header nav {
     }
 }
 
+// Keep essay typography in compiled CSS. Hyphenator mutates inline style tags
+// inside the hyphenated body, which breaks page-scoped font overrides.
+.essay-body {
+    font-family: "EB Garamond", "Crimson Text", "Georgia", serif;
+    font-size: 28px;
+    line-height: 36px;
+    font-feature-settings: "onum";
+    width: 100%;
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .post-header h1 {
+        font-size: clamp(44px, 5vw, 58px);
+        margin-bottom: 75px;
+        position: relative;
+        left: -70px;
+    }
+
+    h1, h2, h3, h4, h5, h6,
+    p, strong, em, a, span {
+        font-family: inherit;
+        font-feature-settings: inherit;
+    }
+
+    p,
+    blockquote,
+    blockquote p {
+        font-size: inherit;
+        line-height: inherit;
+    }
+
+    ul li,
+    ol li {
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        font-feature-settings: inherit;
+    }
+}
+
+.essay-afterword {
+    font-family: "AvenirLTStd-Book", "Avenir", "Avenir Book", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-feature-settings: "onum";
+
+    p,
+    blockquote,
+    blockquote p {
+        font-size: inherit;
+        line-height: inherit;
+    }
+
+    strong, em, a, span {
+        font-family: inherit;
+        font-feature-settings: inherit;
+    }
+
+    .fleuron {
+        display: inline-block;
+        width: 16px;
+        margin: 0 0 0 6px;
+        position: static;
+        vertical-align: -0.08em;
+    }
+}
+
 /* Footer Stuff */
 .push {
     height: $footerHeight/16 !important;
