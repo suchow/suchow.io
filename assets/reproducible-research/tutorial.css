@@ -130,7 +130,55 @@
   background: none;
   padding: 0;
   font-size: inherit;
+  font-weight: normal;
+  color: var(--t-fg);
 }
+
+/* Rouge (the GitHub Pages build) wraps fenced code as
+ * div.highlight > pre.highlight > code, and the site-wide theme in i.css
+ * styles .highlight as a dark block: black background, 12px padding, white
+ * code, light token colors. On top of the tan pre above, that rendered as
+ * white-on-tan inside a black frame. Neutralize the wrapper and recolor
+ * the tokens for this light frame. (div.highlight, not .highlight: Rouge
+ * puts the class on the pre too, whose look .tutorial-body pre defines.) */
+.tutorial-body div.highlight {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  overflow-x: visible;
+}
+.tutorial-body .highlight code { color: var(--t-fg); }
+
+/* Token palette: site-adjacent hues, ≥4.5:1 contrast on --t-bg-soft. */
+.tutorial-body .highlight .c,
+.tutorial-body .highlight .c1,
+.tutorial-body .highlight .cm,
+.tutorial-body .highlight .ch,
+.tutorial-body .highlight .lineno { color: var(--t-fg-meta); font-style: italic; }
+.tutorial-body .highlight .k,
+.tutorial-body .highlight .kn,
+.tutorial-body .highlight .kd,
+.tutorial-body .highlight .kr,
+.tutorial-body .highlight .nt { color: #24536b; font-weight: bold; } /* site $accent */
+.tutorial-body .highlight .s,
+.tutorial-body .highlight .s1,
+.tutorial-body .highlight .s2,
+.tutorial-body .highlight .sb,
+.tutorial-body .highlight .sh,
+.tutorial-body .highlight .si,
+.tutorial-body .highlight .sd { color: #8a4d0f; } /* dark amber, kin to --t-accent */
+.tutorial-body .highlight .m,
+.tutorial-body .highlight .mf,
+.tutorial-body .highlight .mi { color: #106e63; }
+.tutorial-body .highlight .nb,
+.tutorial-body .highlight .nf,
+.tutorial-body .highlight .nl,
+.tutorial-body .highlight .nn,
+.tutorial-body .highlight .nv,
+.tutorial-body .highlight .na,
+.tutorial-body .highlight .py { color: #445588; }
+.tutorial-body .highlight .err { color: inherit; background: none; }
 
 .tutorial-body table {
   width: 100%;
@@ -257,7 +305,10 @@
   margin-left: -1.5px !important;
 }
 
-.pycell-fallback-code {
+/* Scoped under .tutorial-body so the dark background outranks the tan
+ * .tutorial-body pre above — unscoped, that rule wins and renders this
+ * light-gray text on tan. */
+.tutorial-body .pycell-fallback-code {
   background: var(--t-bg-code);
   color: #c5c8c6;
   border-radius: 6px;
