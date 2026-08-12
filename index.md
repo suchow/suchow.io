@@ -12,6 +12,6 @@ After an undergraduate degree in computer science at Brandeis (<span style="font
 
 Now I am an assistant professor at Stevens Institute of Technology.
 
-My research program considers how information technology can reshape empirical research into human, machine, and collective intelligence, not simply by scaling up traditional experiments but by fundamentally rethinking their structure as sociotechnical systems. I have also pursued scaling experiments along multiple dimensions, including team size via global data-collection efforts and multiverse analyses, participant-pool size via crowdsourcing, and stimulus-design-space size via deep generative models.
+My research program considers how machine learning and information technology can reshape empirical research into human, machine, and collective intelligence, not simply by scaling up traditional experiments but by fundamentally rethinking their structure as sociotechnical systems. My lab's recent work builds and evaluates LLM-based multi-agent systems for financial decision-making, and agentic AI that audits the computational reproducibility of published research. I have also pursued scaling experiments along multiple dimensions, including team size via global data-collection efforts and multiverse analyses, participant-pool size via crowdsourcing, and stimulus-design-space size via deep generative models.
 
 Get in touch by [email](mailto:jws@stevens.edu). <a href="mailto:jws@stevens.edu"><img src="/images/plane-dark.png" alt="Send me an email" style="width: 19px; position: relative; top: 2px;"></a>
