@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "The experimental evolution of human culture: flexibility, fidelity and environmental instability"
 description:
 category: papers
-type: Paper
+type: Journal article
 journal: Proceedings B
 pdf: suchow2022experimental-evolution.pdf
 tags: [evolution, cultural evolution, cognition, experimental evolution, social learning, conformist transmission]

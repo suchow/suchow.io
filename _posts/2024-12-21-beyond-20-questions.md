@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "Beyond playing 20 questions with nature: Integrative experiment design in the social and behavioral sciences"
 description:
 category: papers
-type: Paper
+type: Journal article
 journal: Behavioral and Brain Sciences
 pdf: almaatouq2022questions.pdf
 tags: [experiments, metascience]

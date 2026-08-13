@@ -3,7 +3,7 @@ layout: post-no-feature
 title: "Linting science prose and the science of prose linting"
 description:
 category: papers
-type: Paper
+type: Conference paper
 journal: SciPy 2016
 pdf: pacer2016proselint.pdf
 tags: [linters, writing, prose, editing]
