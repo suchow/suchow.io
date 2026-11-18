@@ -6,7 +6,7 @@
     font-family: "EB Garamond", "Crimson Text", "Georgia", serif;
     font-size: 21px;
     line-height: 32px;
-    font-feature-settings: "onum";
+    font-feature-settings: "onum", "ss16";
     color: #3b3b3b;
     width: 100%;
     max-width: 1080px;
@@ -175,7 +175,7 @@
 }
 
 .viz-block-title {
-    font-family: "AvenirLTStd-Book", "Avenir", "Helvetica Neue", sans-serif;
+    font-family: "Torchlette Sans", "AvenirLTStd-Book", "Avenir", "Helvetica Neue", sans-serif;
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 0.12em;
@@ -247,7 +247,7 @@
 .slider-ticks {
     display: flex;
     justify-content: space-between;
-    font-family: "AvenirLTStd-Book", "Avenir", "Helvetica Neue", sans-serif;
+    font-family: "Torchlette Sans", "AvenirLTStd-Book", "Avenir", "Helvetica Neue", sans-serif;
     font-size: 10px;
     color: #999;
     letter-spacing: 0.06em;
@@ -303,7 +303,7 @@
 .readout-row.published .readout-name::after {
     content: " (published)";
     font-style: normal;
-    font-family: "AvenirLTStd-Book", "Avenir", "Helvetica Neue", sans-serif;
+    font-family: "Torchlette Sans", "AvenirLTStd-Book", "Avenir", "Helvetica Neue", sans-serif;
     font-size: 10px;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -328,7 +328,7 @@
 }
 
 .assumptions-title {
-    font-family: "AvenirLTStd-Book", "Avenir", "Helvetica Neue", sans-serif;
+    font-family: "Torchlette Sans", "AvenirLTStd-Book", "Avenir", "Helvetica Neue", sans-serif;
     font-size: 10px;
     font-weight: 700;
     letter-spacing: 0.12em;
@@ -385,7 +385,7 @@
 }
 
 .selected-model .year {
-    font-family: "AvenirLTStd-Book", "Avenir", "Helvetica Neue", sans-serif;
+    font-family: "Torchlette Sans", "AvenirLTStd-Book", "Avenir", "Helvetica Neue", sans-serif;
     font-size: 13px;
     letter-spacing: 0.1em;
     color: #999;
@@ -425,7 +425,7 @@
 /* ----- footnotes ----- */
 
 .footnote-marker {
-    font-family: "AvenirLTStd-Book", "Avenir", "Helvetica Neue", sans-serif;
+    font-family: "Torchlette Sans", "AvenirLTStd-Book", "Avenir", "Helvetica Neue", sans-serif;
     font-size: 0.7em;
     vertical-align: super;
     color: #a83232;

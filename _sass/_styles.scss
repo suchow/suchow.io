@@ -246,11 +246,7 @@ header.site-header a.menu {
     display: none;
 }
 
-header.site-header hgroup h1 {
-    font-family: "AvenirLTStd-Book", "Avenir", "Avenir Book", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
-}
-
-header.site-header nav ul {
+header.site-header hgroup h1, header.site-header nav ul {
     font-family: $sans;
 }
 

@@ -32,7 +32,7 @@
   --t-accent: #eebb66; /* site $highlight */
   --t-accent-hover: #dba049;
   --t-red: #aa0000;
-  --t-sans: AvenirLTStd-Book, Avenir, "Avenir Next", -apple-system,
+  --t-sans: "Torchlette Sans", AvenirLTStd-Book, Avenir, "Avenir Next", -apple-system,
     BlinkMacSystemFont, Helvetica, Arial, sans-serif;
   --t-mono: Monaco, ui-monospace, "JetBrains Mono", "SF Mono",
     "Courier New", monospace;
