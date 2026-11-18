@@ -879,6 +879,17 @@ footer {
     #named-introduction {
         border: none;
     }
+
+    /* Narrow phones: the site title must clear the nav, and the tagline is set
+       below the body size. Wider windows are untouched. */
+    header.site-header hgroup h1 {
+        font-size: 3.8vw;
+        letter-spacing: 0.42vw;
+    }
+
+    #named-introduction .intro {
+        font-size: 16px;
+    }
 }
 
 @media only screen and (max-width : 680px) {
