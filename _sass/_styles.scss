@@ -2,7 +2,7 @@
 
 body {
     font-family: $sans;
-    font-feature-settings: "onum", "ss16";
+    font-feature-settings: "onum", "pnum", "ss01", "ss02", "ss16";
     color: $black;
     -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
     -moz-osx-font-smoothing: grayscale;
@@ -672,7 +672,7 @@ header.site-header nav {
     font-family: "Torchlette Sans", "AvenirLTStd-Book", "Avenir", "Avenir Book", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
     font-size: 20px;
     line-height: 30px;
-    font-feature-settings: "onum", "ss16";
+    font-feature-settings: "onum", "pnum", "ss01", "ss02", "ss16";
 
     p,
     blockquote,

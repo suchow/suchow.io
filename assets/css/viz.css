@@ -6,7 +6,7 @@
     font-family: "EB Garamond", "Crimson Text", "Georgia", serif;
     font-size: 21px;
     line-height: 32px;
-    font-feature-settings: "onum", "ss16";
+    font-feature-settings: "onum", "pnum", "ss01", "ss02", "ss16";
     color: #3b3b3b;
     width: 100%;
     max-width: 1080px;
