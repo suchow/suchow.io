@@ -3,18 +3,19 @@
 body {
     font-family: $sans;
     font-feature-settings: "onum", "pnum", "ss01", "ss02", "ss16";
-    color: $black;
-    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
-    -moz-osx-font-smoothing: grayscale;
+    color: $grey-dark;
     text-size-adjust: 100%;
-    background: $white;
+    background: #fcfcfc;
     min-height: 100%;
     height: 100%;
     overflow-x: hidden;
 }
 
+/* The serif headings keep antialiased smoothing; body text uses the default. */
 h1,h2,h3,h4,h5 {
     font-family: $serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 p {
@@ -248,13 +249,15 @@ header.site-header a.menu {
 
 header.site-header hgroup h1, header.site-header nav ul {
     font-family: $sans;
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
 }
 
 header.site-header hgroup {
     float: left;
     padding-left: 5vw;
     h1 {
-        font-weight: 700;
+        font-weight: 400;
         font-size: 18px;
         line-height: 100%;
         color: $accent;
@@ -297,7 +300,7 @@ header.site-header nav {
         font-size: 18px;
         text-transform: uppercase;
         display: inline;
-        font-weight: bold;
+        font-weight: 400;
         top: 2px;
         position: relative;
         margin-left: 20px;
@@ -376,8 +379,9 @@ header.site-header nav {
 
         .intro {
             text-align: left;
-            font-size: $fsp;
-            line-height: 1.25em;
+            font-size: 19.125px;
+            line-height: 1.5;
+            color: $grey-dark;
         }
     }
 }
@@ -430,6 +434,17 @@ header.site-header nav {
             margin-bottom: 22px;
         }
 
+        > p {
+            font-size: 19.125px;
+            line-height: 1.5;
+        }
+
+        // Sans section labels such as "Selected Works" take the body smoothing.
+        > h2 {
+            -webkit-font-smoothing: auto;
+            -moz-osx-font-smoothing: auto;
+        }
+
         li {
             display: block;
             float: none;
@@ -463,7 +478,7 @@ header.site-header nav {
             position: relative;
             top: -3px;
             font-size: 12px;
-            font-weight: bold;
+            font-weight: 500;
             font-family: $sans;
             font-style: normal;
             color: #aaa;
@@ -498,6 +513,11 @@ header.site-header nav {
 
 .post {
     min-height: 500px;
+
+    > p {
+        font-size: 19.125px;
+        line-height: 1.5;
+    }
 
     .deets {
         position: relative;

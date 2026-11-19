@@ -4,12 +4,7 @@
    (SIL Open Font License 1.1, see OFL.txt there). The $sans stack in
    _variables.scss names it first and keeps the previous fonts after it.
    Headings keep their own fonts.
-   size-adjust sets it at the size of the AvenirLTStd-Book it replaces:
-   at 98.2% a line of homepage text at 20px is 853.9px wide against
-   854.1px in Avenir, and the x-height is 9.25px against 9.36px.
-   The overrides reproduce Avenir's line box (ascent 0.920 em, descent
-   0.288 em, no line gap); they are divided by 0.982 because size-adjust
-   scales them too.
+   The faces are used as drawn: no size-adjust and no line-box overrides.
    ========================================================================== */
 
 @font-face {
@@ -18,10 +13,6 @@
     font-weight: 400;
     font-style: normal;
     font-display: swap;
-    size-adjust: 98.2%;
-    ascent-override: 93.69%;
-    descent-override: 29.33%;
-    line-gap-override: 0%;
 }
 @font-face {
     font-family: "Torchlette Sans";
@@ -29,10 +20,13 @@
     font-weight: 400;
     font-style: italic;
     font-display: swap;
-    size-adjust: 98.2%;
-    ascent-override: 93.69%;
-    descent-override: 29.33%;
-    line-gap-override: 0%;
+}
+@font-face {
+    font-family: "Torchlette Sans";
+    src: url("../fonts/torchlette-sans/TorchletteSans-Medium.woff2?v=0.5.13") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: "Torchlette Sans";
@@ -40,10 +34,6 @@
     font-weight: 600;
     font-style: normal;
     font-display: swap;
-    size-adjust: 98.2%;
-    ascent-override: 93.69%;
-    descent-override: 29.33%;
-    line-gap-override: 0%;
 }
 @font-face {
     font-family: "Torchlette Sans";
@@ -51,10 +41,6 @@
     font-weight: 600;
     font-style: italic;
     font-display: swap;
-    size-adjust: 98.2%;
-    ascent-override: 93.69%;
-    descent-override: 29.33%;
-    line-gap-override: 0%;
 }
 @font-face {
     font-family: "Torchlette Sans";
@@ -62,10 +48,6 @@
     font-weight: 700;
     font-style: normal;
     font-display: swap;
-    size-adjust: 98.2%;
-    ascent-override: 93.69%;
-    descent-override: 29.33%;
-    line-gap-override: 0%;
 }
 @font-face {
     font-family: "Torchlette Sans";
@@ -73,8 +55,4 @@
     font-weight: 700;
     font-style: italic;
     font-display: swap;
-    size-adjust: 98.2%;
-    ascent-override: 93.69%;
-    descent-override: 29.33%;
-    line-gap-override: 0%;
 }
