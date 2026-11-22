@@ -1,6 +1,7 @@
 ---
 layout: post-no-feature
 title: "In COVID-19 health messaging, loss framing increases anxiety with little-to-no concomitant benefits: experimental evidence from 84 countries"
+list_title: 'In <span class="small-caps">COVID-19</span> health messaging, loss framing increases anxiety with little-to-no concomitant benefits: experimental evidence from 84 countries'
 description:
 category: papers
 type: paper

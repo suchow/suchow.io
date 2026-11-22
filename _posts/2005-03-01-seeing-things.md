@@ -1,6 +1,7 @@
 ---
 layout: post-no-feature
 title: "Seeing things: Visual perception research at NYU"
+list_title: 'Seeing things: Visual perception research at <span class="small-caps">NYU</span>'
 description:
 category: articles
 type: Article

@@ -1,6 +1,7 @@
 ---
 layout: post-no-feature
 title: "A multi-country test of brief reappraisal interventions on emotions during the COVID-19 pandemic"
+list_title: 'A multi-country test of brief reappraisal interventions on emotions during the <span class="small-caps">COVID-19</span> pandemic'
 description:
 category: papers
 type: paper

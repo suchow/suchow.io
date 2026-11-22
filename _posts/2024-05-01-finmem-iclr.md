@@ -1,6 +1,7 @@
 ---
 layout: post-no-feature
 title: "FinMem: A performance-enhanced LLM trading agent with layered memory and character design"
+list_title: 'FinMem: A performance-enhanced <span class="small-caps">LLM</span> trading agent with layered memory and character design'
 description:
 category: papers
 type: paper

@@ -1,6 +1,7 @@
 ---
 layout: post-no-feature
 title: "Exploring public opinion on responsible AI through the lens of cultural consensus theory"
+list_title: 'Exploring public opinion on responsible <span class="small-caps">AI</span> through the lens of cultural consensus theory'
 description:
 category: papers
 type: paper
