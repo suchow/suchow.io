@@ -17,7 +17,7 @@
                     {% if post.category contains 'papers' %}
                       <li>
                         <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-                          <a href="{{site.url}}/assets/docs/{{post.pdf}}">{{post.title}}</a>.
+                          <a href="{{site.url}}/assets/docs/{{post.pdf}}">{{post.list_title | default: post.title}}</a>.
                           <p class="date"><time datetime="{{post.date | date_to_xmlschema}}" itemprop="datePublished"><span class="journal">{{post.journal}}</span> <span class="separator-horizontal">/</span> {{post.date | date: "%Y"}} <span class="separator-horizontal">/</span> {{post.type}}</time></p>
                         </div>
                       </li>
