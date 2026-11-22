@@ -465,6 +465,11 @@ header.site-header nav {
             }
         }
 
+        // Abbreviations marked in a publication's list_title (#32)
+        .small-caps {
+            font-variant-caps: all-small-caps;
+        }
+
         .summary {
             font-size: 18px;
             line-height: 1.45em;

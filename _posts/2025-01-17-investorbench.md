@@ -1,6 +1,7 @@
 ---
 layout: post-no-feature
 title: "InvestorBench: A benchmark for financial decision-making tasks with LLM-based agents"
+list_title: 'InvestorBench: A benchmark for financial decision-making tasks with <span class="small-caps">LLM</span>-based agents'
 description:
 category: papers
 type: Conference paper

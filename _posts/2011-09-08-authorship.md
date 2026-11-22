@@ -1,6 +1,7 @@
 ---
 layout: post-no-feature
 title: "NPG's policy on authorship"
+list_title: '<span class="small-caps">NPG</span>''s policy on authorship'
 description:
 category: papers
 type: Fiction
