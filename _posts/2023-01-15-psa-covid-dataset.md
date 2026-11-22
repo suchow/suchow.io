@@ -1,6 +1,7 @@
 ---
 layout: post-no-feature
 title: "The Psychological Science Accelerator's COVID-19 rapid-response dataset"
+list_title: 'The Psychological Science Accelerator''s <span class="small-caps">COVID-19</span> rapid-response dataset'
 description:
 category: papers
 type: paper

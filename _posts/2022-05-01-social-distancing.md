@@ -1,6 +1,7 @@
 ---
 layout: post-no-feature
 title: "A global experiment on motivating social distancing during the COVID-19 pandemic"
+list_title: 'A global experiment on motivating social distancing during the <span class="small-caps">COVID-19</span> pandemic'
 description:
 category: papers
 type: paper

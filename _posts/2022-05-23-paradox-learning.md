@@ -2,6 +2,7 @@
 layout: post-no-feature
 title: "The paradox of learning categories from rare examples: a case study of NFTs &amp; The
 Bored Ape Yacht Club"
+list_title: 'The paradox of learning categories from rare examples: a case study of <span class="small-caps">NFT</span>s &amp; The Bored Ape Yacht Club'
 description:
 category: papers
 type: Paper

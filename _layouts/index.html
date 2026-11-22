@@ -80,9 +80,9 @@
                         <li>
                           <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
                             {% if post.external_url %}
-                              <a href="{{post.external_url}}">{{post.title}}</a>.
+                              <a href="{{post.external_url}}">{{post.list_title | default: post.title}}</a>.
                             {% else %}
-                              <a href="{{site.url}}{{post.url}}">{{post.title}}</a>.
+                              <a href="{{site.url}}{{post.url}}">{{post.list_title | default: post.title}}</a>.
                             {% endif %}
                           <p class="date"><time datetime="{{post.date | date_to_xmlschema}}" itemprop="datePublished"><span class="journal">{{post.type}}</span> <span class="separator-horizontal">/</span> {{post.date | date: "%B %d, %Y"}}</time></p>
                           </div>
