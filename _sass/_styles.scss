@@ -466,8 +466,12 @@ header.site-header nav {
         }
 
         // Abbreviations marked in a publication's list_title (#32)
+        // Enlarged so the small caps sit nearer the capitals; line-height 0
+        // keeps the larger span from making its line taller.
         .small-caps {
             font-variant-caps: all-small-caps;
+            font-size: 115%;
+            line-height: 0;
         }
 
         .summary {
